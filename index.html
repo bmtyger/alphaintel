@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlphaIntel // Autonomous Intelligence Hub</title>
+    <style>
+        /* Base Reset & Variables */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        :root {
+            --bg-deep: #0a0e17;
+            --bg-card: #121824;
+            --bg-border: #1f293d;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --accent-green: #10b981;
+            --accent-blue: #3b82f6;
+            --accent-amber: #f59e0b;
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            padding: 2rem;
+            line-height: 1.5;
+        }
+
+        /* Container Layout */
+        .dashboard {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* Header Styling */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--bg-border);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .logo-area h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.05em;
+        }
+
+        .logo-area span {
+            color: var(--accent-blue);
+        }
+
+        .system-status {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            border: 1px solid var(--bg-border);
+        }
+
+        .pulse-dot {
+            width: 8px;
+            height: 8px;
+            background-color: var(--accent-green);
+            border-radius: 50%;
+            box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+            animation: pulse 2s infinite;
+        }
+
+        /* The 3-Column Intel Grid */
+        .intel-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 1.5rem;
+        }
+
+        /* Individual Card Styling */
+        .card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--bg-border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .card:hover {
+            border-color: #334155;
+            transform: translateY(-2px);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .tag {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: 0.25rem 0.6rem;
+            border-radius: 4px;
+            letter-spacing: 0.05em;
+        }
+
+        .tag.security { background: rgba(59, 130, 246, 0.15); color: var(--accent-blue); }
+        .tag.trends { background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); }
+        .tag.finance { background: rgba(16, 185, 129, 0.15); color: var(--accent-green); }
+
+        .timestamp {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .card-body h3 {
+            font-size: 1.15rem;
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .card-body ul {
+            list-style: none;
+        }
+
+        .card-body li {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+            position: relative;
+            padding-left: 1rem;
+        }
+
+        .card-body li::before {
+            content: "•";
+            color: var(--bg-border);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .card-footer {
+            margin-top: 1.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--bg-border);
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .confidence {
+            font-weight: 600;
+        }
+        .confidence.high { color: var(--accent-green); }
+
+        /* Keyframe Animations */
+        @keyframes pulse {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 480px) {
+            body { padding: 1rem; }
+            header { flex-direction: column; align-items: flex-start; gap: 1rem; }
+            .intel-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dashboard">
+        <header>
+            <div class="logo-area">
+                <h1>Alpha<span>Intel</span></h1>
+            </div>
+            <div class="system-status">
+                <div class="pulse-dot"></div>
+                <span>Backend Core Autonomous Loop Active</span>
+            </div>
+        </header>
+
+        <main class="intel-grid">
+            <!-- Card 1: Security -->
+            <article class="card">
+                <div>
+                    <div class="card-header">
+                        <span class="tag security">Security</span>
+                        <span class="timestamp">04:12 UTC</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Critical Dependency Exploit Vector Detected</h3>
+                        <ul>
+                            <li>Zero-day vulnerability discovered hitting Node-based container environments globally.</li>
+                            <li>Patches deployed by upstream vendors; automated detection vectors compiled by intelligence models.</li>
+                            <li>Remediation script compiled and pushed to active cluster systems.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>Source: SecNet Alpha</span>
+                    <span class="confidence high">98% Confidence</span>
+                </div>
+            </article>
+
+            <!-- Card 2: Trends -->
+            <article class="card">
+                <div>
+                    <div class="card-header">
+                        <span class="tag trends">Trends</span>
+                        <span class="timestamp">03:45 UTC</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Emerging Structural Shifts in AI Compute Networks</h3>
+                        <ul>
+                            <li>Data signals show decentralized inference protocols rising 40% in transaction volume.</li>
+                            <li>Venture allocation moving away from generic models toward custom pipeline execution layers.</li>
+                            <li>Key market anomaly detected in serverless GPU pricing trends.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>Source: Web-Scrape Cluster B</span>
+                    <span class="confidence high">91% Confidence</span>
+                </div>
+            </article>
+
+            <!-- Card 3: Finance -->
+            <article class="card">
+                <div>
+                    <div class="card-header">
+                        <span class="tag finance">Finance</span>
+                        <span class="timestamp">02:15 UTC</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Micro-SaaS Arbitrage Flow Matrix</h3>
+                        <ul>
+                            <li>Cross-border digital asset subscription margins expanding across key localized corridors.</li>
+                            <li>Automated B2B tools showing highest conversion ratios when paired with direct synthesis feeds.</li>
+                            <li>Retention metrics indicate raw layout minimalism preserves user focus longest.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>Source: Quant Feed Native</span>
+                    <span class="confidence high">95% Confidence</span>
+                </div>
+            </article>
+        </main>
+    </div>
+
+</body>
+</html>
