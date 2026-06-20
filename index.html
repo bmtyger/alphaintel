@@ -197,74 +197,50 @@
             </div>
         </header>
 
-        <main class="intel-grid">
-            <!-- Card 1: Security -->
-            <article class="card">
-                <div>
-                    <div class="card-header">
-                        <span class="tag security">Security</span>
-                        <span class="timestamp">04:12 UTC</span>
-                    </div>
-                    <div class="card-body">
-                        <h3>Critical Dependency Exploit Vector Detected</h3>
-                        <ul>
-                            <li>Zero-day vulnerability discovered hitting Node-based container environments globally.</li>
-                            <li>Patches deployed by upstream vendors; automated detection vectors compiled by intelligence models.</li>
-                            <li>Remediation script compiled and pushed to active cluster systems.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card-footer">
-                    <span>Source: SecNet Alpha</span>
-                    <span class="confidence high">98% Confidence</span>
-                </div>
-            </article>
-
-            <!-- Card 2: Trends -->
-            <article class="card">
-                <div>
-                    <div class="card-header">
-                        <span class="tag trends">Trends</span>
-                        <span class="timestamp">03:45 UTC</span>
-                    </div>
-                    <div class="card-body">
-                        <h3>Emerging Structural Shifts in AI Compute Networks</h3>
-                        <ul>
-                            <li>Data signals show decentralized inference protocols rising 40% in transaction volume.</li>
-                            <li>Venture allocation moving away from generic models toward custom pipeline execution layers.</li>
-                            <li>Key market anomaly detected in serverless GPU pricing trends.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card-footer">
-                    <span>Source: Web-Scrape Cluster B</span>
-                    <span class="confidence high">91% Confidence</span>
-                </div>
-            </article>
-
-            <!-- Card 3: Finance -->
-            <article class="card">
-                <div>
-                    <div class="card-header">
-                        <span class="tag finance">Finance</span>
-                        <span class="timestamp">02:15 UTC</span>
-                    </div>
-                    <div class="card-body">
-                        <h3>Micro-SaaS Arbitrage Flow Matrix</h3>
-                        <ul>
-                            <li>Cross-border digital asset subscription margins expanding across key localized corridors.</li>
-                            <li>Automated B2B tools showing highest conversion ratios when paired with direct synthesis feeds.</li>
-                            <li>Retention metrics indicate raw layout minimalism preserves user focus longest.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card-footer">
-                    <span>Source: Quant Feed Native</span>
-                    <span class="confidence high">95% Confidence</span>
-                </div>
-            </article>
+        <main class="intel-grid" id="dashboard-grid">
+           <!-- Dynamic AI nodes will inject cleanly here via the script below -->
         </main>
     </div>
-
+<script>
+    async function loadAlphaIntelStream() {
+        const gridElement = document.getElementById('dashboard-grid');
+        try {
+            // Fetch the auto-generated JSON file directly from your repository path
+            const response = await fetch('./data.json?cache_bust=' + new Date().getTime());
+            const data = await response.json();
+            
+            gridElement.innerHTML = ''; // Wipe out previous state placeholders
+            
+            data.intel_stream.forEach(item => {
+                const card = document.createElement('article');
+                card.className = 'card';
+                
+                card.innerHTML = `
+                    <div>
+                        <div class="card-header">
+                            <span class="tag ${item.category}">${item.category}</span>
+                            <span class="timestamp">${item.timestamp}</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>${item.headline}</h3>
+                            <ul>
+                                ${item.bullet_points.map(pt => `<li>${pt}</li>`).join('')}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span>Source: ${item.source}</span>
+                        <span class="confidence high">${item.confidence} Confidence</span>
+                    </div>
+                `;
+                gridElement.appendChild(card);
+            });
+        } catch (error) {
+            console.error('Data pipeline rendering error:', error);
+        }
+    }
+    // Launch injection engine immediately on page load
+    window.onload = loadAlphaIntelStream;
+</script>
 </body>
 </html>
