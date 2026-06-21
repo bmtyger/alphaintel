@@ -182,6 +182,97 @@
             header { flex-direction: column; align-items: flex-start; gap: 1rem; }
             .intel-grid { grid-template-columns: 1fr; }
         }
+
+        /* Subscription tiers */
+        .tiers {
+          padding: 0 24px 28px;
+          max-width: 1200px;
+          margin: 0 auto;
+        }
+        .section-title {
+          color: var(--text-secondary);
+          font-size: 12px;
+          text-transform: uppercase;
+          letter-spacing: 0.12em;
+          margin: 28px 0 14px;
+        }
+        .tier-grid {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 14px;
+        }
+        .tier-card {
+          background: var(--bg-card);
+          border: 1px solid var(--bg-border);
+          border-radius: 12px;
+          padding: 18px;
+          position: relative;
+        }
+        .tier-card.featured {
+          border-color: var(--accent-blue);
+          box-shadow: 0 0 20px rgba(59,130,246,0.15);
+        }
+        .badge {
+          position: absolute;
+          top: -10px;
+          right: 14px;
+          background: var(--accent-blue);
+          color: #fff;
+          font-size: 11px;
+          font-weight: 700;
+          padding: 4px 8px;
+          border-radius: 6px;
+        }
+        .tier-card h3 {
+          font-size: 14px;
+          color: var(--text-secondary);
+          text-transform: uppercase;
+          letter-spacing: 0.08em;
+        }
+        .price {
+          font-size: 32px;
+          font-weight: 700;
+          margin: 10px 0;
+          letter-spacing: -0.04em;
+        }
+        .price span {
+          font-size: 14px;
+          color: var(--text-secondary);
+          font-weight: 400;
+        }
+        .tier-card ul {
+          list-style: none;
+          padding: 0;
+          margin: 14px 0 18px;
+        }
+        .tier-card li {
+          font-size: 13px;
+          color: var(--text-secondary);
+          padding: 4px 0;
+        }
+        .cta {
+          display: block;
+          text-align: center;
+          padding: 10px;
+          border: 1px solid var(--bg-border);
+          border-radius: 8px;
+          color: var(--text-primary);
+          text-decoration: none;
+          font-size: 13px;
+          font-weight: 600;
+        }
+        .cta.primary {
+          background: var(--accent-blue);
+          border-color: var(--accent-blue);
+          color: #fff;
+        }
+        .cta:hover {
+          transform: translateY(-1px);
+        }
+
+        @media (max-width: 900px) {
+          .tier-grid { grid-template-columns: 1fr; }
+        }
     </style>
 </head>
 <body>
@@ -200,7 +291,46 @@
         <main class="intel-grid" id="dashboard-grid">
            <!-- Dynamic AI nodes will inject cleanly here via the script below -->
         </main>
-    </div>
+
+        <section class="tiers">
+          <h2 class="section-title">Subscription Tiers</h2>
+          <div class="tier-grid">
+            <article class="tier-card">
+              <h3>Starter</h3>
+              <p class="price">$0<span>/mo</span></p>
+              <ul>
+                <li>3 categories</li>
+                <li>Daily digest</li>
+                <li>Public feed access</li>
+              </ul>
+              <a class="cta" href="#">Join waitlist</a>
+            </article>
+            <article class="tier-card featured">
+              <div class="badge">Most popular</div>
+              <h3>Pro</h3>
+              <p class="price">$99<span>/mo</span></p>
+              <ul>
+                <li>All categories</li>
+                <li>Real-time alerts</li>
+                <li>API access</li>
+                <li>Weekly curator brief</li>
+              </ul>
+              <a class="cta primary" href="#">Start 14-day trial</a>
+            </article>
+            <article class="tier-card">
+              <h3>Enterprise</h3>
+              <p class="price">$499<span>/mo</span></p>
+              <ul>
+                <li>Custom intel verticals</li>
+                <li>Dedicated analyst review</li>
+                <li>Private data integrations</li>
+                <li>SSO + audit log</li>
+              </ul>
+              <a class="cta" href="#">Contact sales</a>
+            </article>
+          </div>
+        </section>
+      </div>
 <script>
     async function loadAlphaIntelStream() {
         const gridElement = document.getElementById('dashboard-grid');
