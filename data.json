@@ -1,0 +1,76 @@
+{
+  "intel_stream": [
+    {
+      "category": "trends",
+      "timestamp": "2026-06-21 07:12 UTC",
+      "headline": "Global AI compute demand triples YoY as inference workloads overtake training",
+      "bullet_points": [
+        "Hyperscalers announce 3 new data-center clusters in Q3.",
+        "GPU supplier backlog extends to 6 months for H200-class units.",
+        "Edge inference chip startups raise $420M in early-stage rounds."
+      ],
+      "source": "SemiAnalysis + Reuters",
+      "confidence": 94
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21 06:48 UTC",
+      "headline": "SEC opens formal review of AI-driven market-making disclosures",
+      "bullet_points": [
+        "Focus on opaque model parameters affecting liquidity pools.",
+        "Proposed rule would require quarterly model-risk attestations.",
+        "Major exchanges begin voluntary transparency pilot programs."
+      ],
+      "source": "FT + SEC public docket",
+      "confidence": 89
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-06-21 06:05 UTC",
+      "headline": "New zero-click RCE chain impacts 3 popular enterprise VPN appliances",
+      "bullet_points": [
+        "Vendor patches released; exploit details expected within 72h.",
+        "CISA adds CVE to KEV catalog.",
+        " recommended immediate perimeter segmentation for affected ASICs."
+      ],
+      "source": "CISA + BleepingComputer",
+      "confidence": 98
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-06-21 05:30 UTC",
+      "headline": "EU AI Act enforcement window opens for high-risk classifier systems",
+      "bullet_points": [
+        "Banks and hiring platforms first in scope.",
+        "Fines scale to 3.5% of global turnover.",
+        "Conformity assessments now mandatory before EU market entry."
+      ],
+      "source": "EUR-Lex + IAPP",
+      "confidence": 96
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21 04:55 UTC",
+      "headline": "Carbon-credit tokenization sees $1.2B notional in first public exchange listing",
+      "bullet_points": [
+        "Verified Scope 1/2 credits wrapped as ERC-1155 tokens.",
+        "Two major commodity exchanges announce carbon futures pairing.",
+        "Regulatory clarity cited as key unlock for institutional entry."
+      ],
+      "source": "BloombergNEF + CoinDesk",
+      "confidence": 87
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-06-21 04:10 UTC",
+      "headline": "Credential-leak detection market consolidates via 2 strategic buys",
+      "bullet_points": [
+        "Acquirers emphasize continuous dark-web scanning differentiator.",
+        "Combined customer base exceeds 4,200 mid-market orgs.",
+        "Pricing tiers expected to shift toward per-seat consumption."
+      ],
+      "source": "TechCrunch + company filings",
+      "confidence": 91
+    }
+  ]
+}
