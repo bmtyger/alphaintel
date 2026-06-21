@@ -230,7 +230,9 @@
         return;
       }
       render();
-      setDiagnostics("ok", allItems.length + " signals loaded");
+      var counts = {};
+      allItems.forEach(function (i) { counts[i.category] = (counts[i.category] || 0) + 1; });
+      setDiagnostics("ok", Object.keys(counts).map(function (k) { return k + ":" + counts[k]; }).join(", ") + " (" + allItems.length + " total)");
     } catch (err) {
       console.error("Dashboard load failed:", err);
       setState("error", "Signal feed unreachable. Retrying…");
