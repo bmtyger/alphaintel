@@ -30,8 +30,37 @@
       }
     },
     {
+      "category": "finance",
+      "timestamp": "2026-06-21T13:47:10Z",
+      "headline": "FedEx Corp (FDX)\u2019s Bold Dividend Move Amid a Freight Spin-Off",
+      "bullet_points": [
+        "Source: https://finance.yahoo.com/markets/stocks/articles/fedex-corp-fdx-bold-dividend-134710528.html"
+      ],
+      "source": "Yahoo Finance",
+      "confidence": 75,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fedex-corp-fdx-bold-dividend-134710528.html",
+      "tickers": [
+        "AMID",
+        "BOLD",
+        "COM",
+        "FDX",
+        "FEDEX",
+        "HTML",
+        "HTTPS",
+        "MOVE"
+      ],
+      "event_type": "Public Market Event",
+      "market_impact": {
+        "score": 35,
+        "tier": "low",
+        "reasons": [
+          "Public Market Event"
+        ]
+      }
+    },
+    {
       "category": "security",
-      "timestamp": "2026-06-21 15:58 UTC",
+      "timestamp": "2026-06-21 16:09 UTC",
       "headline": "CISA KEV: CVE-2026-20253 (Splunk Enterprise)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-21",
@@ -56,7 +85,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:58 UTC",
+      "timestamp": "2026-06-21 16:09 UTC",
       "headline": "CISA KEV: CVE-2026-48907 (Widget Factory Joomla Content Editor )",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-19",
@@ -81,7 +110,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:58 UTC",
+      "timestamp": "2026-06-21 16:09 UTC",
       "headline": "CISA KEV: CVE-2026-54420 (LiteSpeed cPanel Plugin)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-18",
@@ -108,7 +137,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:58 UTC",
+      "timestamp": "2026-06-21 16:09 UTC",
       "headline": "CISA KEV: CVE-2026-20262 (Cisco Catalyst SD-WAN Manager)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-29",
@@ -138,7 +167,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:58 UTC",
+      "timestamp": "2026-06-21 16:09 UTC",
       "headline": "CISA KEV: CVE-2026-35273 (Oracle  PeopleSoft Enterprise PeopleTools)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-15",
@@ -163,7 +192,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:58 UTC",
+      "timestamp": "2026-06-21 16:09 UTC",
       "headline": "CISA KEV: CVE-2026-10520 (Ivanti Sentry)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-14",
@@ -189,7 +218,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:58 UTC",
+      "timestamp": "2026-06-21 16:09 UTC",
       "headline": "CISA KEV: CVE-2026-11645 (Google Chromium V8)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-23",
@@ -218,7 +247,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:58 UTC",
+      "timestamp": "2026-06-21 16:09 UTC",
       "headline": "CISA KEV: CVE-2026-7473 (Arista Extensible Operating System)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-23",
@@ -835,147 +864,125 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-06-21 13:01 UTC",
-      "headline": "AI &#39;Amplification Spiral&#39; May Be Causing Delusions Among Users, Study Suggests",
+      "timestamp": "2026-06-21 11:40 UTC",
+      "headline": "Okeanis Eco Tankers: Absurd Spot Rates Could Keep Driving Monster Dividends",
       "bullet_points": [
-        "Source: Decrypt"
+        "Market analysis + earnings previews"
       ],
-      "source": "Decrypt",
-      "confidence": 65,
-      "url": "https://decrypt.co/371648/ai-amplification-spiral-causing-delusions-among-users-study",
+      "source": "Seeking Alpha",
+      "confidence": 66,
+      "url": "https://seekingalpha.com/article/4916558-okeanis-eco-tankers-absurd-spot-rates-could-keep-driving-monster-dividends?source=feed_all_articles",
       "tickers": [
-        "AI",
-        "AMONG",
-        "BE",
-        "MAY",
-        "STUDY",
-        "USERS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-06-20 18:01 UTC",
-      "headline": "OpenRouter&#39;s Fusion Promises Claude Fable-Level AI for Cheap\u2014Right as Fable 5 Goes Dark",
-      "bullet_points": [
-        "Source: Decrypt"
-      ],
-      "source": "Decrypt",
-      "confidence": 65,
-      "url": "https://decrypt.co/371711/openrouter-fusion-claude-fable-level-ai-cheap",
-      "tickers": [
-        "AI",
-        "AS",
-        "CHEAP",
-        "DARK",
-        "FABLE",
-        "GOES",
-        "LEVEL",
-        "RIGHT"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-06-19 20:02 UTC",
-      "headline": "Charles Schwab Planning to Roll Out S&amp;#038;P 500 Prediction Markets With Cboe: WSJ",
-      "bullet_points": [
-        "Source: Decrypt"
-      ],
-      "source": "Decrypt",
-      "confidence": 65,
-      "url": "https://decrypt.co/371708/charles-schwab-planning-sp-500-prediction-markets-cboe",
-      "tickers": [
-        "AMP",
-        "CBOE",
-        "OUT",
-        "ROLL",
-        "TO",
-        "WSJ"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-06-19 19:36 UTC",
-      "headline": "House Republican Introduces Insider Trading Bill to Ban Lawmaker Prediction Market Bets",
-      "bullet_points": [
-        "Source: Decrypt"
-      ],
-      "source": "Decrypt",
-      "confidence": 65,
-      "url": "https://decrypt.co/371705/house-republican-insider-trading-bill-ban-lawmaker-prediction-market",
-      "tickers": [
-        "BAN",
-        "BETS",
-        "BILL",
-        "HOUSE",
-        "TO"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-06-19 17:51 UTC",
-      "headline": "Schwab to join prediction markets race with S&P 500 event-based options: WSJ",
-      "bullet_points": [
-        "Source: CoinDesk"
-      ],
-      "source": "CoinDesk",
-      "confidence": 65,
-      "url": "https://www.coindesk.com/markets/2026/06/19/schwab-to-join-prediction-markets-race-with-s-and-p-500-event-based-options-wsj",
-      "tickers": [
-        "BASED",
-        "EVENT",
-        "JOIN",
-        "RACE",
-        "TO",
-        "WSJ"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2016-02-26 17:54 UTC",
-      "headline": "2016 U.S.-Japan Security Seminar",
-      "bullet_points": [
-        "Source: CSIS"
-      ],
-      "source": "CSIS",
-      "confidence": 65,
-      "url": "https://www.csis.org/events/2016-us-japan-security-seminar",
-      "tickers": [
-        "CSIS",
-        "JAPAN"
+        "COULD",
+        "ECO",
+        "KEEP",
+        "RATES",
+        "SPOT"
       ],
       "event_type": "Material Event",
       "market_impact": {
         "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-06-19 13:00 UTC",
+      "headline": "Stressors, AI Forcing Changes to Cybersecurity Teams",
+      "bullet_points": [
+        "Source: Dark Reading"
+      ],
+      "source": "Dark Reading",
+      "confidence": 66,
+      "url": "<![CDATA[https://www.darkreading.com/cybersecurity-operations/stressors-ai-changes-cybersecurity-teams]]>",
+      "tickers": [
+        "AI",
+        "DARK",
+        "TEAMS",
+        "TO"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-06-18 04:00 UTC",
+      "headline": "The full Snyk AI Security Platform, free for open source maintainers",
+      "bullet_points": [
+        "Source: Snyk Blog"
+      ],
+      "source": "Snyk Blog",
+      "confidence": 66,
+      "url": "https://snyk.io/blog/secure-developer-program/",
+      "tickers": [
+        "AI",
+        "BLOG",
+        "FREE",
+        "FULL",
+        "OPEN",
+        "SNYK"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-06-14 13:00 UTC",
+      "headline": "When a Government Pulls an AI Model: What the Fable 5 and Mythos 5 Suspension Means for Security Teams",
+      "bullet_points": [
+        "Source: Snyk Blog"
+      ],
+      "source": "Snyk Blog",
+      "confidence": 66,
+      "url": "https://snyk.io/blog/fable-mythos-suspension-security-takeaways/",
+      "tickers": [
+        "AI",
+        "AN",
+        "BLOG",
+        "FABLE",
+        "MEANS",
+        "MODEL",
+        "PULLS",
+        "SNYK"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21 16:01 UTC",
+      "headline": "Inception Labs&#39; Mercury 2 AI Beats Google&#39;s DiffusionGemma at Its Own Game",
+      "bullet_points": [
+        "Source: Decrypt"
+      ],
+      "source": "Decrypt",
+      "confidence": 65,
+      "url": "https://decrypt.co/371722/inception-labs-mercury-2-ai-beats-googles-diffusiongemma",
+      "tickers": [
+        "AI",
+        "AT",
+        "BEATS",
+        "GAME",
+        "ITS",
+        "LABS",
+        "OWN"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
         "tier": "low",
         "reasons": []
       }

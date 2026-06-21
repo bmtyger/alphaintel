@@ -48,10 +48,10 @@ Adding a new source = create a `BaseSource` subclass in `sources/`, then import 
 in `sources/__init__.py`.  The engine auto-discovers via registry.
 
 Built-in sources (categories):
-- finance: sec_edgar, yahoo_finance, central_banks, crypto_news, dark_pool, finra_short_interest, crypto_onchain
-- security: cisa_kev, nvd_api
-- trends: tech_blogs_rss
-- geopower: geopower
+- finance: sec_edgar, yahoo_finance, central_banks, crypto_news, seeking_alpha, dark_pool, finra_short_interest, crypto_onchain
+- security: cisa_kev, nvd_api, krebs_on_security, bleepingcomputer
+- trends: tech_blogs_rss, tech_extra
+- geopower: geopower, geopower_extra
 
 ## Signal taxonomy
 - Tickers extracted via regex + stopword filter
