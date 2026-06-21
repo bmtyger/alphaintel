@@ -68,6 +68,12 @@ Skip if user chooses manual media or deploy steps.
 - Do not break the JSON schema; missing fields break the dashboard.
 - Do not scrape paywalled content when an official press release or filing is available.
 
+## Sources
+Real sources used by default:
+- CISA Known Exploited Vulnerabilities catalog (security)
+- SEC EDGAR current 8-K feed (finance)
+- Hacker News frontpage RSS (trends)
+
 ## Verification
 ```bash
 python -m json.tool data.json >/dev/null && echo JSON OK
