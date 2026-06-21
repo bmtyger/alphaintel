@@ -89,7 +89,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 20:32 UTC",
+      "timestamp": "2026-06-21 20:58 UTC",
       "headline": "CISA KEV: CVE-2026-20253 (Splunk Enterprise)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-21",
@@ -114,7 +114,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 20:32 UTC",
+      "timestamp": "2026-06-21 20:58 UTC",
       "headline": "CISA KEV: CVE-2026-48907 (Widget Factory Joomla Content Editor )",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-19",
@@ -139,7 +139,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 20:32 UTC",
+      "timestamp": "2026-06-21 20:58 UTC",
       "headline": "CISA KEV: CVE-2026-54420 (LiteSpeed cPanel Plugin)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-18",
@@ -166,7 +166,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 20:32 UTC",
+      "timestamp": "2026-06-21 20:58 UTC",
       "headline": "CISA KEV: CVE-2026-20262 (Cisco Catalyst SD-WAN Manager)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-29",
@@ -196,7 +196,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 20:32 UTC",
+      "timestamp": "2026-06-21 20:58 UTC",
       "headline": "CISA KEV: CVE-2026-35273 (Oracle  PeopleSoft Enterprise PeopleTools)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-15",
@@ -221,7 +221,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 20:32 UTC",
+      "timestamp": "2026-06-21 20:58 UTC",
       "headline": "CISA KEV: CVE-2026-10520 (Ivanti Sentry)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-14",
@@ -247,7 +247,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 20:32 UTC",
+      "timestamp": "2026-06-21 20:58 UTC",
       "headline": "CISA KEV: CVE-2026-11645 (Google Chromium V8)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-23",
@@ -276,7 +276,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 20:32 UTC",
+      "timestamp": "2026-06-21 20:58 UTC",
       "headline": "CISA KEV: CVE-2026-7473 (Arista Extensible Operating System)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-23",
@@ -671,6 +671,54 @@
       "event_type": "Material Event",
       "market_impact": {
         "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-21 20:36 UTC",
+      "headline": "Switzerland talks enter tough phase after Trump renews threats against Iran",
+      "bullet_points": [
+        "Source: France24"
+      ],
+      "source": "France24",
+      "confidence": 67,
+      "url": "https://www.france24.com/en/middle-east/20260621-switzerland-talks-enter-tough-phase-after-trump-renews-threats-against-iran",
+      "tickers": [
+        "AFTER",
+        "ENTER",
+        "IRAN",
+        "PHASE",
+        "TALKS",
+        "TOUGH",
+        "TRUMP"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-21 19:50 UTC",
+      "headline": "What's the state of the Strait?",
+      "bullet_points": [
+        "Source: France24"
+      ],
+      "source": "France24",
+      "confidence": 67,
+      "url": "https://www.france24.com/en/tv-shows/spotlight/20260621-what-s-the-state-of-the-strait",
+      "tickers": [
+        "OF",
+        "STATE",
+        "WHAT"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
         "tier": "low",
         "reasons": []
       }
@@ -1101,6 +1149,33 @@
       }
     },
     {
+      "category": "geopower",
+      "timestamp": "2026-06-21 19:33 UTC",
+      "headline": "Trump and Iran's negotiator trade warnings as talks held in Switzerland",
+      "bullet_points": [
+        "Source: BBC World"
+      ],
+      "source": "BBC World",
+      "confidence": 65,
+      "url": "https://www.bbc.com/news/articles/cwy0q41v1lzo?at_medium=RSS&amp;at_campaign=rss",
+      "tickers": [
+        "AS",
+        "BBC",
+        "HELD",
+        "IN",
+        "IRAN",
+        "TALKS",
+        "TRADE",
+        "TRUMP"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
       "category": "finance",
       "timestamp": "2026-06-21 18:30 UTC",
       "headline": "On-chain: Are perps swaps? A quick look at that CME suit: State of Crypto",
@@ -1254,6 +1329,654 @@
       "event_type": "Material Event",
       "market_impact": {
         "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21 11:14 UTC",
+      "headline": "Market Flow: &apos;Regime change but in a velvet glove&apos;: How Kevin Warsh has set out to remake the Fed",
+      "bullet_points": [
+        "Options / dark-pool flow signal from CNBC"
+      ],
+      "source": "CNBC",
+      "confidence": 65,
+      "url": "https://www.cnbc.com/2026/06/21/how-kevin-warsh-has-set-out-to-remake-the-fed.html",
+      "tickers": [
+        "APOS",
+        "BUT",
+        "CNBC",
+        "DARK",
+        "FED",
+        "FLOW",
+        "GLOVE",
+        "HAS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21 08:54 UTC",
+      "headline": "On-chain: Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
+      "bullet_points": [
+        "Crypto on-chain / whale flow signal"
+      ],
+      "source": "Cointelegraph",
+      "confidence": 65,
+      "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss",
+      "tickers": [
+        "CHAIN",
+        "FLOW",
+        "FUND",
+        "ON",
+        "PLANS",
+        "WHALE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21 07:12 UTC",
+      "headline": "On-chain: Ethereum's biggest 'sandwich' bot drained of $7.5 million in ironic exploit",
+      "bullet_points": [
+        "Crypto on-chain / whale flow signal"
+      ],
+      "source": "CoinDesk",
+      "confidence": 65,
+      "url": "https://www.coindesk.com/tech/2026/06/21/ethereum-s-biggest-sandwich-bot-drained-of-usd7-5-million-in-ironic-exploit",
+      "tickers": [
+        "BOT",
+        "CHAIN",
+        "FLOW",
+        "IN",
+        "OF",
+        "ON",
+        "WHALE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21 06:46 UTC",
+      "headline": "On-chain: Bitcoin holds near $64,000 as a renewed Hormuz threat clouds US-Iran ceasefire talks",
+      "bullet_points": [
+        "Crypto on-chain / whale flow signal"
+      ],
+      "source": "CoinDesk",
+      "confidence": 65,
+      "url": "https://www.coindesk.com/markets/2026/06/21/bitcoin-holds-near-usd64-000-as-a-renewed-hormuz-threat-clouds-us-iran-ceasefire-talks",
+      "tickers": [
+        "AS",
+        "CHAIN",
+        "FLOW",
+        "HOLDS",
+        "IRAN",
+        "NEAR",
+        "ON",
+        "TALKS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21 04:36 UTC",
+      "headline": "On-chain: Here\u2019s what happened in crypto today",
+      "bullet_points": [
+        "Crypto on-chain / whale flow signal"
+      ],
+      "source": "Cointelegraph",
+      "confidence": 65,
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss",
+      "tickers": [
+        "CHAIN",
+        "FLOW",
+        "HERE",
+        "IN",
+        "ON",
+        "TODAY",
+        "WHALE",
+        "WHAT"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-20 18:01 UTC",
+      "headline": "OpenRouter&#39;s Fusion Promises Claude Fable-Level AI for Cheap\u2014Right as Fable 5 Goes Dark",
+      "bullet_points": [
+        "Source: Decrypt"
+      ],
+      "source": "Decrypt",
+      "confidence": 65,
+      "url": "https://decrypt.co/371711/openrouter-fusion-claude-fable-level-ai-cheap",
+      "tickers": [
+        "AI",
+        "AS",
+        "CHEAP",
+        "DARK",
+        "FABLE",
+        "GOES",
+        "LEVEL",
+        "RIGHT"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-20 15:00 UTC",
+      "headline": "On-chain: AI is making crypto security cheaper, faster and harder to ignore",
+      "bullet_points": [
+        "Crypto on-chain / whale flow signal"
+      ],
+      "source": "CoinDesk",
+      "confidence": 65,
+      "url": "https://www.coindesk.com/tech/2026/06/20/ai-is-making-crypto-security-cheaper-faster-and-harder-to-ignore",
+      "tickers": [
+        "AI",
+        "CHAIN",
+        "FLOW",
+        "IS",
+        "ON",
+        "TO",
+        "WHALE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-20 14:42 UTC",
+      "headline": "Atlantic Council: Charai for The National Interest: JD Vance Is Wrong: Israel Is Not Just Another Ally",
+      "bullet_points": [
+        "Source: Atlantic Council"
+      ],
+      "source": "Atlantic Council",
+      "confidence": 65,
+      "url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/charai-for-the-national-interest-jd-vance-is-wrong-israel-is-not-just-another-ally/",
+      "tickers": [
+        "ALLY",
+        "IS",
+        "JD",
+        "VANCE",
+        "WRONG"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-20 13:00 UTC",
+      "headline": "On-chain: How STRC lost its par: The timeline behind Strategy's preferred-stock meltdown",
+      "bullet_points": [
+        "Crypto on-chain / whale flow signal"
+      ],
+      "source": "CoinDesk",
+      "confidence": 65,
+      "url": "https://www.coindesk.com/markets/2026/06/20/how-strc-lost-its-par-the-timeline-behind-strategy-s-preferred-stock-meltdown",
+      "tickers": [
+        "CHAIN",
+        "FLOW",
+        "HOW",
+        "ITS",
+        "LOST",
+        "ON",
+        "PAR",
+        "STOCK"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-19 20:02 UTC",
+      "headline": "Charles Schwab Planning to Roll Out S&amp;#038;P 500 Prediction Markets With Cboe: WSJ",
+      "bullet_points": [
+        "Source: Decrypt"
+      ],
+      "source": "Decrypt",
+      "confidence": 65,
+      "url": "https://decrypt.co/371708/charles-schwab-planning-sp-500-prediction-markets-cboe",
+      "tickers": [
+        "AMP",
+        "CBOE",
+        "OUT",
+        "ROLL",
+        "TO",
+        "WSJ"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-19 17:51 UTC",
+      "headline": "On-chain: Schwab to join prediction markets race with S&P 500 event-based options: WSJ",
+      "bullet_points": [
+        "Crypto on-chain / whale flow signal"
+      ],
+      "source": "CoinDesk",
+      "confidence": 65,
+      "url": "https://www.coindesk.com/markets/2026/06/19/schwab-to-join-prediction-markets-race-with-s-and-p-500-event-based-options-wsj",
+      "tickers": [
+        "BASED",
+        "CHAIN",
+        "EVENT",
+        "FLOW",
+        "JOIN",
+        "ON",
+        "RACE",
+        "TO"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-19 12:55 UTC",
+      "headline": "Atlantic Council: Central banks can\u2019t afford to keep missing their inflation targets",
+      "bullet_points": [
+        "Source: Atlantic Council"
+      ],
+      "source": "Atlantic Council",
+      "confidence": 65,
+      "url": "https://www.atlanticcouncil.org/blogs/econographics/central-banks-cant-afford-to-keep-missing-their-inflation-targets/",
+      "tickers": [
+        "BANKS",
+        "CAN",
+        "KEEP",
+        "TO"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-18 22:32 UTC",
+      "headline": "Atlantic Council: The case for a US Northeast Asia Command",
+      "bullet_points": [
+        "Source: Atlantic Council"
+      ],
+      "source": "Atlantic Council",
+      "confidence": 65,
+      "url": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/the-case-for-a-us-northeast-asia-command/",
+      "tickers": [
+        "ASIA",
+        "CASE",
+        "US"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-18 20:35 UTC",
+      "headline": "Atlantic Council: Putin\u2019s obsession with \u2018denazifying\u2019 Ukraine makes peace impossible",
+      "bullet_points": [
+        "Source: Atlantic Council"
+      ],
+      "source": "Atlantic Council",
+      "confidence": 65,
+      "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/putins-obsession-with-denazifying-ukraine-makes-peace-impossible/",
+      "tickers": [
+        "MAKES",
+        "PEACE",
+        "PUTIN"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-18 19:56 UTC",
+      "headline": "Atlantic Council: \u201cShoot everybody\u201d: US contractors in San Diego court",
+      "bullet_points": [
+        "Source: Atlantic Council"
+      ],
+      "source": "Atlantic Council",
+      "confidence": 65,
+      "url": "https://www.atlanticcouncil.org/commentary/podcast/shoot-everybody-us-contractors-in-san-diego-court/",
+      "tickers": [
+        "COURT",
+        "DIEGO",
+        "IN",
+        "SAN",
+        "SHOOT",
+        "US"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-18 19:04 UTC",
+      "headline": "Atlantic Council: Chile\u2019s new president must move fast on a healthy aging agenda. Here are five ways to start.",
+      "bullet_points": [
+        "Source: Atlantic Council"
+      ],
+      "source": "Atlantic Council",
+      "confidence": 65,
+      "url": "https://www.atlanticcouncil.org/dispatches/chiles-new-president-must-move-fast-on-a-healthy-aging-agenda-here-are-five-ways-to-start/",
+      "tickers": [
+        "AGING",
+        "ARE",
+        "CHILE",
+        "FAST",
+        "FIVE",
+        "HERE",
+        "MOVE",
+        "MUST"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-18 17:47 UTC",
+      "headline": "Atlantic Council: For warning signs of the next global financial crisis, watch the activities of both banks and nonbanks",
+      "bullet_points": [
+        "Source: Atlantic Council"
+      ],
+      "source": "Atlantic Council",
+      "confidence": 65,
+      "url": "https://www.atlanticcouncil.org/blogs/econographics/for-warning-signs-of-the-next-global-financial-crisis-watch-the-activities-of-both-banks-and-nonbanks/",
+      "tickers": [
+        "BANKS",
+        "BOTH",
+        "NEXT",
+        "OF",
+        "SIGNS",
+        "WATCH"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-18 14:51 UTC",
+      "headline": "Atlantic Council: Tran cited in a Global Restructuring Review article explaining on the new G20 template for debt restructuring",
+      "bullet_points": [
+        "Source: Atlantic Council"
+      ],
+      "source": "Atlantic Council",
+      "confidence": 65,
+      "url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/tran-cited-in-a-global-restructuring-review-article-explaining-on-the-new-g20-template-for-debt-restructuring/",
+      "tickers": [
+        "CITED",
+        "DEBT",
+        "IN",
+        "NEW",
+        "ON",
+        "TRAN"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-16 00:00 UTC",
+      "headline": "The Middle East Power Paradox",
+      "bullet_points": [
+        "Source: Foreign Affairs"
+      ],
+      "source": "Foreign Affairs",
+      "confidence": 65,
+      "url": "https://www.foreignaffairs.com/iran/middle-east-power-paradox-dana-stroul",
+      "tickers": [
+        "EAST",
+        "POWER"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-05 15:53 UTC",
+      "headline": "Crisis Group: Washington 5 June 2026 #2",
+      "bullet_points": [
+        "Source: Crisis Group"
+      ],
+      "source": "Crisis Group",
+      "confidence": 65,
+      "url": "https://www.crisisgroup.org/content/washington-5-june-2026-2",
+      "tickers": [
+        "GROUP",
+        "JUNE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-05 15:52 UTC",
+      "headline": "Crisis Group: Hormuz 5 June 2026 #1",
+      "bullet_points": [
+        "Source: Crisis Group"
+      ],
+      "source": "Crisis Group",
+      "confidence": 65,
+      "url": "https://www.crisisgroup.org/content/hormuz-5-june-2026-1",
+      "tickers": [
+        "GROUP",
+        "JUNE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-05 15:50 UTC",
+      "headline": "Crisis Group: Tehran 5 June 2026 #1",
+      "bullet_points": [
+        "Source: Crisis Group"
+      ],
+      "source": "Crisis Group",
+      "confidence": 65,
+      "url": "https://www.crisisgroup.org/content/tehran-5-june-2026-1",
+      "tickers": [
+        "GROUP",
+        "JUNE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-05 15:49 UTC",
+      "headline": "Crisis Group: Washington 5 June 2026 #1",
+      "bullet_points": [
+        "Source: Crisis Group"
+      ],
+      "source": "Crisis Group",
+      "confidence": 65,
+      "url": "https://www.crisisgroup.org/content/washington-5-june-2026-1",
+      "tickers": [
+        "GROUP",
+        "JUNE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-05 15:47 UTC",
+      "headline": "Crisis Group: Lebanon 5 June 2026 #1",
+      "bullet_points": [
+        "Source: Crisis Group"
+      ],
+      "source": "Crisis Group",
+      "confidence": 65,
+      "url": "https://www.crisisgroup.org/content/lebanon-5-june-2026-1",
+      "tickers": [
+        "GROUP",
+        "JUNE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-05 15:46 UTC",
+      "headline": "Crisis Group: Israel 5 June 2026 #1",
+      "bullet_points": [
+        "Source: Crisis Group"
+      ],
+      "source": "Crisis Group",
+      "confidence": 65,
+      "url": "https://www.crisisgroup.org/content/israel-5-june-2026-1",
+      "tickers": [
+        "GROUP",
+        "JUNE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-05 08:38 UTC",
+      "headline": "Crisis Group: A Budget for Global Turmoil: Peace, Conflict and the EU\u2019s Funding Plans",
+      "bullet_points": [
+        "Source: Crisis Group"
+      ],
+      "source": "Crisis Group",
+      "confidence": 65,
+      "url": "https://www.crisisgroup.org/qna/europe-european-union/budget-global-turmoil-peace-conflict-and-eus-funding-plans",
+      "tickers": [
+        "EU",
+        "GROUP",
+        "PEACE",
+        "PLANS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-06-04 16:13 UTC",
+      "headline": "Crisis Group: Lebanon 3 June 2026 #2",
+      "bullet_points": [
+        "Source: Crisis Group"
+      ],
+      "source": "Crisis Group",
+      "confidence": 65,
+      "url": "https://www.crisisgroup.org/content/lebanon-3-june-2026-2",
+      "tickers": [
+        "GROUP",
+        "JUNE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
         "tier": "low",
         "reasons": []
       }
