@@ -60,7 +60,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 16:24 UTC",
+      "timestamp": "2026-06-21 16:31 UTC",
       "headline": "CISA KEV: CVE-2026-20253 (Splunk Enterprise)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-21",
@@ -85,7 +85,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 16:24 UTC",
+      "timestamp": "2026-06-21 16:31 UTC",
       "headline": "CISA KEV: CVE-2026-48907 (Widget Factory Joomla Content Editor )",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-19",
@@ -110,7 +110,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 16:24 UTC",
+      "timestamp": "2026-06-21 16:31 UTC",
       "headline": "CISA KEV: CVE-2026-54420 (LiteSpeed cPanel Plugin)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-18",
@@ -137,7 +137,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 16:24 UTC",
+      "timestamp": "2026-06-21 16:31 UTC",
       "headline": "CISA KEV: CVE-2026-20262 (Cisco Catalyst SD-WAN Manager)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-29",
@@ -167,7 +167,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 16:24 UTC",
+      "timestamp": "2026-06-21 16:31 UTC",
       "headline": "CISA KEV: CVE-2026-35273 (Oracle  PeopleSoft Enterprise PeopleTools)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-15",
@@ -192,7 +192,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 16:24 UTC",
+      "timestamp": "2026-06-21 16:31 UTC",
       "headline": "CISA KEV: CVE-2026-10520 (Ivanti Sentry)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-14",
@@ -218,7 +218,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 16:24 UTC",
+      "timestamp": "2026-06-21 16:31 UTC",
       "headline": "CISA KEV: CVE-2026-11645 (Google Chromium V8)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-23",
@@ -247,7 +247,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 16:24 UTC",
+      "timestamp": "2026-06-21 16:31 UTC",
       "headline": "CISA KEV: CVE-2026-7473 (Arista Extensible Operating System)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-23",
@@ -962,26 +962,23 @@
       }
     },
     {
-      "category": "security",
-      "timestamp": "1990-05-01 04:00:00.000",
-      "headline": "NVD: CVE-1999-0084 (HIGH)",
+      "category": "finance",
+      "timestamp": "2026-06-21 16:01 UTC",
+      "headline": "Inception Labs&#39; Mercury 2 AI Beats Google&#39;s DiffusionGemma at Its Own Game",
       "bullet_points": [
-        "Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID\u2026"
+        "Source: Decrypt"
       ],
-      "source": "NVD",
-      "confidence": 66,
-      "cves": [
-        "CVE-1999-0084"
-      ],
+      "source": "Decrypt",
+      "confidence": 65,
+      "url": "https://decrypt.co/371722/inception-labs-mercury-2-ai-beats-googles-diffusiongemma",
       "tickers": [
-        "ALLOW",
-        "BY",
-        "CVE",
-        "GAIN",
-        "HIGH",
-        "KMEM",
-        "MKNOD",
-        "NFS"
+        "AI",
+        "AT",
+        "BEATS",
+        "GAME",
+        "ITS",
+        "LABS",
+        "OWN"
       ],
       "event_type": "Material Event",
       "market_impact": {
