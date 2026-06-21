@@ -194,5 +194,42 @@
 
 <script src="app.js" defer></script>
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<div id="waitlist-modal" class="modal-overlay" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="wm-title">
+    <h2 id="wm-title">You're on the list</h2>
+    <p id="wm-body">We'll reach out when AlphaIntel opens for early access.</p>
+    <button class="btn primary" id="wm-close">Got it</button>
+  </div>
+</div>
+<script>
+(function(){
+  var overlay = document.getElementById('waitlist-modal');
+  var close = document.getElementById('wm-close');
+  var form = document.getElementById('waitlist-form');
+  var note = document.getElementById('form-note');
+  function openModal(title, body) {
+    var t = document.getElementById('wm-title');
+    var b = document.getElementById('wm-body');
+    if (t && title) t.textContent = title;
+    if (b && body) b.textContent = body;
+    overlay.hidden = false;
+  }
+  function closeModal() { overlay.hidden = true; }
+  close && close.addEventListener('click', closeModal);
+  overlay && overlay.addEventListener('click', function(e){ if (e.target === overlay) closeModal(); });
+  if (form) {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      var email = (form.querySelector('#wl-email') || {}).value || '';
+      if (!email || !/@/.test(email)) {
+        if (note) { note.hidden = false; note.textContent = 'Please enter a valid email.'; }
+        return;
+      }
+      if (note) { note.hidden = true; note.textContent = ''; }
+      openModal('You\'re on the list', 'We saved your request. We\'ll contact you at ' + email + ' when early access opens.');
+    });
+  }
+})();
+</script>
 </body>
 </html>
