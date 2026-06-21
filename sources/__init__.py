@@ -13,6 +13,7 @@ from .signals import enrich_item, extract_tickers, classify_event, compute_marke
 _builtin_modules = [
     "sources.cyber_sources",
     "sources.markets",
+    "sources.markets_signals",
     "sources.tech_ai",
     "sources.crypto",
     "sources.geopower",

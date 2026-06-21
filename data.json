@@ -1,37 +1,8 @@
 {
   "intel_stream": [
     {
-      "category": "finance",
-      "timestamp": "2026-06-21T13:47:10Z",
-      "headline": "FedEx Corp (FDX)\u2019s Bold Dividend Move Amid a Freight Spin-Off",
-      "bullet_points": [
-        "Source: https://finance.yahoo.com/markets/stocks/articles/fedex-corp-fdx-bold-dividend-134710528.html"
-      ],
-      "source": "Yahoo Finance",
-      "confidence": 75,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/fedex-corp-fdx-bold-dividend-134710528.html",
-      "tickers": [
-        "AMID",
-        "BOLD",
-        "COM",
-        "FDX",
-        "FEDEX",
-        "HTML",
-        "HTTPS",
-        "MOVE"
-      ],
-      "event_type": "Public Market Event",
-      "market_impact": {
-        "score": 35,
-        "tier": "low",
-        "reasons": [
-          "Public Market Event"
-        ]
-      }
-    },
-    {
       "category": "security",
-      "timestamp": "2026-06-21 15:31 UTC",
+      "timestamp": "2026-06-21 15:50 UTC",
       "headline": "CISA KEV: CVE-2026-20253 (Splunk Enterprise)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-21",
@@ -56,7 +27,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:31 UTC",
+      "timestamp": "2026-06-21 15:50 UTC",
       "headline": "CISA KEV: CVE-2026-48907 (Widget Factory Joomla Content Editor )",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-19",
@@ -81,7 +52,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:31 UTC",
+      "timestamp": "2026-06-21 15:50 UTC",
       "headline": "CISA KEV: CVE-2026-54420 (LiteSpeed cPanel Plugin)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-18",
@@ -108,7 +79,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:31 UTC",
+      "timestamp": "2026-06-21 15:50 UTC",
       "headline": "CISA KEV: CVE-2026-20262 (Cisco Catalyst SD-WAN Manager)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-29",
@@ -138,7 +109,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:31 UTC",
+      "timestamp": "2026-06-21 15:50 UTC",
       "headline": "CISA KEV: CVE-2026-35273 (Oracle  PeopleSoft Enterprise PeopleTools)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-15",
@@ -163,7 +134,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:31 UTC",
+      "timestamp": "2026-06-21 15:50 UTC",
       "headline": "CISA KEV: CVE-2026-10520 (Ivanti Sentry)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-14",
@@ -189,7 +160,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:31 UTC",
+      "timestamp": "2026-06-21 15:50 UTC",
       "headline": "CISA KEV: CVE-2026-11645 (Google Chromium V8)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-23",
@@ -218,7 +189,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:31 UTC",
+      "timestamp": "2026-06-21 15:50 UTC",
       "headline": "CISA KEV: CVE-2026-7473 (Arista Extensible Operating System)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-23",
@@ -896,23 +867,23 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-06-21T15:20:00Z",
-      "headline": "What Will Nvidia Stock's Price Be in 1 Year?",
+      "timestamp": "2026-06-21T15:30:06Z",
+      "headline": "Own 500 Shares of Pfizer and JNJ and Here\u2019s Your Annual Dividend Income",
       "bullet_points": [
-        "Source: https://finance.yahoo.com/markets/stocks/articles/nvidia-stocks-price-1-152000444.html"
+        "Source: https://finance.yahoo.com/healthcare/articles/own-500-shares-pfizer-jnj-153006980.html"
       ],
       "source": "Yahoo Finance",
       "confidence": 63,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stocks-price-1-152000444.html",
+      "url": "https://finance.yahoo.com/healthcare/articles/own-500-shares-pfizer-jnj-153006980.html",
       "tickers": [
-        "BE",
         "COM",
+        "HERE",
         "HTML",
         "HTTPS",
-        "IN",
-        "PRICE",
-        "STOCK",
-        "WHAT"
+        "JNJ",
+        "OF",
+        "OWN",
+        "YAHOO"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -923,23 +894,23 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-06-21T15:15:01Z",
-      "headline": "SPY vs. QQQ: Which ETF Looks Best for Your Portfolio in 2026?",
+      "timestamp": "2026-06-21T15:25:00Z",
+      "headline": "1 Catalyst That Could Cause SpaceX Stock to Drop. Should Investors Sell?",
       "bullet_points": [
-        "Source: https://finance.yahoo.com/markets/stocks/articles/spy-vs-qqq-etf-looks-151501593.html"
+        "Source: https://finance.yahoo.com/markets/stocks/articles/1-catalyst-could-cause-spacex-152500776.html"
       ],
       "source": "Yahoo Finance",
       "confidence": 63,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/spy-vs-qqq-etf-looks-151501593.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-catalyst-could-cause-spacex-152500776.html",
       "tickers": [
-        "BEST",
+        "CAUSE",
         "COM",
-        "ETF",
+        "COULD",
+        "DROP",
         "HTML",
         "HTTPS",
-        "IN",
-        "LOOKS",
-        "QQQ"
+        "SELL",
+        "STOCK"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -987,6 +958,33 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/aeva-technologies-inc-aeva-good-143548081.html",
       "tickers": [
         "AEVA",
+        "BUY",
+        "COM",
+        "GOOD",
+        "HTML",
+        "HTTPS",
+        "IS",
+        "NOW"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21T14:35:35Z",
+      "headline": "Is Atkore Inc. (ATKR) A Good Stock To Buy Now?",
+      "bullet_points": [
+        "Source: https://finance.yahoo.com/markets/stocks/articles/atkore-inc-atkr-good-stock-143535537.html"
+      ],
+      "source": "Yahoo Finance",
+      "confidence": 63,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/atkore-inc-atkr-good-stock-143535537.html",
+      "tickers": [
+        "ATKR",
         "BUY",
         "COM",
         "GOOD",

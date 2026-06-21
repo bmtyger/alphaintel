@@ -17,7 +17,6 @@
   .btn { display: inline-block; padding: 12px 22px; border-radius: 8px; font-weight: 600; text-decoration: none; font-size: 14px; }
   .btn.primary { background: var(--accent-blue); color: #fff; border: 1px solid var(--accent-blue); }
   .btn.ghost { background: transparent; color: var(--text-primary); border: 1px solid var(--bg-border); }
-  .social-proof { color: var(--text-secondary); font-size: 12px; margin-top: 1.25rem; }
   .section { padding: 3rem 0; }
   .section-title { font-size: 13px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--text-secondary); margin-bottom: 0.75rem; }
   .columns { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
@@ -33,6 +32,11 @@
   .price span { font-size: 14px; color: var(--text-secondary); font-weight: 400; }
   .price-card ul { list-style: none; padding: 0; margin: 14px 0 18px; }
   .price-card li { font-size: 13px; color: var(--text-secondary); padding: 3px 0; }
+  .roadmap { background: var(--bg-card); border: 1px solid var(--bg-border); border-radius: var(--radius); padding: 1.25rem; margin-top: 0.75rem; }
+  .roadmap h3 { font-size: 13px; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; }
+  .roadmap ul { list-style: none; padding: 0; margin: 0; }
+  .roadmap li { font-size: 12px; color: var(--text-secondary); padding: 3px 0; }
+  .roadmap li::before { content: "→ "; color: var(--accent-blue); }
   @media (max-width: 900px) { .columns { grid-template-columns: 1fr 1fr; } }
   @media (max-width: 640px) { .columns { grid-template-columns: 1fr; } .pricing-grid { grid-template-columns: 1fr; max-width: 420px; } }
 </style>
@@ -52,7 +56,6 @@
       <a class="btn primary" href="#waitlist">Join the waitlist</a>
       <a class="btn ghost" href="index.html">View sample dashboard</a>
     </div>
-    <p class="social-proof">Early users include traders, PE analysts, and compliance operators.</p>
   </section>
 
   <section class="section">
@@ -60,11 +63,11 @@
     <div class="columns">
       <article class="v-card">
         <h3>Markets & M&A</h3>
-        <p>SEC 8-K material events, insider trades, 13D/G positions, 8-K filings, and crypto market news distilled into deal signals.</p>
+        <p>SEC 8-K material events, insider trades, 13D/G positions, tender offers, dark pool signals, and crypto market news distilled into deal signals.</p>
       </article>
       <article class="v-card">
         <h3>Cybersecurity</h3>
-        <p>CISA Known Exploited Vulnerabilities, NVD, KrebsOnSecurity, and Snyk advisories — prioritized by active exploitation and asset criticality.</p>
+        <p>CISA Known Exploited Vulnerabilities, NVD, and premium advisories — prioritized by active exploitation and asset criticality.</p>
       </article>
       <article class="v-card">
         <h3>AI &amp; Big Tech</h3>
@@ -74,6 +77,30 @@
         <h3>Geopower</h3>
         <p>Sanctions, treaties, energy shocks, central bank moves, and supply-chain disruptions that move commodities and risk assets.</p>
       </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Premium Source Roadmap</h2>
+    <p style="color: var(--text-secondary); font-size: 13px; max-width: 760px;">These data sets are included for Elite tier and as add-on modules for Enterprise. They move markets before retail news hits the wire.</p>
+    <div class="roadmap">
+      <h3>Markets / Finance</h3>
+      <ul>
+        <li>Unusual options flow (sweeps, blocks, dark pool prints)</li>
+        <li>FINRA ATS quarterly short interest (High Short Interest % alerts)</li>
+        <li>SEC Form 4 insider buys / sells with ticker scoring</li>
+        <li>Crypto on-chain whale flows + exchange netflow (Glassnode / CryptoQuant)</li>
+        <li>13F institutional position changes (whale wallet accumulation)</li>
+      </ul>
+    </div>
+    <div class="roadmap" style="margin-top: 8px;">
+      <h3>Geopolitical + Macro</h3>
+      <ul>
+        <li>Treasury yield curve / Fed funds proxy (live spread anomaly)</li>
+        <li>OPEC+ production statements + Brent/WTI differentials</li>
+        <li>UN Security Council resolutions / sanctions language parser</li>
+        <li>Regulatory proposal density (SEC, EU, HK, MAS) by affected sector</li>
+      </ul>
     </div>
   </section>
 
@@ -88,7 +115,7 @@
           <li>Web dashboard</li>
           <li>Daily briefing</li>
         </ul>
-        <a class="btn ghost" href="#waitlist">Join waitlist</a>
+        <a class="btn primary" href="https://buy.stripe.com/starter_link_placeholder" data-stripe="starter">Start 7-day trial</a>
       </article>
       <article class="price-card featured">
         <div class="badge">Most popular</div>
@@ -98,9 +125,9 @@
           <li>4 vertical feeds</li>
           <li>Email digest (daily)</li>
           <li>1 alert keyword</li>
-          <li>Curator’s note</li>
+          <li>Curator's note</li>
         </ul>
-        <a class="btn primary" href="#waitlist">Start 14-day trial</a>
+        <a class="btn primary" href="https://buy.stripe.com/pro_link_placeholder" data-stripe="pro">Start 14-day trial</a>
       </article>
       <article class="price-card">
         <h3>Enterprise</h3>
@@ -109,16 +136,16 @@
           <li>Unlimited alerts</li>
           <li>API access</li>
           <li>Custom verticals</li>
-          <li>Priority support</li>
+          <li>Premium sources (options, short interest, whale flows)</li>
         </ul>
-        <a class="btn ghost" href="#waitlist">Contact sales</a>
+        <a class="btn ghost" href="mailto:bodea.mircea@gmail.com?subject=Enterprise%20Access%20Request">Contact sales</a>
       </article>
     </div>
   </section>
 
   <section class="section" id="waitlist">
     <h2 class="section-title">Join the Waitlist</h2>
-    <form class="waitlist-form" id="waitlist-form" novalidate>
+    <form class="waitlist-form" id="waitlist-form" action="https://formspree.io/f/placeholder" method="POST" novalidate>
       <label for="wl-email">Work email</label>
       <input type="email" id="wl-email" name="email" placeholder="you@firm.com" required autocomplete="email">
       <label for="wl-role">Role</label>
@@ -154,7 +181,7 @@
       </article>
       <article class="v-card">
         <h3>4. Act</h3>
-        <p>Spend seconds, not hours. Each card gives you the headline, context bullets, source link, and impact score. No terminal required.</p>
+        <p>Spend seconds, not hours. Each card gives you the headline, context bullets, source link, and impact score.</p>
       </article>
     </div>
   </section>

@@ -1,78 +1,93 @@
 ---
 name: alphaintel
-description: "Production autonomous niche intelligence pipeline: fetch, validate, write dashboard data, and maintain backups."
-version: 0.2
-tags: [alphaintel, scraping, synthesis, dashboard, production]
+description: "Production B2B intelligence pipeline: multi-source fetching, financial signal extraction, dashboard maintenance, and landing page ops."
+version: 0.4
+tags: [alphaintel, scraping, synthesis, signals, b2b, dashboard]
 ---
 
-# AlphaIntel Skill (Production)
+# AlphaIntel Skill (Production B2B)
 
-Operate the AlphaIntel dashboard data pipeline with reliability guarantees:
-schema validation, backup rotation, and structured logging.
+Operate the AlphaIntel B2B intelligence product:
+- Signal-backed dashboard (4 verticals)
+- Multi-source scraper engine
+- Landing page + waitlist
+- Daily cron refresh
+- Interactive signal cards with ticker links and expand/collapse
 
-## Goal
-Produce fresh, structured JSON items for `data.json` covering targeted niches
-(finance, security, trends by default) and push safely to production.
+## Repo layout
+- `sources/` — modular source fetchers + registry
+- `sources/engine.py` — PipelineEngine orchestrator
+- `sources/signals.py` — ticker extraction, event classification, market impact scoring
+- `sources/markets_signals.py` — financial market depth: dark pool, FINRA short interest, crypto on-chain
+- `update_dashboard.py` — CLI entrypoint, calls engine, handles backups/schema
+- `data.json` — live dashboard payload
+- `backups/` — rotated backups (gitignored)
+- `index.html` — signal dashboard (filters, search, impact badges)
+- `landing.html` — B2B landing page + waitlist
+- `style.css` / `app.js` — production UI with interactive cards
+- `terms.html` / `privacy.html` — legal placeholders
 
-## Prereqs
-- Python 3.11+ with stdlib only (no external deps)
-- `data.json` schema enforced by `update_dashboard.py`
-- Backups rotated automatically in `backups/`
+## Interactive card behavior
+- Click card body or headline to expand/collapse bullets.
+- Double-click any card to open source URL in new tab.
+- Tickers are clickable links to Yahoo Finance quote page.
+- Tab navigation works: focus card, Enter to expand, Escape to close.
+- Source link opens directly to the original article.
+- Impact badge color (HIGH/MEDIUM/LOW) plus confidence bar shown.
 
-## Workflow
-
-### 1. Refresh data
-Run the updater:
+## Refresh data
 ```bash
 cd C:\Users\bmtyg\nichaas
 /c/Python313/python.exe update_dashboard.py
 ```
-This will:
-- Fetch from CISA KEV, SEC EDGAR 8-K, Hacker News
-- Validate every item against schema
-- Back up previous `data.json` to `backups/`
-- Write new `data.json`
-- Log structured output to stdout
+Exit codes: 0 success, 1 partial failure, 2 total failure.
+Non-empty stderr triggers alerting in the cron job.
 
-Exit codes:
-- 0 = success
-- 1 = partial failure (some sources failed, data was written)
-- 2 = total failure (no data written)
+## Source registry
+Adding a new source = create a `BaseSource` subclass in `sources/`, then import it
+in `sources/__init__.py`.  The engine auto-discovers via registry.
 
-### 2. Deploy
+Built-in sources (categories):
+- finance: sec_edgar, yahoo_finance, central_banks, crypto_news, dark_pool, finra_short_interest, crypto_onchain
+- security: cisa_kev, nvd_api
+- trends: tech_blogs_rss
+- geopower: geopower
+
+## Signal taxonomy
+- Tickers extracted via regex + stopword filter
+- Event types: M&A, Termination, Partnership, Leadership, Bankruptcy, Regulatory Action, Public Market Event, Material Event
+- Market impact score: 0-100 (high ≥75, medium ≥40)
+- Confidence = blend of source reliability + event confidence + impact score
+
+## Stripe checkout wiring
+Starter/Pro cards use placeholder hrefs. Replace with real Stripe Payment Links:
+- `href="https://buy.stripe.com/starter_link_placeholder"` → your Stripe $9/mo link
+- `href="https://buy.stripe.com/pro_link_placeholder"` → your Stripe $19/mo link
+Enterprise uses mailto: `bodea.mircea@gmail.com` until CRM is on.
+Remove the `data-stripe` attribute once live.
+
+## Waitlist form
+Uses Formspree: `https://formspree.io/f/placeholder`
+Replace with your Formspree / Netlify Forms / backend endpoint.
+On submit, show inline success/error message; do not use alert().
+
+## Deploy
 ```bash
 cd C:\Users\bmtyg\nichaas
-git add data.json
-git commit -m "feat: refresh AlphaIntel data"
+git add data.json index.html landing.html style.css app.js sources/ update_dashboard.py
+git commit -m "feat: refresh AlphaIntel data + UI"
 git push origin main
 ```
-GitHub Pages will publish within ~60 seconds.
-
-### 3. Verify
-- Open https://bmtyger.github.io/alphaintel/
-- Confirm JSON schema loads without console errors
-- Spot-check newest item timestamps
-
-## Schema Constraints
-Each intel item MUST have:
-- category: one of `finance`, `security`, `trends`
-- timestamp: ISO-ish string (e.g. "2026-06-21 14:43 UTC")
-- headline: non-empty string
-- bullet_points: array of strings (max 5 shown)
-- source: string
-- confidence: number 0-100
-
-Breaking schema aborts the run (exit 2).
-
-## Anti-patterns
-- Do not invent sources or confidence scores
-- Do not skip validation in production
-- Do not delete backups manually unless rotating
-- Do not modify `update_dashboard.py` to bypass schema
+GitHub Pages publishes within ~60s.
 
 ## Monitoring
-Cron job `aba12bfd2cef` runs daily at 06:00. Non-empty stderr alerts the operator.
-Manual trigger:
-```bash
-cd C:\Users\bmtyg\nichaas && /c/Python313/python.exe update_dashboard.py
-```
+Cron job `aba12bfd2cef` runs daily at 06:00.
+Manual trigger: `python update_dashboard.py`
+Verify live: https://bmtyger.github.io/alphaintel/ (dashboard)
+Landing: https://bmtyger.github.io/alphaintel/landing.html
+
+## Anti-patterns
+- Don’t bypass schema validation in production
+- Don’t commit `backups/` or `__pycache__/`
+- Don’t hardcode API keys in sources — use headers with contact email
+- Don’t use followers/bots for credibility; build real analyst usage and testimonials
