@@ -18,6 +18,14 @@
     STATE_TEXT.textContent = message;
   }
 
+  function setDiagnostics(state, message) {
+    var el = document.getElementById("diagnostics");
+    if (!el) return;
+    el.hidden = false;
+    el.textContent = "Diagnostics: " + state + " — " + message;
+    el.className = "diagnostics " + state;
+  }
+
   function clearState() {
     STATE_MSG.hidden = true;
     STATE_MSG.className = "state-message";
@@ -215,9 +223,11 @@
         return;
       }
       render();
+      setDiagnostics("ok", allItems.length + " signals loaded");
     } catch (err) {
       console.error("Dashboard load failed:", err);
       setState("error", "Signal feed unreachable. Retrying…");
+      setDiagnostics("error", err && err.message ? err.message : String(err));
       setTimeout(init, 8000);
     }
   }
