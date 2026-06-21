@@ -38,11 +38,7 @@
   }
 
   function renderCard(item) {
-    try {
-      console.debug('renderCard', item.headline, item.url);
-    } catch (err) {
-      console.warn('renderCard errored', err, item);
-    }
+    window.__lastItem = item;
     var article = document.createElement("article");
     article.className = "card";
     article.tabIndex = 0;
