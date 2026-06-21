@@ -48,5 +48,30 @@
 </footer>
 
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script>
+(function(){
+  var attempts = 0;
+  function probe() {
+    var grid = document.getElementById('dashboard-grid');
+    if (!grid) { return; }
+    var cards = grid.querySelectorAll('.card');
+    if (cards.length > 0) return;
+    if (attempts > 60) return;
+    attempts++;
+    setTimeout(function() {
+      var test = document.createElement('article');
+      test.className = 'card';
+      test.style.border = '2px solid red';
+      test.textContent = 'PROBE CARD';
+      grid.appendChild(test);
+    }, 1500);
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', probe);
+  } else {
+    probe();
+  }
+})();
+</script>
 </body>
 </html>
