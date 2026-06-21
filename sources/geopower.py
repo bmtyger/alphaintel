@@ -13,6 +13,8 @@ class GeopowerSource(BaseSource):
         ("AP Top News", "https://rsshub.app/apnews/topics/apf-topnews"),
         ("UN News", "https://news.un.org/feed/subscribe/en/news/all/rss.xml"),
         ("IEA News", "https://www.iea.org/rss"),
+        ("CSIS", "https://www.csis.org/rss.xml"),
+        ("Foreign Affairs", "https://www.foreignaffairs.com/rss.xml"),
     ]
 
     def fetch(self) -> SourceResult:
@@ -31,7 +33,6 @@ class GeopowerSource(BaseSource):
                     if key in seen:
                         continue
                     seen.add(key)
-                    # filter for high-signal geopolitical topics
                     geopolitical_keywords = [
                         "sanctions", "treaty", "war", "conflict", "oil", "energy", "trade war",
                         "summit", "nuclear", "tariff", "diplomat", "agreement", "un security council",
@@ -40,7 +41,7 @@ class GeopowerSource(BaseSource):
                     ]
                     low = (title + " " + self._desc(raw)).lower()
                     score = sum(1 for k in geopolitical_keywords if k in low)
-                    if score < 1 and org not in {"Reuters World", "UN News"}:
+                    if score < 1 and org not in {"Reuters World", "UN News", "CSIS"}:
                         continue
                     items.append({
                         "category": self.category,

@@ -1,8 +1,37 @@
 {
   "intel_stream": [
     {
+      "category": "finance",
+      "timestamp": "2026-06-21 10:15 UTC",
+      "headline": "Bitcoin price is down over 40% since STRC launched: Is Strategy &apos;fine&apos;?",
+      "bullet_points": [
+        "Source: Cointelegraph"
+      ],
+      "source": "Cointelegraph",
+      "confidence": 76,
+      "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss",
+      "tickers": [
+        "APOS",
+        "DOWN",
+        "FINE",
+        "IS",
+        "OVER",
+        "PRICE",
+        "SINCE",
+        "STRC"
+      ],
+      "event_type": "Regulatory Action",
+      "market_impact": {
+        "score": 35,
+        "tier": "low",
+        "reasons": [
+          "Regulatory Action"
+        ]
+      }
+    },
+    {
       "category": "security",
-      "timestamp": "2026-06-21 15:50 UTC",
+      "timestamp": "2026-06-21 15:58 UTC",
       "headline": "CISA KEV: CVE-2026-20253 (Splunk Enterprise)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-21",
@@ -27,7 +56,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:50 UTC",
+      "timestamp": "2026-06-21 15:58 UTC",
       "headline": "CISA KEV: CVE-2026-48907 (Widget Factory Joomla Content Editor )",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-19",
@@ -52,7 +81,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:50 UTC",
+      "timestamp": "2026-06-21 15:58 UTC",
       "headline": "CISA KEV: CVE-2026-54420 (LiteSpeed cPanel Plugin)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-18",
@@ -79,7 +108,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:50 UTC",
+      "timestamp": "2026-06-21 15:58 UTC",
       "headline": "CISA KEV: CVE-2026-20262 (Cisco Catalyst SD-WAN Manager)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-29",
@@ -109,7 +138,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:50 UTC",
+      "timestamp": "2026-06-21 15:58 UTC",
       "headline": "CISA KEV: CVE-2026-35273 (Oracle  PeopleSoft Enterprise PeopleTools)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-15",
@@ -134,7 +163,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:50 UTC",
+      "timestamp": "2026-06-21 15:58 UTC",
       "headline": "CISA KEV: CVE-2026-10520 (Ivanti Sentry)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-14",
@@ -160,7 +189,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:50 UTC",
+      "timestamp": "2026-06-21 15:58 UTC",
       "headline": "CISA KEV: CVE-2026-11645 (Google Chromium V8)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-23",
@@ -189,7 +218,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 15:50 UTC",
+      "timestamp": "2026-06-21 15:58 UTC",
       "headline": "CISA KEV: CVE-2026-7473 (Arista Extensible Operating System)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-23",
@@ -227,6 +256,29 @@
         "BOARD",
         "OF",
         "PRESS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-06-18 17:37 UTC",
+      "headline": "&#8216;Popa&#8217; Botnet Linked to Publicly-Traded Israeli Firm",
+      "bullet_points": [
+        "Cybersecurity news and analysis"
+      ],
+      "source": "KrebsOnSecurity",
+      "confidence": 69,
+      "url": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
+      "tickers": [
+        "FIRM",
+        "NEWS",
+        "POPA",
+        "TO"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -295,6 +347,364 @@
       "tickers": [
         "FOMC",
         "PRESS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-06-10 14:03 UTC",
+      "headline": "Who Runs the Ransomware Group &#8216;The Gentlemen?&#8217;",
+      "bullet_points": [
+        "Cybersecurity news and analysis"
+      ],
+      "source": "KrebsOnSecurity",
+      "confidence": 69,
+      "url": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+      "tickers": [
+        "GROUP",
+        "NEWS",
+        "RUNS",
+        "WHO"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-06-09 22:07 UTC",
+      "headline": "A Record-Breaking Patch Tuesday for June 2026",
+      "bullet_points": [
+        "Cybersecurity news and analysis"
+      ],
+      "source": "KrebsOnSecurity",
+      "confidence": 69,
+      "url": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
+      "tickers": [
+        "JUNE",
+        "NEWS",
+        "PATCH"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-06-01 17:32 UTC",
+      "headline": "Hackers Used Meta&#8217;s AI Support Bot to Seize Instagram Accounts",
+      "bullet_points": [
+        "Cybersecurity news and analysis"
+      ],
+      "source": "KrebsOnSecurity",
+      "confidence": 69,
+      "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+      "tickers": [
+        "AI",
+        "BOT",
+        "META",
+        "NEWS",
+        "SEIZE",
+        "TO",
+        "USED"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-05-25 13:21 UTC",
+      "headline": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
+      "bullet_points": [
+        "Cybersecurity news and analysis"
+      ],
+      "source": "KrebsOnSecurity",
+      "confidence": 69,
+      "url": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+      "tickers": [
+        "NEWS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-05-22 16:34 UTC",
+      "headline": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+      "bullet_points": [
+        "Cybersecurity news and analysis"
+      ],
+      "source": "KrebsOnSecurity",
+      "confidence": 69,
+      "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "tickers": [
+        "AS",
+        "CISA",
+        "DATA",
+        "LEAK",
+        "NEWS",
+        "TO",
+        "TRIES"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-06-21 10:14 UTC",
+      "headline": "AryStinger botnet infected thousands of D-Link routers worldwide",
+      "bullet_points": [
+        "Security news, malware, breaches"
+      ],
+      "source": "BleepingComputer",
+      "confidence": 68,
+      "url": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
+      "tickers": [
+        "LINK",
+        "NEWS",
+        "OF"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-06-20 11:23 UTC",
+      "headline": "New Prinz Eugen ransomware prioritizes recent files for encryption",
+      "bullet_points": [
+        "Security news, malware, breaches"
+      ],
+      "source": "BleepingComputer",
+      "confidence": 68,
+      "url": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
+      "tickers": [
+        "EUGEN",
+        "FILES",
+        "NEW",
+        "NEWS",
+        "PRINZ"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-06-20 10:09 UTC",
+      "headline": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
+      "bullet_points": [
+        "Security news, malware, breaches"
+      ],
+      "source": "BleepingComputer",
+      "confidence": 68,
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+      "tickers": [
+        "AI",
+        "CHAIN",
+        "LINKS",
+        "NEWS",
+        "NORTH",
+        "TO"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-06-19 18:31 UTC",
+      "headline": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
+      "bullet_points": [
+        "Security news, malware, breaches"
+      ],
+      "source": "BleepingComputer",
+      "confidence": 68,
+      "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
+      "tickers": [
+        "AS",
+        "CLAIM",
+        "GROWS",
+        "KLUE",
+        "LIST",
+        "NEWS",
+        "OAUTH"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-06-19 16:25 UTC",
+      "headline": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
+      "bullet_points": [
+        "Security news, malware, breaches"
+      ],
+      "source": "BleepingComputer",
+      "confidence": 68,
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
+      "tickers": [
+        "BUG",
+        "IN",
+        "INFO",
+        "NEWS",
+        "SMTP"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-06-19 12:12 UTC",
+      "headline": "Texas govt data breach exposes over 3 million driver\u2019s licenses",
+      "bullet_points": [
+        "Security news, malware, breaches"
+      ],
+      "source": "BleepingComputer",
+      "confidence": 68,
+      "url": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
+      "tickers": [
+        "DATA",
+        "GOVT",
+        "NEWS",
+        "OVER",
+        "TEXAS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21 14:50 UTC",
+      "headline": "Bitcoin tipped for $66K top as trader flags &apos;suspicious&apos; BTC price gains",
+      "bullet_points": [
+        "Source: Cointelegraph"
+      ],
+      "source": "Cointelegraph",
+      "confidence": 67,
+      "url": "https://cointelegraph.com/markets/bitcoin-tipped-for-66k-top-as-trader-flags-suspicious-btc-price-gains?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss",
+      "tickers": [
+        "APOS",
+        "AS",
+        "BTC",
+        "FLAGS",
+        "GAINS",
+        "PRICE",
+        "TOP"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21 14:21 UTC",
+      "headline": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
+      "bullet_points": [
+        "Source: Cointelegraph"
+      ],
+      "source": "Cointelegraph",
+      "confidence": 67,
+      "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss",
+      "tickers": [
+        "BY",
+        "HIT",
+        "IF",
+        "MAY",
+        "PRICE",
+        "STOCK",
+        "US",
+        "WARNS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21 12:25 UTC",
+      "headline": "Dash eyes Philippines as market for crypto payments",
+      "bullet_points": [
+        "Source: Cointelegraph"
+      ],
+      "source": "Cointelegraph",
+      "confidence": 67,
+      "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss",
+      "tickers": [
+        "AS",
+        "DASH",
+        "EYES"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21 08:54 UTC",
+      "headline": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
+      "bullet_points": [
+        "Source: Cointelegraph"
+      ],
+      "source": "Cointelegraph",
+      "confidence": 67,
+      "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss",
+      "tickers": [
+        "FUND",
+        "PLANS"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -425,303 +835,13 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-06-19 12:30 UTC",
-      "headline": "GoMining challenges Jack Dorsey's Square with payments system designed around bitcoin",
-      "bullet_points": [
-        "Source: CoinDesk"
-      ],
-      "source": "CoinDesk",
-      "confidence": 67,
-      "url": "https://www.coindesk.com/business/2026/06/19/gomining-challenges-jack-dorsey-s-square-with-payments-system-designed-around-bitcoin",
-      "tickers": [
-        "JACK"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "security",
-      "timestamp": "1990-05-01 04:00:00.000",
-      "headline": "NVD: CVE-1999-0084 (HIGH)",
-      "bullet_points": [
-        "Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID\u2026"
-      ],
-      "source": "NVD",
-      "confidence": 66,
-      "cves": [
-        "CVE-1999-0084"
-      ],
-      "tickers": [
-        "ALLOW",
-        "BY",
-        "CVE",
-        "GAIN",
-        "HIGH",
-        "KMEM",
-        "MKNOD",
-        "NFS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-06-18 17:00 UTC",
-      "headline": "New usage analytics and updated spend controls for enterprises",
-      "bullet_points": [
-        "Source: OpenAI Blog"
-      ],
-      "source": "OpenAI Blog",
-      "confidence": 65,
-      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "tickers": [
-        "BLOG",
-        "NEW",
-        "SPEND",
-        "USAGE"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-06-18 11:00 UTC",
-      "headline": "Improving health intelligence in ChatGPT",
-      "bullet_points": [
-        "Source: OpenAI Blog"
-      ],
-      "source": "OpenAI Blog",
-      "confidence": 65,
-      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "tickers": [
-        "BLOG",
-        "IN"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-06-18 08:00 UTC",
-      "headline": "Using AI to help physicians diagnose rare genetic diseases affecting children",
-      "bullet_points": [
-        "Source: OpenAI Blog"
-      ],
-      "source": "OpenAI Blog",
-      "confidence": 65,
-      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "tickers": [
-        "AI",
-        "BLOG",
-        "HELP",
-        "RARE",
-        "TO",
-        "USING"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-06-17 15:00 UTC",
-      "headline": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "bullet_points": [
-        "Source: Google AI Blog"
-      ],
-      "source": "Google AI Blog",
-      "confidence": 65,
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "tickers": [
-        "AI",
-        "AMIE",
-        "BLOG",
-        "COULD",
-        "HELP",
-        "HOW",
-        "NEW",
-        "OUR"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-06-17 10:00 UTC",
-      "headline": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-      "bullet_points": [
-        "Source: OpenAI Blog"
-      ],
-      "source": "OpenAI Blog",
-      "confidence": 65,
-      "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "tickers": [
-        "AI",
-        "BLOG",
-        "IN",
-        "NEAR"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-06-17 00:00 UTC",
-      "headline": "Introducing LifeSciBench",
-      "bullet_points": [
-        "Source: OpenAI Blog"
-      ],
-      "source": "OpenAI Blog",
-      "confidence": 65,
-      "url": "https://openai.com/index/introducing-life-sci-bench",
-      "tickers": [
-        "BLOG"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-06-15 15:00 UTC",
-      "headline": "We\u2019re strengthening our presence in Alabama through new investments and community support.",
-      "bullet_points": [
-        "Source: Google AI Blog"
-      ],
-      "source": "Google AI Blog",
-      "confidence": 65,
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
-      "tickers": [
-        "AI",
-        "BLOG",
-        "IN",
-        "NEW",
-        "OUR",
-        "RE",
-        "WE"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-06-11 20:00 UTC",
-      "headline": "Our new community investments in Virginia support local jobs and expand energy affordability.",
-      "bullet_points": [
-        "Source: Google AI Blog"
-      ],
-      "source": "Google AI Blog",
-      "confidence": 65,
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
-      "tickers": [
-        "AI",
-        "BLOG",
-        "IN",
-        "JOBS",
-        "LOCAL",
-        "NEW",
-        "OUR"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-06-05 14:45 UTC",
-      "headline": "The latest AI news we announced in May 2026",
-      "bullet_points": [
-        "Source: Google AI Blog"
-      ],
-      "source": "Google AI Blog",
-      "confidence": 65,
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
-      "tickers": [
-        "AI",
-        "BLOG",
-        "IN",
-        "MAY",
-        "NEWS",
-        "WE"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-06-03 13:00 UTC",
-      "headline": "5 ways Google Search can level up your thrift and vintage shopping",
-      "bullet_points": [
-        "Source: Google AI Blog"
-      ],
-      "source": "Google AI Blog",
-      "confidence": 65,
-      "url": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
-      "tickers": [
-        "AI",
-        "BLOG",
-        "CAN",
-        "LEVEL",
-        "UP",
-        "WAYS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
       "timestamp": "2026-06-21 13:01 UTC",
       "headline": "AI &#39;Amplification Spiral&#39; May Be Causing Delusions Among Users, Study Suggests",
       "bullet_points": [
         "Source: Decrypt"
       ],
       "source": "Decrypt",
-      "confidence": 64,
+      "confidence": 65,
       "url": "https://decrypt.co/371648/ai-amplification-spiral-causing-delusions-among-users-study",
       "tickers": [
         "AI",
@@ -746,7 +866,7 @@
         "Source: Decrypt"
       ],
       "source": "Decrypt",
-      "confidence": 64,
+      "confidence": 65,
       "url": "https://decrypt.co/371711/openrouter-fusion-claude-fable-level-ai-cheap",
       "tickers": [
         "AI",
@@ -773,7 +893,7 @@
         "Source: Decrypt"
       ],
       "source": "Decrypt",
-      "confidence": 64,
+      "confidence": 65,
       "url": "https://decrypt.co/371708/charles-schwab-planning-sp-500-prediction-markets-cboe",
       "tickers": [
         "AMP",
@@ -798,7 +918,7 @@
         "Source: Decrypt"
       ],
       "source": "Decrypt",
-      "confidence": 64,
+      "confidence": 65,
       "url": "https://decrypt.co/371705/house-republican-insider-trading-bill-ban-lawmaker-prediction-market",
       "tickers": [
         "BAN",
@@ -816,39 +936,13 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-06-19 18:15 UTC",
-      "headline": "GPT-5.6 Rumors Heat Up as Users Swear ChatGPT Suddenly Got Smarter",
-      "bullet_points": [
-        "Source: Decrypt"
-      ],
-      "source": "Decrypt",
-      "confidence": 64,
-      "url": "https://decrypt.co/371699/openai-gpt-5-6-chatgpt-stealth-testing-rumors",
-      "tickers": [
-        "AS",
-        "GOT",
-        "GPT",
-        "HEAT",
-        "SWEAR",
-        "UP",
-        "USERS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
       "timestamp": "2026-06-19 17:51 UTC",
       "headline": "Schwab to join prediction markets race with S&P 500 event-based options: WSJ",
       "bullet_points": [
         "Source: CoinDesk"
       ],
       "source": "CoinDesk",
-      "confidence": 64,
+      "confidence": 65,
       "url": "https://www.coindesk.com/markets/2026/06/19/schwab-to-join-prediction-markets-race-with-s-and-p-500-event-based-options-wsj",
       "tickers": [
         "BASED",
@@ -866,136 +960,22 @@
       }
     },
     {
-      "category": "finance",
-      "timestamp": "2026-06-21T15:30:06Z",
-      "headline": "Own 500 Shares of Pfizer and JNJ and Here\u2019s Your Annual Dividend Income",
+      "category": "geopower",
+      "timestamp": "2016-02-26 17:54 UTC",
+      "headline": "2016 U.S.-Japan Security Seminar",
       "bullet_points": [
-        "Source: https://finance.yahoo.com/healthcare/articles/own-500-shares-pfizer-jnj-153006980.html"
+        "Source: CSIS"
       ],
-      "source": "Yahoo Finance",
-      "confidence": 63,
-      "url": "https://finance.yahoo.com/healthcare/articles/own-500-shares-pfizer-jnj-153006980.html",
+      "source": "CSIS",
+      "confidence": 65,
+      "url": "https://www.csis.org/events/2016-us-japan-security-seminar",
       "tickers": [
-        "COM",
-        "HERE",
-        "HTML",
-        "HTTPS",
-        "JNJ",
-        "OF",
-        "OWN",
-        "YAHOO"
+        "CSIS",
+        "JAPAN"
       ],
       "event_type": "Material Event",
       "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-06-21T15:25:00Z",
-      "headline": "1 Catalyst That Could Cause SpaceX Stock to Drop. Should Investors Sell?",
-      "bullet_points": [
-        "Source: https://finance.yahoo.com/markets/stocks/articles/1-catalyst-could-cause-spacex-152500776.html"
-      ],
-      "source": "Yahoo Finance",
-      "confidence": 63,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-catalyst-could-cause-spacex-152500776.html",
-      "tickers": [
-        "CAUSE",
-        "COM",
-        "COULD",
-        "DROP",
-        "HTML",
-        "HTTPS",
-        "SELL",
-        "STOCK"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-06-21T14:36:01Z",
-      "headline": "Is Absci Corporation (ABSI) A Good Stock To Buy Now?",
-      "bullet_points": [
-        "Source: https://finance.yahoo.com/markets/stocks/articles/absci-corporation-absi-good-stock-143601164.html"
-      ],
-      "source": "Yahoo Finance",
-      "confidence": 63,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/absci-corporation-absi-good-stock-143601164.html",
-      "tickers": [
-        "ABSCI",
-        "ABSI",
-        "BUY",
-        "COM",
-        "GOOD",
-        "HTML",
-        "HTTPS",
-        "IS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-06-21T14:35:48Z",
-      "headline": "Is Aeva Technologies, Inc. (AEVA) A Good Stock To Buy Now?",
-      "bullet_points": [
-        "Source: https://finance.yahoo.com/markets/stocks/articles/aeva-technologies-inc-aeva-good-143548081.html"
-      ],
-      "source": "Yahoo Finance",
-      "confidence": 63,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/aeva-technologies-inc-aeva-good-143548081.html",
-      "tickers": [
-        "AEVA",
-        "BUY",
-        "COM",
-        "GOOD",
-        "HTML",
-        "HTTPS",
-        "IS",
-        "NOW"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-06-21T14:35:35Z",
-      "headline": "Is Atkore Inc. (ATKR) A Good Stock To Buy Now?",
-      "bullet_points": [
-        "Source: https://finance.yahoo.com/markets/stocks/articles/atkore-inc-atkr-good-stock-143535537.html"
-      ],
-      "source": "Yahoo Finance",
-      "confidence": 63,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/atkore-inc-atkr-good-stock-143535537.html",
-      "tickers": [
-        "ATKR",
-        "BUY",
-        "COM",
-        "GOOD",
-        "HTML",
-        "HTTPS",
-        "IS",
-        "NOW"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
+        "score": 20,
         "tier": "low",
         "reasons": []
       }

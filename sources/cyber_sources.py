@@ -55,7 +55,7 @@ class NvdSource(BaseSource):
         data = _json.loads(self._request("GET", url, headers=headers)[0])
         vulns = data.get("vulnerabilities", [])
         items = []
-        for v in vulns[:8]:
+        for v in vulns[:10]:
             cve = v.get("cve", {}).get("id", "CVE-unknown")
             desc = ""
             descs = v.get("cve", {}).get("descriptions", [])

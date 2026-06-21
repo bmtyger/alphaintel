@@ -11,6 +11,8 @@ class CryptoNewsSource(BaseSource):
     feeds = [
         ("CoinDesk", "https://www.coindesk.com/arc/outboundfeeds/rss/"),
         ("Decrypt", "https://decrypt.co/feed"),
+        ("Cointelegraph", "https://cointelegraph.com/rss"),
+        ("The Block", "https://www.theblock.co/feed"),
     ]
 
     def fetch(self) -> SourceResult:
@@ -19,7 +21,7 @@ class CryptoNewsSource(BaseSource):
         for org, url in self.feeds:
             try:
                 xml = self._request("GET", url, headers=UA)[0].decode("utf-8", errors="replace")
-                for raw in re.findall(r"<item>(.*?)</item>", xml, re.S)[:6]:
+                for raw in re.findall(r"<item>(.*?)</item>", xml, re.S)[:5]:
                     title = self._text(raw, r"<title[^>]*>(?:<!\[CDATA\[(.*?)\]\]>|(.*?))</title>")
                     pub = self._text(raw, r"<pubDate[^>]*>(.*?)</pubDate>")
                     link = self._text(raw, r"<link[^>]*>(.*?)</link>")
@@ -35,7 +37,7 @@ class CryptoNewsSource(BaseSource):
                         "headline": self._trunc(title, 170),
                         "bullet_points": [self._trunc(f"Source: {org}", 120)],
                         "source": org,
-                        "confidence": 87,
+                        "confidence": 88,
                         "url": link,
                     })
             except Exception:

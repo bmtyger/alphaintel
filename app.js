@@ -72,6 +72,10 @@
           span.className = "ticker";
           span.textContent = t;
           span.title = "Ticker: " + t;
+          span.addEventListener("click", function (e) {
+            e.stopPropagation();
+            window.open("https://finance.yahoo.com/quote/" + encodeURIComponent(t), "_blank", "noopener");
+          });
           tickerRow.appendChild(span);
         })(tickers[k]);
       }
@@ -107,6 +111,9 @@
       a.target = "_blank";
       a.rel = "noopener noreferrer";
       a.textContent = "Source: " + (item.source || "Unknown");
+      a.addEventListener("click", function (e) {
+        e.stopPropagation();
+      });
       src.appendChild(a);
     } else {
       src.textContent = "Source: " + (item.source || "Unknown");
@@ -127,9 +134,8 @@
 
     // Interactive behavior
     article.addEventListener("click", function (e) {
-      if (e.target.closest("a")) return;
+      if (e.target.closest("a") || e.target.closest("button")) return;
       var expanded = article.classList.toggle("expanded");
-      // Show more bullets when expanded
       var allBullets = Array.isArray(item.bullet_points) ? item.bullet_points : [];
       if (expanded && allBullets.length > 4) {
         var extra = document.createElement("li");
@@ -139,11 +145,9 @@
       }
     });
 
-    article.addEventListener("keydown", function (e) {
-      if (e.key === "Enter") {
-        e.preventDefault();
-        article.click();
-      }
+    article.addEventListener("dblclick", function (e) {
+      if (e.target.closest("a")) return;
+      if (item.url) window.open(item.url, "_blank", "noopener");
     });
 
     return article;

@@ -15,7 +15,10 @@ class RssTechSource(BaseSource):
         ("Anthropic", "https://www.anthropic.com/feed"),
         ("arXiv cs.AI", "https://rss.arxiv.org/rss/cs.AI"),
         ("arXiv cs.LG", "https://rss.arxiv.org/rss/cs.LG"),
+        ("arXiv cs.CR", "https://rss.arxiv.org/rss/cs.CR"),
+        ("arXiv cs.DC", "https://rss.arxiv.org/rss/cs.DC"),
         ("Product Hunt", "https://www.producthunt.com/feed"),
+        ("Hacker News", "https://hnrss.org/frontpage"),
     ]
 
     def fetch(self) -> SourceResult:
@@ -40,7 +43,7 @@ class RssTechSource(BaseSource):
                         "headline": self._trunc(title, 170),
                         "bullet_points": [self._trunc(f"Source: {org}", 120)],
                         "source": org,
-                        "confidence": 86 if org.startswith("arXiv") else 88,
+                        "confidence": 88 if org.startswith("arXiv") else 86,
                         "url": link,
                     })
             except Exception:

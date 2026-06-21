@@ -9,6 +9,10 @@
 .card:hover { border-color: #2f3a4d; transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,0,0,0.25); }
 .card:focus-visible { border-color: var(--accent-blue); box-shadow: 0 0 0 3px rgba(59,130,246,0.35); }
 .card:active { transform: translateY(0); }
+.source-link::after { content: " ↗"; font-size: 10px; opacity: 0.7; }
+.source-link:hover::after { opacity: 1; }
+.ticker { cursor: pointer; transition: background 0.15s ease, border-color 0.15s ease; }
+.ticker:hover { background: rgba(255,255,255,0.08); border-color: #334155; }
 
 .card-body ul { max-height: 72px; overflow: hidden; transition: max-height 0.25s ease; }
 .card.expanded .card-body ul { max-height: 320px; }
