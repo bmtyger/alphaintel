@@ -3,11 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AlphaIntel — Autonomous Niche Intelligence</title>
-<meta name="description" content="Autonomous niche intelligence for finance, security, and technology trends.">
+<title>AlphaIntel — Signal Dashboard</title>
+<meta name="description" content="Real-time intelligence dashboard for markets, cybersecurity, AI, and geopolitics.">
 <link rel="stylesheet" href="style.css">
-<link rel="manifest" href="site.webmanifest">
-<meta name="theme-color" content="#0a0e17">
+<script defer src="app.js"></script>
 </head>
 <body>
 <a href="#dashboard-grid" class="skip-link">Skip to dashboard</a>
@@ -15,91 +14,38 @@
 <header role="banner">
   <div class="logo-area">
     <h1>Alpha<span>Intel</span></h1>
+    <a class="nav-link" href="landing.html">← Pricing</a>
   </div>
-  <div class="system-status" id="system-status" aria-live="polite">
-    <span class="pulse-dot" id="status-dot" aria-hidden="true"></span>
-    <span id="status-text">System Active — loading…</span>
+  <div class="controls">
+    <div class="search-wrap">
+      <input id="search" type="search" placeholder="Search headlines, tickers, sources…" aria-label="Search">
+    </div>
+    <div class="filter-tabs" role="tablist" aria-label="Category filter">
+      <button class="tab active" data-cat="all" role="tab" aria-selected="true">All</button>
+      <button class="tab" data-cat="finance" role="tab" aria-selected="false">Markets</button>
+      <button class="tab" data-cat="security" role="tab" aria-selected="false">Cyber</button>
+      <button class="tab" data-cat="trends" role="tab" aria-selected="false">AI/Tech</button>
+      <button class="tab" data-cat="geopower" role="tab" aria-selected="false">Geopower</button>
+    </div>
   </div>
 </header>
 
 <main id="main" role="main">
   <section aria-labelledby="intel-heading">
     <h2 id="intel-heading" class="sr-only">Live Intelligence Feed</h2>
-    <div class="intel-grid" id="dashboard-grid">
-      <!-- cards injected here -->
-    </div>
+    <div class="intel-grid" id="dashboard-grid"></div>
     <div id="state-message" class="state-message" role="status" hidden>
       <div class="spinner" aria-hidden="true"></div>
       <p id="state-text">Loading intelligence…</p>
     </div>
   </section>
-
-  <section class="tiers" aria-labelledby="tiers-heading">
-    <h2 id="tiers-heading" class="section-title">Subscription Tiers</h2>
-    <div class="tier-grid">
-      <article class="tier-card" itemscope itemtype="https://schema.org/Product">
-        <h3 itemprop="name">Starter</h3>
-        <p class="price" itemprop="price" content="0">$0<span>/mo</span></p>
-        <ul itemprop="description">
-          <li>3 core categories</li>
-          <li>Daily digest</li>
-          <li>Public feed access</li>
-        </ul>
-        <a class="cta" href="#waitlist" aria-label="Join Starter waitlist">Join waitlist</a>
-      </article>
-      <article class="tier-card featured" itemscope itemtype="https://schema.org/Product">
-        <div class="badge" aria-label="Most popular plan">Most popular</div>
-        <h3 itemprop="name">Pro</h3>
-        <p class="price" itemprop="price" content="99">$99<span>/mo</span></p>
-        <ul itemprop="description">
-          <li>All categories</li>
-          <li>Real-time alerts</li>
-          <li>API access</li>
-          <li>Weekly curator brief</li>
-        </ul>
-        <a class="cta primary" href="#pro-checkout" aria-label="Start 14-day Pro trial">Start 14-day trial</a>
-      </article>
-      <article class="tier-card" itemscope itemtype="https://schema.org/Product">
-        <h3 itemprop="name">Enterprise</h3>
-        <p class="price" itemprop="price" content="499">$499<span>/mo</span></p>
-        <ul itemprop="description">
-          <li>Custom intel verticals</li>
-          <li>Dedicated analyst review</li>
-          <li>Private integrations</li>
-          <li>SSO + audit log</li>
-        </ul>
-        <a class="cta" href="#enterprise-contact" aria-label="Contact Enterprise sales">Contact sales</a>
-      </article>
-    </div>
-  </section>
-
-  <section id="waitlist" class="tiers" aria-labelledby="waitlist-heading">
-    <h2 id="waitlist-heading" class="section-title">Join the Waitlist</h2>
-    <form class="waitlist-form" id="waitlist-form" novalidate>
-      <label for="wl-email">Email</label>
-      <input type="email" id="wl-email" name="email" placeholder="you@company.com" required autocomplete="email">
-      <label for="wl-role">Role</label>
-      <select id="wl-role" name="role">
-        <option value="">Select…</option>
-        <option value="analyst">Analyst</option>
-        <option value="executive">Executive</option>
-        <option value="developer">Developer</option>
-        <option value="other">Other</option>
-      </select>
-      <button type="submit" class="cta primary">Join</button>
-      <p class="form-note" id="form-note" role="alert" hidden></p>
-    </form>
-  </section>
 </main>
 
-<footer class="foot" role="contentinfo">
+<footer class="foot">
   <span>&copy; <span id="year"></span> AlphaIntel. All rights reserved.</span>
-  <span><a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a></span>
+  <span><a href="landing.html">Pricing</a> · <a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a></span>
 </footer>
 
-<script src="app.js" defer></script>
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
-</script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
