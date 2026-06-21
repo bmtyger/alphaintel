@@ -52,7 +52,7 @@
     var tags = document.createElement("div");
     tags.className = "tags";
     var cat = document.createElement("span");
-    cat.className = "tag " + escapeHtml(item.category || "trends");
+    cat.className = "tag " + (item.category || "trends");
     cat.textContent = item.category || "trends";
     tags.appendChild(cat);
 
@@ -116,7 +116,7 @@
     if (item.url) {
       var a = document.createElement("a");
       a.className = "source-link";
-      a.href = escapeHtml(item.url);
+      a.href = item.url;
       a.target = "_blank";
       a.rel = "noopener noreferrer";
       a.textContent = "Source: " + (item.source || "Unknown");

@@ -6,7 +6,7 @@
 <title>AlphaIntel — Signal Dashboard</title>
 <meta name="description" content="Real-time intelligence dashboard for markets, cybersecurity, AI, and geopolitics.">
 <link rel="stylesheet" href="style.css?t=7c9f21a">
-<script defer src="alpha-dashboard.js?t=c7a1b90"></script>
+<script defer src="alpha-dashboard.js?t=7d4e1b9"></script>
 </head>
 <body>
 <a href="#dashboard-grid" class="skip-link">Skip to dashboard</a>
@@ -46,32 +46,5 @@
   <span>&copy; <span id="year"></span> AlphaIntel. All rights reserved.</span>
   <span><a href="landing.html">Pricing</a> · <a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a></span>
 </footer>
-
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
-<script>
-(function(){
-  var attempts = 0;
-  function probe() {
-    var grid = document.getElementById('dashboard-grid');
-    if (!grid) { return; }
-    var cards = grid.querySelectorAll('.card');
-    if (cards.length > 0) return;
-    if (attempts > 60) return;
-    attempts++;
-    setTimeout(function() {
-      var test = document.createElement('article');
-      test.className = 'card';
-      test.style.border = '2px solid red';
-      test.textContent = 'PROBE CARD';
-      grid.appendChild(test);
-    }, 1500);
-  }
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', probe);
-  } else {
-    probe();
-  }
-})();
-</script>
 </body>
 </html>
