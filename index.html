@@ -1,376 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AlphaIntel // Autonomous Intelligence Hub</title>
-    <style>
-        /* Base Reset & Variables */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        }
-
-        :root {
-            --bg-deep: #0a0e17;
-            --bg-card: #121824;
-            --bg-border: #1f293d;
-            --text-primary: #f1f5f9;
-            --text-secondary: #94a3b8;
-            --accent-green: #10b981;
-            --accent-blue: #3b82f6;
-            --accent-amber: #f59e0b;
-        }
-
-        body {
-            background-color: var(--bg-deep);
-            color: var(--text-primary);
-            padding: 2rem;
-            line-height: 1.5;
-        }
-
-        /* Container Layout */
-        .dashboard {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        /* Header Styling */
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid var(--bg-border);
-            padding-bottom: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        .logo-area h1 {
-            font-size: 1.5rem;
-            font-weight: 700;
-            letter-spacing: -0.05em;
-        }
-
-        .logo-area span {
-            color: var(--accent-blue);
-        }
-
-        .system-status {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            background: var(--bg-card);
-            padding: 0.5rem 1rem;
-            border-radius: 6px;
-            border: 1px solid var(--bg-border);
-        }
-
-        .pulse-dot {
-            width: 8px;
-            height: 8px;
-            background-color: var(--accent-green);
-            border-radius: 50%;
-            box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
-            animation: pulse 2s infinite;
-        }
-
-        /* The 3-Column Intel Grid */
-        .intel-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-            gap: 1.5rem;
-        }
-
-        /* Individual Card Styling */
-        .card {
-            background-color: var(--bg-card);
-            border: 1px solid var(--bg-border);
-            border-radius: 12px;
-            padding: 1.5rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: transform 0.2s ease, border-color 0.2s ease;
-        }
-
-        .card:hover {
-            border-color: #334155;
-            transform: translateY(-2px);
-        }
-
-        .card-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1rem;
-        }
-
-        .tag {
-            font-size: 0.75rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            padding: 0.25rem 0.6rem;
-            border-radius: 4px;
-            letter-spacing: 0.05em;
-        }
-
-        .tag.security { background: rgba(59, 130, 246, 0.15); color: var(--accent-blue); }
-        .tag.trends { background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); }
-        .tag.finance { background: rgba(16, 185, 129, 0.15); color: var(--accent-green); }
-
-        .timestamp {
-            font-size: 0.75rem;
-            color: var(--text-secondary);
-        }
-
-        .card-body h3 {
-            font-size: 1.15rem;
-            margin-bottom: 0.75rem;
-            font-weight: 600;
-            color: var(--text-primary);
-        }
-
-        .card-body ul {
-            list-style: none;
-        }
-
-        .card-body li {
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-            margin-bottom: 0.5rem;
-            position: relative;
-            padding-left: 1rem;
-        }
-
-        .card-body li::before {
-            content: "•";
-            color: var(--bg-border);
-            font-weight: bold;
-            position: absolute;
-            left: 0;
-        }
-
-        .card-footer {
-            margin-top: 1.5rem;
-            padding-top: 1rem;
-            border-top: 1px solid var(--bg-border);
-            display: flex;
-            justify-content: space-between;
-            font-size: 0.8rem;
-            color: var(--text-secondary);
-        }
-
-        .confidence {
-            font-weight: 600;
-        }
-        .confidence.high { color: var(--accent-green); }
-
-        /* Keyframe Animations */
-        @keyframes pulse {
-            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
-            70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
-            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
-        }
-
-        /* Mobile Adjustments */
-        @media (max-width: 480px) {
-            body { padding: 1rem; }
-            header { flex-direction: column; align-items: flex-start; gap: 1rem; }
-            .intel-grid { grid-template-columns: 1fr; }
-        }
-
-        /* Subscription tiers */
-        .tiers {
-          padding: 0 24px 28px;
-          max-width: 1200px;
-          margin: 0 auto;
-        }
-        .section-title {
-          color: var(--text-secondary);
-          font-size: 12px;
-          text-transform: uppercase;
-          letter-spacing: 0.12em;
-          margin: 28px 0 14px;
-        }
-        .tier-grid {
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 14px;
-        }
-        .tier-card {
-          background: var(--bg-card);
-          border: 1px solid var(--bg-border);
-          border-radius: 12px;
-          padding: 18px;
-          position: relative;
-        }
-        .tier-card.featured {
-          border-color: var(--accent-blue);
-          box-shadow: 0 0 20px rgba(59,130,246,0.15);
-        }
-        .badge {
-          position: absolute;
-          top: -10px;
-          right: 14px;
-          background: var(--accent-blue);
-          color: #fff;
-          font-size: 11px;
-          font-weight: 700;
-          padding: 4px 8px;
-          border-radius: 6px;
-        }
-        .tier-card h3 {
-          font-size: 14px;
-          color: var(--text-secondary);
-          text-transform: uppercase;
-          letter-spacing: 0.08em;
-        }
-        .price {
-          font-size: 32px;
-          font-weight: 700;
-          margin: 10px 0;
-          letter-spacing: -0.04em;
-        }
-        .price span {
-          font-size: 14px;
-          color: var(--text-secondary);
-          font-weight: 400;
-        }
-        .tier-card ul {
-          list-style: none;
-          padding: 0;
-          margin: 14px 0 18px;
-        }
-        .tier-card li {
-          font-size: 13px;
-          color: var(--text-secondary);
-          padding: 4px 0;
-        }
-        .cta {
-          display: block;
-          text-align: center;
-          padding: 10px;
-          border: 1px solid var(--bg-border);
-          border-radius: 8px;
-          color: var(--text-primary);
-          text-decoration: none;
-          font-size: 13px;
-          font-weight: 600;
-        }
-        .cta.primary {
-          background: var(--accent-blue);
-          border-color: var(--accent-blue);
-          color: #fff;
-        }
-        .cta:hover {
-          transform: translateY(-1px);
-        }
-
-        @media (max-width: 900px) {
-          .tier-grid { grid-template-columns: 1fr; }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AlphaIntel — Autonomous Niche Intelligence</title>
+<meta name="description" content="Autonomous niche intelligence for finance, security, and technology trends.">
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#0a0e17">
 </head>
 <body>
+<a href="#dashboard-grid" class="skip-link">Skip to dashboard</a>
 
-    <div class="dashboard">
-        <header>
-            <div class="logo-area">
-                <h1>Alpha<span>Intel</span></h1>
-            </div>
-            <div class="system-status">
-                <div class="pulse-dot"></div>
-                <span>Backend Core Autonomous Loop Active</span>
-            </div>
-        </header>
+<header role="banner">
+  <div class="logo-area">
+    <h1>Alpha<span>Intel</span></h1>
+  </div>
+  <div class="system-status" id="system-status" aria-live="polite">
+    <span class="pulse-dot" id="status-dot" aria-hidden="true"></span>
+    <span id="status-text">System Active — loading…</span>
+  </div>
+</header>
 
-        <main class="intel-grid" id="dashboard-grid">
-           <!-- Dynamic AI nodes will inject cleanly here via the script below -->
-        </main>
+<main id="main" role="main">
+  <section aria-labelledby="intel-heading">
+    <h2 id="intel-heading" class="sr-only">Live Intelligence Feed</h2>
+    <div class="intel-grid" id="dashboard-grid">
+      <!-- cards injected here -->
+    </div>
+    <div id="state-message" class="state-message" role="status" hidden>
+      <div class="spinner" aria-hidden="true"></div>
+      <p id="state-text">Loading intelligence…</p>
+    </div>
+  </section>
 
-        <section class="tiers">
-          <h2 class="section-title">Subscription Tiers</h2>
-          <div class="tier-grid">
-            <article class="tier-card">
-              <h3>Starter</h3>
-              <p class="price">$0<span>/mo</span></p>
-              <ul>
-                <li>3 categories</li>
-                <li>Daily digest</li>
-                <li>Public feed access</li>
-              </ul>
-              <a class="cta" href="#">Join waitlist</a>
-            </article>
-            <article class="tier-card featured">
-              <div class="badge">Most popular</div>
-              <h3>Pro</h3>
-              <p class="price">$99<span>/mo</span></p>
-              <ul>
-                <li>All categories</li>
-                <li>Real-time alerts</li>
-                <li>API access</li>
-                <li>Weekly curator brief</li>
-              </ul>
-              <a class="cta primary" href="#">Start 14-day trial</a>
-            </article>
-            <article class="tier-card">
-              <h3>Enterprise</h3>
-              <p class="price">$499<span>/mo</span></p>
-              <ul>
-                <li>Custom intel verticals</li>
-                <li>Dedicated analyst review</li>
-                <li>Private data integrations</li>
-                <li>SSO + audit log</li>
-              </ul>
-              <a class="cta" href="#">Contact sales</a>
-            </article>
-          </div>
-        </section>
-      </div>
+  <section class="tiers" aria-labelledby="tiers-heading">
+    <h2 id="tiers-heading" class="section-title">Subscription Tiers</h2>
+    <div class="tier-grid">
+      <article class="tier-card" itemscope itemtype="https://schema.org/Product">
+        <h3 itemprop="name">Starter</h3>
+        <p class="price" itemprop="price" content="0">$0<span>/mo</span></p>
+        <ul itemprop="description">
+          <li>3 core categories</li>
+          <li>Daily digest</li>
+          <li>Public feed access</li>
+        </ul>
+        <a class="cta" href="#waitlist" aria-label="Join Starter waitlist">Join waitlist</a>
+      </article>
+      <article class="tier-card featured" itemscope itemtype="https://schema.org/Product">
+        <div class="badge" aria-label="Most popular plan">Most popular</div>
+        <h3 itemprop="name">Pro</h3>
+        <p class="price" itemprop="price" content="99">$99<span>/mo</span></p>
+        <ul itemprop="description">
+          <li>All categories</li>
+          <li>Real-time alerts</li>
+          <li>API access</li>
+          <li>Weekly curator brief</li>
+        </ul>
+        <a class="cta primary" href="#pro-checkout" aria-label="Start 14-day Pro trial">Start 14-day trial</a>
+      </article>
+      <article class="tier-card" itemscope itemtype="https://schema.org/Product">
+        <h3 itemprop="name">Enterprise</h3>
+        <p class="price" itemprop="price" content="499">$499<span>/mo</span></p>
+        <ul itemprop="description">
+          <li>Custom intel verticals</li>
+          <li>Dedicated analyst review</li>
+          <li>Private integrations</li>
+          <li>SSO + audit log</li>
+        </ul>
+        <a class="cta" href="#enterprise-contact" aria-label="Contact Enterprise sales">Contact sales</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="waitlist" class="tiers" aria-labelledby="waitlist-heading">
+    <h2 id="waitlist-heading" class="section-title">Join the Waitlist</h2>
+    <form class="waitlist-form" id="waitlist-form" novalidate>
+      <label for="wl-email">Email</label>
+      <input type="email" id="wl-email" name="email" placeholder="you@company.com" required autocomplete="email">
+      <label for="wl-role">Role</label>
+      <select id="wl-role" name="role">
+        <option value="">Select…</option>
+        <option value="analyst">Analyst</option>
+        <option value="executive">Executive</option>
+        <option value="developer">Developer</option>
+        <option value="other">Other</option>
+      </select>
+      <button type="submit" class="cta primary">Join</button>
+      <p class="form-note" id="form-note" role="alert" hidden></p>
+    </form>
+  </section>
+</main>
+
+<footer class="foot" role="contentinfo">
+  <span>&copy; <span id="year"></span> AlphaIntel. All rights reserved.</span>
+  <span><a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a></span>
+</footer>
+
+<script src="app.js" defer></script>
 <script>
-    async function loadAlphaIntelStream() {
-        const gridElement = document.getElementById('dashboard-grid');
-        try {
-            // Fetch the auto-generated JSON file directly from your repository path
-            const response = await fetch('./data.json?cache_bust=' + new Date().getTime());
-            const data = await response.json();
-            
-            gridElement.innerHTML = ''; // Wipe out previous state placeholders
-            
-            data.intel_stream.forEach(item => {
-                const card = document.createElement('article');
-                card.className = 'card';
-                
-                card.innerHTML = `
-                    <div>
-                        <div class="card-header">
-                            <span class="tag ${item.category}">${item.category}</span>
-                            <span class="timestamp">${item.timestamp}</span>
-                        </div>
-                        <div class="card-body">
-                            <h3>${item.headline}</h3>
-                            <ul>
-                                ${item.bullet_points.map(pt => `<li>${pt}</li>`).join('')}
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <span>Source: ${item.source}</span>
-                        <span class="confidence high">${item.confidence} Confidence</span>
-                    </div>
-                `;
-                gridElement.appendChild(card);
-            });
-        } catch (error) {
-            console.error('Data pipeline rendering error:', error);
-        }
-    }
-    // Launch injection engine immediately on page load
-    window.onload = loadAlphaIntelStream;
+  document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 </body>
 </html>

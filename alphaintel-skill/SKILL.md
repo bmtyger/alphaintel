@@ -1,80 +1,78 @@
 ---
 name: alphaintel
-description: "Autonomous niche intelligence pipeline: scrape/synthesize high-signal data, map to dashboard schema, write data.json for AlphaIntel."
-version: 0.1
-tags: [alphaintel, scraping, synthesis, dashboard]
+description: "Production autonomous niche intelligence pipeline: fetch, validate, write dashboard data, and maintain backups."
+version: 0.2
+tags: [alphaintel, scraping, synthesis, dashboard, production]
 ---
 
-# AlphaIntel Skill
+# AlphaIntel Skill (Production)
 
-Build and operate an autonomous data pipeline that feeds the AlphaIntel dashboard.
+Operate the AlphaIntel dashboard data pipeline with reliability guarantees:
+schema validation, backup rotation, and structured logging.
 
 ## Goal
-Produce fresh, structured JSON items for `data.json` covering targeted niches (finance, security, trends by default) so the dashboard updates automatically.
+Produce fresh, structured JSON items for `data.json` covering targeted niches
+(finance, security, trends by default) and push safely to production.
 
-## Output Schema
-Each item must match:
-```json
-{
-  "category": "finance|security|trends",
-  "timestamp": "YYYY-MM-DD HH:MM UTC",
-  "headline": "Short actionable headline",
-  "bullet_points": ["concise point", "concise point"],
-  "source": "Primary source name",
-  "confidence": 85
-}
-```
+## Prereqs
+- Python 3.11+ with stdlib only (no external deps)
+- `data.json` schema enforced by `update_dashboard.py`
+- Backups rotated automatically in `backups/`
 
 ## Workflow
 
-### 1. Define or refresh niche focus
-- Review current `data.json` categories.
-- Adjust niche priorities if user requests a new vertical (e.g. biotech, energy).
-
-### 2. Gather signals
-Use web search + direct page extraction via browser tools:
-- Search primary sources: SEC, CISA, SemiAnalysis, FT, BloombergNEF.
-- Filter for high-signal items: funding, regulation, CVEs, benchmarks, partnerships.
-- Discard low-signal / hyper-corporate PR unless strategically valuable.
-
-### 3. Synthesize and structure
-- 1 sentence headline + 2–3 bullets max
-- Assign confidence score (82–99) based on source reliability and corroboration.
-- Timestamp: current UTC or event time if backdating historical moves.
-
-### 4. Write to data.json
-- Preserve existing valid items; replace or dedupe stale ones.
-- Maintain a target of 6–12 items unless user specifies otherwise.
-- Write via `patch` or overwrite the file. Validate JSON before finishing.
-
-### 5. Commit updates (optional)
+### 1. Refresh data
+Run the updater:
+```bash
+cd C:\Users\bmtyg\nichaas
+/c/Python313/python.exe update_dashboard.py
 ```
+This will:
+- Fetch from CISA KEV, SEC EDGAR 8-K, Hacker News
+- Validate every item against schema
+- Back up previous `data.json` to `backups/`
+- Write new `data.json`
+- Log structured output to stdout
+
+Exit codes:
+- 0 = success
+- 1 = partial failure (some sources failed, data was written)
+- 2 = total failure (no data written)
+
+### 2. Deploy
+```bash
+cd C:\Users\bmtyg\nichaas
 git add data.json
 git commit -m "feat: refresh AlphaIntel data"
 git push origin main
 ```
-Skip if user chooses manual media or deploy steps.
+GitHub Pages will publish within ~60 seconds.
 
-## Tooling
-- `web_search` for broad discovery
-- `web_extract` for direct page content
-- `browser_navigate` + `browser_vision` when pages are dynamic/blocked
-- `patch` / `write_file` for JSON updates
-- `terminal` to run Python validators or git commands
+### 3. Verify
+- Open https://bmtyger.github.io/alphaintel/
+- Confirm JSON schema loads without console errors
+- Spot-check newest item timestamps
+
+## Schema Constraints
+Each intel item MUST have:
+- category: one of `finance`, `security`, `trends`
+- timestamp: ISO-ish string (e.g. "2026-06-21 14:43 UTC")
+- headline: non-empty string
+- bullet_points: array of strings (max 5 shown)
+- source: string
+- confidence: number 0-100
+
+Breaking schema aborts the run (exit 2).
 
 ## Anti-patterns
-- Do not invent sources — name the actual reporter/registry.
-- Avoid filler bullets; keep each item scannable.
-- Do not break the JSON schema; missing fields break the dashboard.
-- Do not scrape paywalled content when an official press release or filing is available.
+- Do not invent sources or confidence scores
+- Do not skip validation in production
+- Do not delete backups manually unless rotating
+- Do not modify `update_dashboard.py` to bypass schema
 
-## Sources
-Real sources used by default:
-- CISA Known Exploited Vulnerabilities catalog (security)
-- SEC EDGAR current 8-K feed (finance)
-- Hacker News frontpage RSS (trends)
-
-## Verification
+## Monitoring
+Cron job `aba12bfd2cef` runs daily at 06:00. Non-empty stderr alerts the operator.
+Manual trigger:
 ```bash
-python -m json.tool data.json >/dev/null && echo JSON OK
+cd C:\Users\bmtyg\nichaas && /c/Python313/python.exe update_dashboard.py
 ```

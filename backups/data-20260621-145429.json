@@ -2,8 +2,8 @@
   "intel_stream": [
     {
       "category": "security",
-      "timestamp": "2026-06-21 14:54 UTC",
-      "headline": "CISA adds CVE-2026-20253 (Splunk Enterprise) to KEV catalog",
+      "timestamp": "2026-06-21 14:43 UTC",
+      "headline": "CISA adds CVE-2026-20253 (Splunk Enterprise) to Known Exploited Vulnerabilities catalog",
       "bullet_points": [
         "Federal agencies must remediate by 2026-06-21.",
         "Splunk Enterprise Missing Authentication for Critical Function Vulnerability"
@@ -13,8 +13,8 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 14:54 UTC",
-      "headline": "CISA adds CVE-2026-48907 (Widget Factory Joomla Content Editor ) to KEV catalog",
+      "timestamp": "2026-06-21 14:43 UTC",
+      "headline": "CISA adds CVE-2026-48907 (Widget Factory Joomla Content Editor ) to Known Exploited Vulnerabilities catalog",
       "bullet_points": [
         "Federal agencies must remediate by 2026-06-19.",
         "Widget Factory Joomla Content Editor Improper Access Control Vulnerability"
@@ -24,8 +24,8 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 14:54 UTC",
-      "headline": "CISA adds CVE-2026-54420 (LiteSpeed cPanel Plugin) to KEV catalog",
+      "timestamp": "2026-06-21 14:43 UTC",
+      "headline": "CISA adds CVE-2026-54420 (LiteSpeed cPanel Plugin) to Known Exploited Vulnerabilities catalog",
       "bullet_points": [
         "Federal agencies must remediate by 2026-06-18.",
         "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability"
@@ -35,8 +35,8 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 14:54 UTC",
-      "headline": "CISA adds CVE-2026-20262 (Cisco Catalyst SD-WAN Manager) to KEV catalog",
+      "timestamp": "2026-06-21 14:43 UTC",
+      "headline": "CISA adds CVE-2026-20262 (Cisco Catalyst SD-WAN Manager) to Known Exploited Vulnerabilities catalog",
       "bullet_points": [
         "Federal agencies must remediate by 2026-06-29.",
         "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability"
@@ -46,8 +46,8 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 14:54 UTC",
-      "headline": "CISA adds CVE-2026-35273 (Oracle  PeopleSoft Enterprise PeopleTools) to KEV catalog",
+      "timestamp": "2026-06-21 14:43 UTC",
+      "headline": "CISA adds CVE-2026-35273 (Oracle  PeopleSoft Enterprise PeopleTools) to Known Exploited Vulnerabilities catalog",
       "bullet_points": [
         "Federal agencies must remediate by 2026-06-15.",
         "Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability"
@@ -117,7 +117,7 @@
     },
     {
       "category": "trends",
-      "timestamp": "2026-06-21 14:54 UTC",
+      "timestamp": "2026-06-21 14:43 UTC",
       "headline": "Who Owns Your ATProto Identity? Hint: It's Probably Not You",
       "bullet_points": [
         "Source: https://kevinak.se/blog/who-actually-owns-your-atproto-identity-hint-its-probably-not-you"
@@ -127,17 +127,17 @@
     },
     {
       "category": "trends",
-      "timestamp": "2026-06-21 14:54 UTC",
-      "headline": "I was wrong about the Midjourney ultra-sound scanner",
+      "timestamp": "2026-06-21 14:43 UTC",
+      "headline": "AI Under Trump's Control: Can France Still Avoid Digital Dependence?",
       "bullet_points": [
-        "Source: https://twitter.com/MattZirwas/status/2068365802491834541"
+        "Source: https://thenewassociationwebmasters.blogspot.com/2026/06/ai-under-american-control-can-france.html"
       ],
       "source": "Hacker News",
       "confidence": 78
     },
     {
       "category": "trends",
-      "timestamp": "2026-06-21 14:54 UTC",
+      "timestamp": "2026-06-21 14:43 UTC",
       "headline": "David Ahl's Basic Computer Games Ported to C",
       "bullet_points": [
         "Source: https://github.com/proteanthread/bcg"
@@ -147,7 +147,7 @@
     },
     {
       "category": "trends",
-      "timestamp": "2026-06-21 14:54 UTC",
+      "timestamp": "2026-06-21 14:43 UTC",
       "headline": "Beyond All Reason (Free Total Annihilation Inspired RTS)",
       "bullet_points": [
         "Source: https://www.beyondallreason.info"
@@ -157,7 +157,7 @@
     },
     {
       "category": "trends",
-      "timestamp": "2026-06-21 14:54 UTC",
+      "timestamp": "2026-06-21 14:43 UTC",
       "headline": "The case against geometric algebra (2024)",
       "bullet_points": [
         "Source: https://alexkritchevsky.com/2024/02/28/geometric-algebra.html"
@@ -167,7 +167,7 @@
     },
     {
       "category": "trends",
-      "timestamp": "2026-06-21 14:54 UTC",
+      "timestamp": "2026-06-21 14:43 UTC",
       "headline": "Google Hits 50% IPv6",
       "bullet_points": [
         "Source: https://blog.apnic.net/2026/04/28/google-hits-50-ipv6/"
@@ -177,7 +177,7 @@
     },
     {
       "category": "trends",
-      "timestamp": "2026-06-21 14:54 UTC",
+      "timestamp": "2026-06-21 14:43 UTC",
       "headline": "A 3D voxel game engine written in APL",
       "bullet_points": [
         "Source: https://github.com/namgyaaal/avoxelgame"
@@ -187,7 +187,7 @@
     },
     {
       "category": "trends",
-      "timestamp": "2026-06-21 14:54 UTC",
+      "timestamp": "2026-06-21 14:43 UTC",
       "headline": "Windows UI evolution: Clicking an unassociated file",
       "bullet_points": [
         "Source: https://movq.de/blog/postings/2026-06-20/0/POSTING-en.html"
@@ -197,20 +197,20 @@
     },
     {
       "category": "trends",
-      "timestamp": "2026-06-21 14:54 UTC",
-      "headline": "Building reliable agentic AI systems",
+      "timestamp": "2026-06-21 14:43 UTC",
+      "headline": "Developers don't understand CORS (2019)",
       "bullet_points": [
-        "Source: https://martinfowler.com/articles/reliable-llm-bayer.html"
+        "Source: https://fosterelli.co/developers-dont-understand-cors"
       ],
       "source": "Hacker News",
       "confidence": 78
     },
     {
       "category": "trends",
-      "timestamp": "2026-06-21 14:54 UTC",
-      "headline": "Developers don't understand CORS (2019)",
+      "timestamp": "2026-06-21 14:43 UTC",
+      "headline": "Epoll vs. io_uring in Linux",
       "bullet_points": [
-        "Source: https://fosterelli.co/developers-dont-understand-cors"
+        "Source: https://sibexi.co/posts/epoll-vs-io_uring/"
       ],
       "source": "Hacker News",
       "confidence": 78
