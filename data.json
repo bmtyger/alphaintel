@@ -31,36 +31,65 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-06-21T13:47:10Z",
-      "headline": "FedEx Corp (FDX)\u2019s Bold Dividend Move Amid a Freight Spin-Off",
+      "timestamp": "2026-06-21 10:15 UTC",
+      "headline": "On-chain: Bitcoin price is down over 40% since STRC launched: Is Strategy &apos;fine&apos;?",
       "bullet_points": [
-        "Source: https://finance.yahoo.com/markets/stocks/articles/fedex-corp-fdx-bold-dividend-134710528.html"
+        "Crypto on-chain / whale flow signal"
       ],
-      "source": "Yahoo Finance",
-      "confidence": 75,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/fedex-corp-fdx-bold-dividend-134710528.html",
+      "source": "Cointelegraph",
+      "confidence": 74,
+      "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss",
       "tickers": [
-        "AMID",
-        "BOLD",
-        "COM",
-        "FDX",
-        "FEDEX",
-        "HTML",
-        "HTTPS",
-        "MOVE"
+        "APOS",
+        "CHAIN",
+        "DOWN",
+        "FINE",
+        "FLOW",
+        "IS",
+        "ON",
+        "OVER"
       ],
-      "event_type": "Public Market Event",
+      "event_type": "Regulatory Action",
       "market_impact": {
         "score": 35,
         "tier": "low",
         "reasons": [
-          "Public Market Event"
+          "Regulatory Action"
+        ]
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21T17:47:17Z",
+      "headline": "Jim Cramer Highlights How CEO Lip-Bu Tan Solved Intel (INTC) Foundry Issues",
+      "bullet_points": [
+        "Source: https://finance.yahoo.com/markets/stocks/articles/jim-cramer-highlights-ceo-lip-132817505.html"
+      ],
+      "source": "Yahoo Finance",
+      "confidence": 70,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-highlights-ceo-lip-132817505.html",
+      "tickers": [
+        "BU",
+        "CEO",
+        "COM",
+        "HOW",
+        "HTML",
+        "HTTPS",
+        "INTC",
+        "INTEL"
+      ],
+      "event_type": "Leadership",
+      "market_impact": {
+        "score": 25,
+        "tier": "low",
+        "reasons": [
+          "Leadership"
         ]
       }
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 16:31 UTC",
+      "timestamp": "2026-06-21 20:32 UTC",
       "headline": "CISA KEV: CVE-2026-20253 (Splunk Enterprise)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-21",
@@ -85,7 +114,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 16:31 UTC",
+      "timestamp": "2026-06-21 20:32 UTC",
       "headline": "CISA KEV: CVE-2026-48907 (Widget Factory Joomla Content Editor )",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-19",
@@ -110,7 +139,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 16:31 UTC",
+      "timestamp": "2026-06-21 20:32 UTC",
       "headline": "CISA KEV: CVE-2026-54420 (LiteSpeed cPanel Plugin)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-18",
@@ -137,7 +166,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 16:31 UTC",
+      "timestamp": "2026-06-21 20:32 UTC",
       "headline": "CISA KEV: CVE-2026-20262 (Cisco Catalyst SD-WAN Manager)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-29",
@@ -167,7 +196,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 16:31 UTC",
+      "timestamp": "2026-06-21 20:32 UTC",
       "headline": "CISA KEV: CVE-2026-35273 (Oracle  PeopleSoft Enterprise PeopleTools)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-15",
@@ -192,7 +221,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 16:31 UTC",
+      "timestamp": "2026-06-21 20:32 UTC",
       "headline": "CISA KEV: CVE-2026-10520 (Ivanti Sentry)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-14",
@@ -218,7 +247,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 16:31 UTC",
+      "timestamp": "2026-06-21 20:32 UTC",
       "headline": "CISA KEV: CVE-2026-11645 (Google Chromium V8)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-23",
@@ -247,7 +276,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-21 16:31 UTC",
+      "timestamp": "2026-06-21 20:32 UTC",
       "headline": "CISA KEV: CVE-2026-7473 (Arista Extensible Operating System)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-23",
@@ -648,6 +677,33 @@
     },
     {
       "category": "finance",
+      "timestamp": "2026-06-21 18:30 UTC",
+      "headline": "Are perps swaps? A quick look at that CME suit: State of Crypto",
+      "bullet_points": [
+        "Source: CoinDesk"
+      ],
+      "source": "CoinDesk",
+      "confidence": 67,
+      "url": "https://www.coindesk.com/policy/2026/06/21/are-perps-swaps-a-quick-look-at-that-cme-suit-state-of-crypto",
+      "tickers": [
+        "ARE",
+        "AT",
+        "CME",
+        "LOOK",
+        "OF",
+        "PERPS",
+        "QUICK",
+        "STATE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
       "timestamp": "2026-06-21 14:50 UTC",
       "headline": "Bitcoin tipped for $66K top as trader flags &apos;suspicious&apos; BTC price gains",
       "bullet_points": [
@@ -864,20 +920,74 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-06-21 11:40 UTC",
-      "headline": "Okeanis Eco Tankers: Absurd Spot Rates Could Keep Driving Monster Dividends",
+      "timestamp": "2026-06-21T20:25:00Z",
+      "headline": "With the Fed Holding Interest Rates Steady, Here's the Smartest Dividend Stock to Buy With $1,000 Right Now",
+      "bullet_points": [
+        "Source: https://finance.yahoo.com/markets/stocks/articles/fed-holding-interest-rates-steady-202500282.html"
+      ],
+      "source": "Yahoo Finance",
+      "confidence": 66,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fed-holding-interest-rates-steady-202500282.html",
+      "tickers": [
+        "BUY",
+        "COM",
+        "FED",
+        "HERE",
+        "HTML",
+        "HTTPS",
+        "NOW",
+        "RATES"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21T17:50:47Z",
+      "headline": "Jim Cramer on CrowdStrike (CRWD): \u201cI Think the Second Half of the Year is Going to Be Really Good\u201d",
+      "bullet_points": [
+        "Source: https://finance.yahoo.com/markets/stocks/articles/jim-cramer-crowdstrike-crwd-think-175047227.html"
+      ],
+      "source": "Yahoo Finance",
+      "confidence": 66,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-crowdstrike-crwd-think-175047227.html",
+      "tickers": [
+        "BE",
+        "COM",
+        "CRWD",
+        "GOING",
+        "GOOD",
+        "HALF",
+        "HTML",
+        "HTTPS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21 15:22 UTC",
+      "headline": "PGIM Short Duration Multi-Sector Bond Fund Q1 2026 Commentary",
       "bullet_points": [
         "Market analysis + earnings previews"
       ],
       "source": "Seeking Alpha",
       "confidence": 66,
-      "url": "https://seekingalpha.com/article/4916558-okeanis-eco-tankers-absurd-spot-rates-could-keep-driving-monster-dividends?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4916567-pgim-short-duration-multi-sector-bond-fund-q1-2026-commentary?source=feed_all_articles",
       "tickers": [
-        "COULD",
-        "ECO",
-        "KEEP",
-        "RATES",
-        "SPOT"
+        "BOND",
+        "FUND",
+        "MULTI",
+        "PGIM",
+        "SHORT"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -962,6 +1072,62 @@
       }
     },
     {
+      "category": "security",
+      "timestamp": "1990-05-01 04:00:00.000",
+      "headline": "NVD: CVE-1999-0084 (HIGH)",
+      "bullet_points": [
+        "Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID\u2026"
+      ],
+      "source": "NVD",
+      "confidence": 66,
+      "cves": [
+        "CVE-1999-0084"
+      ],
+      "tickers": [
+        "ALLOW",
+        "BY",
+        "CVE",
+        "GAIN",
+        "HIGH",
+        "KMEM",
+        "MKNOD",
+        "NFS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21 18:30 UTC",
+      "headline": "On-chain: Are perps swaps? A quick look at that CME suit: State of Crypto",
+      "bullet_points": [
+        "Crypto on-chain / whale flow signal"
+      ],
+      "source": "CoinDesk",
+      "confidence": 65,
+      "url": "https://www.coindesk.com/policy/2026/06/21/are-perps-swaps-a-quick-look-at-that-cme-suit-state-of-crypto",
+      "tickers": [
+        "ARE",
+        "AT",
+        "CHAIN",
+        "CME",
+        "FLOW",
+        "LOOK",
+        "OF",
+        "ON"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
       "category": "finance",
       "timestamp": "2026-06-21 16:01 UTC",
       "headline": "Inception Labs&#39; Mercury 2 AI Beats Google&#39;s DiffusionGemma at Its Own Game",
@@ -983,6 +1149,111 @@
       "event_type": "Material Event",
       "market_impact": {
         "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21 14:50 UTC",
+      "headline": "On-chain: Bitcoin tipped for $66K top as trader flags &apos;suspicious&apos; BTC price gains",
+      "bullet_points": [
+        "Crypto on-chain / whale flow signal"
+      ],
+      "source": "Cointelegraph",
+      "confidence": 65,
+      "url": "https://cointelegraph.com/markets/bitcoin-tipped-for-66k-top-as-trader-flags-suspicious-btc-price-gains?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss",
+      "tickers": [
+        "APOS",
+        "AS",
+        "BTC",
+        "CHAIN",
+        "FLAGS",
+        "FLOW",
+        "GAINS",
+        "ON"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21 14:21 UTC",
+      "headline": "On-chain: Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
+      "bullet_points": [
+        "Crypto on-chain / whale flow signal"
+      ],
+      "source": "Cointelegraph",
+      "confidence": 65,
+      "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss",
+      "tickers": [
+        "BY",
+        "CHAIN",
+        "FLOW",
+        "HIT",
+        "IF",
+        "MAY",
+        "ON",
+        "PRICE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21 13:01 UTC",
+      "headline": "AI &#39;Amplification Spiral&#39; May Be Causing Delusions Among Users, Study Suggests",
+      "bullet_points": [
+        "Source: Decrypt"
+      ],
+      "source": "Decrypt",
+      "confidence": 65,
+      "url": "https://decrypt.co/371648/ai-amplification-spiral-causing-delusions-among-users-study",
+      "tickers": [
+        "AI",
+        "AMONG",
+        "BE",
+        "MAY",
+        "STUDY",
+        "USERS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-21 12:25 UTC",
+      "headline": "On-chain: Dash eyes Philippines as market for crypto payments",
+      "bullet_points": [
+        "Crypto on-chain / whale flow signal"
+      ],
+      "source": "Cointelegraph",
+      "confidence": 65,
+      "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss",
+      "tickers": [
+        "AS",
+        "CHAIN",
+        "DASH",
+        "EYES",
+        "FLOW",
+        "ON",
+        "WHALE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
         "tier": "low",
         "reasons": []
       }
