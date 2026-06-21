@@ -11,6 +11,10 @@ from .tech_extra import TechExtraSource
 from .crypto import CryptoNewsSource
 from .geopower import GeopowerSource
 from .geopower_extra import GeoExtraSource
+from .finance_expanded import FinanceRssSource
+from .security_expanded import SecurityRssSource
+from .tech_expanded import TechRssSource
+from .geopower_rss import GeopowerRssSource
 from .engine import PipelineEngine
 from .signals import enrich_item, extract_tickers, classify_event, compute_market_impact
 
@@ -25,6 +29,10 @@ _builtin_modules = [
     "sources.crypto",
     "sources.geopower",
     "sources.geopower_extra",
+    "sources.finance_expanded",
+    "sources.security_expanded",
+    "sources.tech_expanded",
+    "sources.geopower_rss",
 ]
 autodiscover(_builtin_modules)
 

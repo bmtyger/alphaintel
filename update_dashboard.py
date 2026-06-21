@@ -109,7 +109,7 @@ def main() -> int:
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--output", type=str, default=str(OUTPUT))
     parser.add_argument("--category", action="append", choices=["finance", "security", "trends", "geopower"])
-    parser.add_argument("--max-items", type=int, default=80)
+    parser.add_argument("--max-items", type=int, default=150)
     args = parser.parse_args()
 
     categories = args.category or None
