@@ -38,6 +38,11 @@
   }
 
   function renderCard(item) {
+    try {
+      console.debug('renderCard', item.headline, item.url);
+    } catch (err) {
+      console.warn('renderCard errored', err, item);
+    }
     var article = document.createElement("article");
     article.className = "card";
     article.tabIndex = 0;
@@ -187,9 +192,11 @@
     }
 
     if (!filtered.length) {
+      console.warn('[dashboard] filter removed everything', {activeCategory, activeQuery, total: allItems.length});
       setState("error", "No signals match your filter.");
       return;
     }
+    if (typeof console !== 'undefined') console.info('[dashboard] rendering', filtered.length, 'cards');
 
     var frag = document.createDocumentFragment();
     for (var idx = 0; idx < filtered.length; idx++) {
