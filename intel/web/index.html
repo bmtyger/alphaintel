@@ -4,30 +4,27 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AlphaIntel — Signal Dashboard</title>
-<meta name="description" content="Real-time intelligence dashboard for markets, cybersecurity, AI, and geopolitics.">
 <link rel="stylesheet" href="style.css?t=7c9f21a">
 <script defer src="alpha-dashboard.js?t=7d4e1b9"></script>
 </head>
 <body>
 <a href="#dashboard-grid" class="skip-link">Skip to dashboard</a>
-
 <header role="banner">
   <div class="logo-area">
     <h1>Alpha<span>Intel</span></h1>
-    <a class="nav-link" href="landing.html">← Pricing</a>
+    <a class="nav-link" href="/">← Public Site</a>
   </div>
   <div class="controls">
-  <div id="auth-area">
-    <button id="login-btn">Sign in</button>
-    <input id="token-input" type="text" placeholder="Paste AlphaIntel token" style="display:none">
-    <button id="token-save" style="display:none">Save</button>
-    <span id="tier-label" class="tier-label" style="display:none"></span>
-    <button id="logout-btn" style="display:none">Logout</button>
-  </div>
-  <div class="search-wrap">
-    <input id="search" type="search" placeholder="Search headlines, tickers, sources…" aria-label="Search">
-  </div>
-  <div class="filter-tabs" role="tablist" aria-label="Category filter">
+    <div id="auth-area">
+      <input id="token-input" type="text" placeholder="Paste AlphaIntel token">
+      <button id="token-save">Unlock</button>
+      <span id="tier-label" class="tier-label" style="display:none"></span>
+      <button id="logout-btn" style="display:none">Logout</button>
+    </div>
+    <div class="search-wrap">
+      <input id="search" type="search" placeholder="Search headlines, tickers, sources…" aria-label="Search">
+    </div>
+    <div class="filter-tabs" role="tablist" aria-label="Category filter">
       <button class="tab active" data-cat="all" role="tab" aria-selected="true">All</button>
       <button class="tab" data-cat="finance" role="tab" aria-selected="false">Markets</button>
       <button class="tab" data-cat="security" role="tab" aria-selected="false">Cyber</button>
@@ -51,7 +48,7 @@
 
 <footer class="foot">
   <span>&copy; <span id="year"></span> AlphaIntel. All rights reserved.</span>
-  <span><a href="landing.html">Pricing</a> · <a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a></span>
+  <span><a href="/">Public Site</a> · <a href="/terms.html">Terms</a> · <a href="/privacy.html">Privacy</a></span>
 </footer>
 </body>
 </html>

@@ -26,6 +26,35 @@
     },
     {
       "category": "finance",
+      "timestamp": "2026-06-23 19:12 UTC",
+      "headline": "SpaceX raises $25 billion in debt sale less than two weeks after IPO",
+      "bullet_points": [
+        "Finance: CNBC \u2014 market updates, crypto, macro"
+      ],
+      "source": "CNBC",
+      "confidence": 75,
+      "url": "https://www.cnbc.com/2026/06/23/spacex-debt-bond-market-ipo.html",
+      "tickers": [
+        "AFTER",
+        "CNBC",
+        "DEBT",
+        "IN",
+        "IPO",
+        "LESS",
+        "MACRO",
+        "SALE"
+      ],
+      "event_type": "Public Market Event",
+      "market_impact": {
+        "score": 35,
+        "tier": "low",
+        "reasons": [
+          "Public Market Event"
+        ]
+      }
+    },
+    {
+      "category": "finance",
       "timestamp": "2026-06-23 18:23 UTC",
       "headline": "SpaceX stock&#x2019;s wild price swings since its IPO show how risky leveraged ETFs can be",
       "bullet_points": [
@@ -163,6 +192,35 @@
     },
     {
       "category": "finance",
+      "timestamp": "2026-06-22T10:30:00Z",
+      "headline": "The Rule of 55 lets you tap your 401(k) penalty-free before 59\u00bd \u2014 but less than a third of eligible workers use it",
+      "bullet_points": [
+        "Source: https://finance.yahoo.com/markets/options/articles/rule-55-lets-tap-401-103000125.html"
+      ],
+      "source": "Yahoo Finance",
+      "confidence": 72,
+      "url": "https://finance.yahoo.com/markets/options/articles/rule-55-lets-tap-401-103000125.html",
+      "tickers": [
+        "BUT",
+        "COM",
+        "FREE",
+        "HTML",
+        "HTTPS",
+        "IT",
+        "LESS",
+        "LETS"
+      ],
+      "event_type": "Regulatory Action",
+      "market_impact": {
+        "score": 25,
+        "tier": "low",
+        "reasons": [
+          "Regulatory Action"
+        ]
+      }
+    },
+    {
+      "category": "finance",
       "timestamp": "2026-06-18 09:21 UTC",
       "headline": "<![CDATA[Europe buys the future, America builds it]]>",
       "bullet_points": [
@@ -245,56 +303,30 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-06-22T09:21:46Z",
-      "headline": "Netflix (NFLX) Expands Video Podcast Partnership with iHeartMedia",
+      "timestamp": "2026-06-23 19:12 UTC",
+      "headline": "Market Flow: SpaceX raises $25 billion in debt sale less than two weeks after IPO",
       "bullet_points": [
-        "Source: https://finance.yahoo.com/media-advertising/articles/netflix-nflx-expands-video-podcast-092146378.html"
+        "Options / dark-pool flow signal from CNBC"
       ],
-      "source": "Yahoo Finance",
+      "source": "CNBC",
       "confidence": 71,
-      "url": "https://finance.yahoo.com/media-advertising/articles/netflix-nflx-expands-video-podcast-092146378.html",
+      "url": "https://www.cnbc.com/2026/06/23/spacex-debt-bond-market-ipo.html",
       "tickers": [
-        "COM",
-        "HTML",
-        "HTTPS",
-        "MEDIA",
-        "NFLX",
-        "VIDEO",
-        "YAHOO"
-      ],
-      "event_type": "Partnership",
-      "market_impact": {
-        "score": 25,
-        "tier": "low",
-        "reasons": [
-          "Partnership"
-        ]
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-06-23 17:52:37",
-      "headline": "Short Interest: Anthropic launches Claude Tag for Slack team collaboration",
-      "bullet_points": [
-        "Short interest / bearish flow signal from Investing.com"
-      ],
-      "source": "Investing.com",
-      "confidence": 70,
-      "url": "https://www.investing.com/news/stock-market-news/anthropic-launches-claude-tag-for-slack-team-collaboration-93CH-4756227",
-      "tickers": [
-        "COM",
+        "AFTER",
+        "CNBC",
+        "DARK",
+        "DEBT",
         "FLOW",
-        "SHORT",
-        "SLACK",
-        "TAG",
-        "TEAM"
+        "IN",
+        "IPO",
+        "LESS"
       ],
-      "event_type": "Partnership",
+      "event_type": "Public Market Event",
       "market_impact": {
         "score": 25,
         "tier": "low",
         "reasons": [
-          "Partnership"
+          "Public Market Event"
         ]
       }
     },
@@ -347,6 +379,35 @@
         "score": 20,
         "tier": "low",
         "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-22T20:07:00Z",
+      "headline": "Chubb CEO flags threat disrupting global oil supply",
+      "bullet_points": [
+        "Source: https://finance.yahoo.com/energy/articles/chubb-ceo-flags-threat-disrupting-200700323.html"
+      ],
+      "source": "Yahoo Finance",
+      "confidence": 70,
+      "url": "https://finance.yahoo.com/energy/articles/chubb-ceo-flags-threat-disrupting-200700323.html",
+      "tickers": [
+        "CEO",
+        "CHUBB",
+        "COM",
+        "FLAGS",
+        "HTML",
+        "HTTPS",
+        "OIL",
+        "YAHOO"
+      ],
+      "event_type": "Leadership",
+      "market_impact": {
+        "score": 25,
+        "tier": "low",
+        "reasons": [
+          "Leadership"
+        ]
       }
     },
     {
@@ -431,7 +492,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-23 18:40 UTC",
+      "timestamp": "2026-06-23 19:23 UTC",
       "headline": "CISA KEV: CVE-2025-67038 (Lantronix EDS5000)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-26",
@@ -457,7 +518,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-23 18:40 UTC",
+      "timestamp": "2026-06-23 19:23 UTC",
       "headline": "CISA KEV: CVE-2026-34910 (Ubiquiti UniFi OS)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-26",
@@ -485,7 +546,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-23 18:40 UTC",
+      "timestamp": "2026-06-23 19:23 UTC",
       "headline": "CISA KEV: CVE-2026-34909 (Ubiquiti UniFi OS)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-26",
@@ -513,7 +574,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-23 18:40 UTC",
+      "timestamp": "2026-06-23 19:23 UTC",
       "headline": "CISA KEV: CVE-2026-34908 (Ubiquiti UniFi OS)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-26",
@@ -540,7 +601,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-23 18:40 UTC",
+      "timestamp": "2026-06-23 19:23 UTC",
       "headline": "CISA KEV: CVE-2026-20253 (Splunk Enterprise)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-21",
@@ -565,7 +626,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-23 18:40 UTC",
+      "timestamp": "2026-06-23 19:23 UTC",
       "headline": "CISA KEV: CVE-2026-48907 (Widget Factory Joomla Content Editor )",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-19",
@@ -590,7 +651,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-23 18:40 UTC",
+      "timestamp": "2026-06-23 19:23 UTC",
       "headline": "CISA KEV: CVE-2026-54420 (LiteSpeed cPanel Plugin)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-18",
@@ -617,7 +678,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-23 18:40 UTC",
+      "timestamp": "2026-06-23 19:23 UTC",
       "headline": "CISA KEV: CVE-2026-20262 (Cisco Catalyst SD-WAN Manager)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-29",
@@ -903,30 +964,61 @@
       }
     },
     {
-      "category": "geopower",
-      "timestamp": "2026-06-23 18:53 UTC",
-      "headline": "Most Americans say Iran war not worth costs, Trump approval falls to match lowest in second term",
+      "category": "finance",
+      "timestamp": "2026-06-23 18:31 UTC",
+      "headline": "Market Flow: PGA Tour CEO Brian Rolapp unveils sweeping changes to professional golf",
       "bullet_points": [
-        "Geopower: Middle East Eye \u2014 world, conflict, policy"
+        "Options / dark-pool flow signal from CNBC"
       ],
-      "source": "Middle East Eye",
+      "source": "CNBC",
       "confidence": 68,
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/most-americans-say-iran-war-not-worth-costs-trump-approval-falls-match",
+      "url": "https://www.cnbc.com/2026/06/23/pga-tour-changes.html",
       "tickers": [
-        "COSTS",
-        "EAST",
-        "EYE",
-        "FALLS",
-        "IN",
-        "IRAN",
-        "MATCH",
-        "MOST"
+        "BRIAN",
+        "CEO",
+        "CNBC",
+        "DARK",
+        "FLOW",
+        "GOLF",
+        "PGA",
+        "POOL"
       ],
-      "event_type": "Material Event",
+      "event_type": "Leadership",
       "market_impact": {
-        "score": 20,
+        "score": 25,
         "tier": "low",
-        "reasons": []
+        "reasons": [
+          "Leadership"
+        ]
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-23 18:31 UTC",
+      "headline": "PGA Tour CEO Brian Rolapp unveils sweeping changes to professional golf",
+      "bullet_points": [
+        "Finance: CNBC \u2014 market updates, crypto, macro"
+      ],
+      "source": "CNBC",
+      "confidence": 68,
+      "url": "https://www.cnbc.com/2026/06/23/pga-tour-changes.html",
+      "tickers": [
+        "BRIAN",
+        "CEO",
+        "CNBC",
+        "GOLF",
+        "MACRO",
+        "PGA",
+        "TO",
+        "TOUR"
+      ],
+      "event_type": "Leadership",
+      "market_impact": {
+        "score": 35,
+        "tier": "low",
+        "reasons": [
+          "Leadership"
+        ]
       }
     },
     {
@@ -1103,82 +1195,28 @@
       }
     },
     {
-      "category": "trends",
-      "timestamp": "2026-06-23 18:30 UTC",
-      "headline": "Exclusive: Disney Store is testing an AI shopping assistant that could change how you shop",
+      "category": "finance",
+      "timestamp": "2026-06-23 19:09 UTC",
+      "headline": "Multi-year Bitcoin holder selling falls to 19-month low as halving model flags new market bottom date",
       "bullet_points": [
-        "Tech: TechRadar \u2014 AI, gadgets, software"
+        "Source: Cointelegraph"
       ],
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/streaming/entertainment/exclusive-disney-store-is-testing-an-ai-shopping-assistant-that-could-change-how-you-shop",
+      "source": "Cointelegraph",
       "confidence": 67,
+      "url": "https://cointelegraph.com/markets/og-bitcoin-selling-hits-19-month-low-as-halving-model-flags-new-bottom-date-analyst?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss",
       "tickers": [
-        "AI",
-        "AN",
-        "COULD",
-        "HOW",
-        "IS",
-        "SHOP",
-        "STORE",
-        "TECH"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "security",
-      "timestamp": "2026-06-23 18:16 UTC",
-      "headline": "June Prime Day live blog 2026: We're tracking Amazon deals on SSDs, TVs, laptops and more",
-      "bullet_points": [
-        "Security: ZDNet Security \u2014 threat intel, breaches, vulns"
-      ],
-      "source": "ZDNet Security",
-      "url": "https://www.zdnet.com/article/amazon-june-prime-day-live-blog-06-23-2026/",
-      "confidence": 67,
-      "tickers": [
-        "BLOG",
-        "DAY",
-        "DEALS",
-        "INTEL",
-        "JUNE",
-        "LIVE",
-        "ON",
-        "PRIME"
+        "AS",
+        "DATE",
+        "FALLS",
+        "FLAGS",
+        "LOW",
+        "MODEL",
+        "MONTH",
+        "MULTI"
       ],
       "event_type": "Material Event",
       "market_impact": {
         "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-06-23 18:08 UTC",
-      "headline": "Lebanon-Israel talks overshadowed by new US-Iran diplomatic track",
-      "bullet_points": [
-        "Geopower: Middle East Eye \u2014 world, conflict, policy"
-      ],
-      "source": "Middle East Eye",
-      "confidence": 67,
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanon-israel-talks-overshadowed-new-us-iran-diplomatic-track",
-      "tickers": [
-        "BY",
-        "EAST",
-        "EYE",
-        "IRAN",
-        "NEW",
-        "TALKS",
-        "TRACK",
-        "US"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
         "tier": "low",
         "reasons": []
       }
@@ -1340,28 +1378,6 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-06-23 15:15 UTC",
-      "headline": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
-      "bullet_points": [
-        "Source: Cointelegraph"
-      ],
-      "source": "Cointelegraph",
-      "confidence": 67,
-      "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss",
-      "tickers": [
-        "AS",
-        "NEXT",
-        "SEES"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
       "timestamp": "2026-06-23 15:00 UTC",
       "headline": "Vitalik Buterin says Ethereum Foundation will cut budget 40% in major reset",
       "bullet_points": [
@@ -1426,26 +1442,6 @@
         "NET",
         "VULNS",
         "WHAT"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-06-23 13:40 UTC",
-      "headline": "Thailand Expands Crypto Mining Probe Into $300M Chinese Laundering Network",
-      "bullet_points": [
-        "Source: Decrypt"
-      ],
-      "source": "Decrypt",
-      "confidence": 67,
-      "url": "https://decrypt.co/371854/thailand-expands-crypto-mining-probe-into-300m-chinese-laundering-network",
-      "tickers": [
-        "PROBE"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -2497,23 +2493,151 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-06-23 18:34 UTC",
-      "headline": "Meta is building a prediction markets app. These stocks are falling in response",
+      "timestamp": "2026-06-23 19:15 UTC",
+      "headline": "Stock Movers: Chipmakers, FedEx, Best Buy Fall (Podcast)",
       "bullet_points": [
-        "Finance: CNBC \u2014 market updates, crypto, macro"
+        "Finance: Bloomberg \u2014 market updates, crypto, macro"
       ],
-      "source": "CNBC",
+      "source": "Bloomberg",
       "confidence": 66,
-      "url": "https://www.cnbc.com/2026/06/23/nyt-says-meta-builds-prediction-market-these-stocks-are-falling.html",
+      "url": "https://www.bloomberg.com/news/audio/2026-06-23/stock-movers-chipmakers-fedex-best-buy-fall-podcast",
       "tickers": [
-        "APP",
-        "ARE",
-        "CNBC",
-        "IN",
+        "BEST",
+        "BUY",
+        "FALL",
+        "FEDEX",
+        "MACRO",
+        "STOCK"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-23 19:05 UTC",
+      "headline": "Solana is subsidizing high-volume traders before on-chain markets prove the activity can stick",
+      "bullet_points": [
+        "Finance: CryptoSlate \u2014 market updates, crypto, macro"
+      ],
+      "source": "CryptoSlate",
+      "confidence": 66,
+      "url": "https://cryptoslate.com/solana-is-subsidizing-pro-trading-flow-before-on-chain-markets-prove-it-will-stay-there/",
+      "tickers": [
+        "CAN",
+        "CHAIN",
+        "HIGH",
         "IS",
         "MACRO",
-        "META",
-        "THESE"
+        "ON",
+        "PROVE",
+        "STICK"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-23 19:00 UTC",
+      "headline": "Everyday investors fueled the SpaceX trading frenzy. Now they face a bear market.",
+      "bullet_points": [
+        "Finance: MarketWatch \u2014 market updates, crypto, macro"
+      ],
+      "source": "MarketWatch",
+      "confidence": 66,
+      "url": "https://www.marketwatch.com/story/everyday-investors-fueled-the-spacex-trading-frenzy-now-they-face-a-bear-market-c45e8a76?mod=mw_rss_topstories",
+      "tickers": [
+        "BEAR",
+        "FACE",
+        "MACRO",
+        "NOW",
+        "THEY"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-06-23 18:53 UTC",
+      "headline": "Enterprise-grade AI image generation in 2 seconds is here: Krea 2 Raw and Turbo available as open weights under custom license",
+      "bullet_points": [
+        "Tech: VentureBeat \u2014 AI, gadgets, software"
+      ],
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/enterprise-grade-ai-image-generation-in-2-seconds-is-here-krea-2-raw-and-turbo-available-as-open-weights-under-custom-license",
+      "confidence": 66,
+      "tickers": [
+        "AI",
+        "AS",
+        "GRADE",
+        "HERE",
+        "IMAGE",
+        "IN",
+        "IS",
+        "KREA"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-23 18:44 UTC",
+      "headline": "SpaceX pitches investors juicy yields in $25bn bond deal",
+      "bullet_points": [
+        "Finance: FT \u2014 market updates, crypto, macro"
+      ],
+      "source": "FT",
+      "confidence": 66,
+      "url": "https://www.ft.com/content/7ea76b60-ea21-4e50-b0e2-bbcc842af289",
+      "tickers": [
+        "BOND",
+        "DEAL",
+        "FT",
+        "IN",
+        "JUICY",
+        "MACRO"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-23 18:43 UTC",
+      "headline": "The man who invented the Fed&#8217;s magic trick just died. His successor is about to try it again",
+      "bullet_points": [
+        "Finance: Fortune \u2014 market updates, crypto, macro"
+      ],
+      "source": "Fortune",
+      "confidence": 66,
+      "url": "https://fortune.com/2026/06/23/greenspan-legacy-warsh-ai-fed-bubble/",
+      "tickers": [
+        "AGAIN",
+        "DIED",
+        "FED",
+        "HIS",
+        "IS",
+        "IT",
+        "MACRO",
+        "MAGIC"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -2576,85 +2700,6 @@
       }
     },
     {
-      "category": "trends",
-      "timestamp": "2026-06-23 18:15 UTC",
-      "headline": "Ukraine open sources Russian military hardware secrets to 'protect the entire civilized world': TrophyLab hosts specs, blueprints of more than 100 Russian equipment, and\u2026",
-      "bullet_points": [
-        "Tech: TechRadar \u2014 AI, gadgets, software"
-      ],
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/ukraine-open-sources-russian-military-hardware-secrets-to-protect-the-entire-civilized-world-trophylab-hosts-specs-blueprints-of-more-than-100-russian-equipment-and-you-can-even-request-samples",
-      "confidence": 66,
-      "tickers": [
-        "AI",
-        "HOSTS",
-        "OF",
-        "OPEN",
-        "SPECS",
-        "TECH",
-        "TO",
-        "WORLD"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-06-23 17:48 UTC",
-      "headline": "SpaceX pitches investors juicy yields in $25bn bond deal",
-      "bullet_points": [
-        "Finance: FT \u2014 market updates, crypto, macro"
-      ],
-      "source": "FT",
-      "confidence": 66,
-      "url": "https://www.ft.com/content/7ea76b60-ea21-4e50-b0e2-bbcc842af289",
-      "tickers": [
-        "BOND",
-        "DEAL",
-        "FT",
-        "IN",
-        "JUICY",
-        "MACRO"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-06-23 17:45 UTC",
-      "headline": "Your index fund is hiding a looming tech-stock risk &#x2014; here is how to protect your portfolio",
-      "bullet_points": [
-        "Finance: MarketWatch \u2014 market updates, crypto, macro"
-      ],
-      "source": "MarketWatch",
-      "confidence": 66,
-      "url": "https://www.marketwatch.com/story/your-index-fund-is-hiding-a-looming-tech-stock-risk-here-is-how-to-protect-your-portfolio-f4dd1c20?mod=mw_rss_topstories",
-      "tickers": [
-        "FUND",
-        "HERE",
-        "HOW",
-        "INDEX",
-        "IS",
-        "MACRO",
-        "RISK",
-        "STOCK"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
       "category": "finance",
       "timestamp": "2026-06-23 17:10 UTC",
       "headline": "Bitcoin price faces midweek squeeze that will decide whether $60,000 holds",
@@ -2675,35 +2720,6 @@
         "score": 20,
         "tier": "low",
         "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-06-23 16:35 UTC",
-      "headline": "Softbank CEO Shoots Down Musk\u2019s Plan for Orbital Data Centers as SpaceX Stock Falls Back to Earth",
-      "bullet_points": [
-        "Tech: Gizmodo \u2014 AI, gadgets, software"
-      ],
-      "source": "Gizmodo",
-      "url": "https://gizmodo.com/softbank-ceo-shoots-down-musks-plan-for-orbital-data-centers-as-spacex-stock-falls-back-to-earth-2000776091",
-      "confidence": 66,
-      "tickers": [
-        "AI",
-        "AS",
-        "BACK",
-        "CEO",
-        "DATA",
-        "DOWN",
-        "EARTH",
-        "FALLS"
-      ],
-      "event_type": "Leadership",
-      "market_impact": {
-        "score": 25,
-        "tier": "low",
-        "reasons": [
-          "Leadership"
-        ]
       }
     },
     {
@@ -2750,6 +2766,28 @@
         "NEW",
         "USING",
         "YORK"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-06-23 13:40 UTC",
+      "headline": "Thailand Expands Crypto Mining Probe Into $300M Chinese Laundering Network",
+      "bullet_points": [
+        "Tech: Decrypt Tech \u2014 AI, gadgets, software"
+      ],
+      "source": "Decrypt Tech",
+      "url": "https://decrypt.co/371854/thailand-expands-crypto-mining-probe-into-300m-chinese-laundering-network",
+      "confidence": 66,
+      "tickers": [
+        "AI",
+        "PROBE",
+        "TECH"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -2828,60 +2866,6 @@
         "MACRO",
         "STILL",
         "XRP"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-06-23 12:23 UTC",
-      "headline": "Morning Minute: Fomo&#39;s $75M Raise Shows Big VCs Are Still Betting on Consumer Crypto",
-      "bullet_points": [
-        "Tech: Decrypt Tech \u2014 AI, gadgets, software"
-      ],
-      "source": "Decrypt Tech",
-      "url": "https://decrypt.co/371851/morning-minute-fomos-75m-raise-shows-big-vcs-are-still-betting-on-consumer-crypto",
-      "confidence": 66,
-      "tickers": [
-        "AI",
-        "ARE",
-        "BIG",
-        "FOMO",
-        "ON",
-        "RAISE",
-        "SHOWS",
-        "STILL"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-06-23 11:10 UTC",
-      "headline": "The oil scare is fading, but Bitcoin is still trapped by the gas-price hangover",
-      "bullet_points": [
-        "Finance: CryptoSlate \u2014 market updates, crypto, macro"
-      ],
-      "source": "CryptoSlate",
-      "confidence": 66,
-      "url": "https://cryptoslate.com/the-oil-scare-is-fading-but-bitcoin-is-still-trapped-by-the-gas-price-hangover/",
-      "tickers": [
-        "BUT",
-        "BY",
-        "GAS",
-        "IS",
-        "MACRO",
-        "OIL",
-        "PRICE",
-        "SCARE"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -3012,22 +2996,23 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-06-22T09:33:03Z",
-      "headline": "Incyte Stock: Is INCY Outperforming the Healthcare Sector?",
+      "timestamp": "2026-06-22T10:37:54Z",
+      "headline": "Stocks Set to Open Mixed as Investors Weigh U.S.-Iran Progress, PCE Inflation Data and Fed Speak Awaited",
       "bullet_points": [
-        "Source: https://finance.yahoo.com/markets/stocks/articles/incyte-stock-incy-outperforming-healthcare-093303725.html"
+        "Source: https://finance.yahoo.com/markets/stocks/articles/stocks-set-open-mixed-investors-103754455.html"
       ],
       "source": "Yahoo Finance",
       "confidence": 66,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/incyte-stock-incy-outperforming-healthcare-093303725.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-set-open-mixed-investors-103754455.html",
       "tickers": [
+        "AS",
         "COM",
+        "DATA",
+        "FED",
         "HTML",
         "HTTPS",
-        "INCY",
-        "IS",
-        "STOCK",
-        "YAHOO"
+        "IRAN",
+        "MIXED"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -3436,24 +3421,50 @@
       }
     },
     {
-      "category": "geopower",
-      "timestamp": "2026-06-23 18:43 UTC",
-      "headline": "Trump: Iran is wrong about no plans for IAEA to inspect nuclear sites",
+      "category": "finance",
+      "timestamp": "2026-06-23 19:09 UTC",
+      "headline": "On-chain: Multi-year Bitcoin holder selling falls to 19-month low as halving model flags new market bottom date",
       "bullet_points": [
-        "Geopower: Middle East Eye \u2014 world, conflict, policy"
+        "Crypto on-chain / whale flow signal"
       ],
-      "source": "Middle East Eye",
+      "source": "Cointelegraph",
       "confidence": 65,
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-iran-wrong-about-no-plans-iaea-inspect-nuclear-sites",
+      "url": "https://cointelegraph.com/markets/og-bitcoin-selling-hits-19-month-low-as-halving-model-flags-new-bottom-date-analyst?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss",
       "tickers": [
-        "EAST",
-        "EYE",
-        "IAEA",
-        "IRAN",
-        "IS",
-        "NO",
-        "PLANS",
-        "SITES"
+        "AS",
+        "CHAIN",
+        "DATE",
+        "FALLS",
+        "FLAGS",
+        "FLOW",
+        "LOW",
+        "MODEL"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-23 18:59 UTC",
+      "headline": "OpenAI&#39;s GPT-5.5 Cyber AI Beats Anthropic&#39;s Banned Mythos Model\u2014And Nobody&#39;s Shutting It Down",
+      "bullet_points": [
+        "Source: Decrypt"
+      ],
+      "source": "Decrypt",
+      "confidence": 65,
+      "url": "https://decrypt.co/371900/openai-gpt-5-5-cyber-ai-beats-anthropic-banned-claude-mythos",
+      "tickers": [
+        "AI",
+        "BEATS",
+        "CYBER",
+        "DOWN",
+        "GPT",
+        "IT",
+        "MODEL"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -3695,32 +3706,6 @@
       }
     },
     {
-      "category": "geopower",
-      "timestamp": "2026-06-23 16:29 UTC",
-      "headline": "Missile strike kills three in Ukraine as Russia feels war\u2019s economic strain",
-      "bullet_points": [
-        "Source: Al Jazeera"
-      ],
-      "source": "Al Jazeera",
-      "confidence": 65,
-      "url": "https://www.aljazeera.com/news/2026/6/23/missile-strike-kills-three-in-ukraine-as-russia-feels-wars-economic-strain?traffic_source=rss",
-      "tickers": [
-        "AL",
-        "AS",
-        "FEELS",
-        "IN",
-        "KILLS",
-        "THREE",
-        "WAR"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
       "category": "finance",
       "timestamp": "2026-06-23 16:23 UTC",
       "headline": "On-chain: CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
@@ -3817,6 +3802,32 @@
       "event_type": "Material Event",
       "market_impact": {
         "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-23 15:15 UTC",
+      "headline": "On-chain: Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+      "bullet_points": [
+        "Crypto on-chain / whale flow signal"
+      ],
+      "source": "Cointelegraph",
+      "confidence": 65,
+      "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss",
+      "tickers": [
+        "AS",
+        "CHAIN",
+        "FLOW",
+        "NEXT",
+        "ON",
+        "SEES",
+        "WHALE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
         "tier": "low",
         "reasons": []
       }
