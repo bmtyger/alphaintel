@@ -27,25 +27,17 @@ class TechRssSource(BaseSource):
         ("BleepingComputer", "https://www.bleepingcomputer.com/feed/"),
         ("Gizmodo", "https://gizmodo.com/rss"),
         ("Engadget", "https://www.engadget.com/rss.xml"),
-        ("Kotaku", "https://kotaku.com/rss"),
         ("Hacker News Frontpage", "https://hnrss.org/frontpage"),
-        ("MakeUseOf", "https://www.makeuseof.com/feed/"),
-        ("HowToGeek", "https://www.howtogeek.com/feed/"),
-        ("The Information", "https://www.theinformation.com/feed"),
+
         ("Techmeme", "https://www.techmeme.com/feed.xml"),
         ("9to5Mac", "https://9to5mac.com/feed/"),
-        ("MacRumors", "https://www.macrumors.com/rss/"),
-        ("Android Authority", "https://www.androidauthority.com/feed/"),
-        ("XDA Developers", "https://www.xda-developers.com/feed/"),
-        ("AnandTech", "https://www.anandtech.com/rss/"),
+
         ("Snyk Blog", "https://snyk.io/blog/feed/"),
         ("Product Hunt", "https://www.producthunt.com/feed"),
         ("Stratechery", "https://stratechery.com/feed/"),
         ("Azeem Azhar", "https://azeem.substack.com/feed"),
-        ("Benedict Evans", "https://www.ben-evans.com/feed"),
+
         ("Decrypt Tech", "https://decrypt.co/rss"),
-        ("TechMonk", "https://www.techmonk.net/feed/"),
-        ("Beebom", "https://beebom.com/feed/"),
     ]
 
     def fetch(self) -> SourceResult:

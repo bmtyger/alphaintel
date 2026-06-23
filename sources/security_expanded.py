@@ -23,30 +23,21 @@ class SecurityRssSource(BaseSource):
         ("Graham Cluley", "https://www.grahamcluley.com/feed/"),
         ("Threatpost", "https://threatpost.com/feed/"),
         ("SC Magazine", "https://www.scmagazine.com/rss"),
-        ("InfoSecurity", "https://www.infosecurity-magazine.com/rss"),
-        ("Cyware", "https://cyware.com/rss"),
+
         ("Security Affairs", "https://securityaffairs.co/feed"),
-        ("The Register", "https://www.theregister.com/security/headlines.atom"),
+
         ("Mandiant", "https://www.mandiant.com/resources/blog/rss.xml"),
         ("Rapid7", "https://blog.rapid7.com/rss/"),
-        ("Qualys", "https://blog.qualys.com/rss"),
         ("Sumo Logic", "https://www.sumologic.com/blog/feed/"),
-        ("Splunk", "https://www.splunk.com/en_us/blog/rss.xml"),
-        ("Elastic Security", "https://www.elastic.co/blog/rss.xml"),
+
         ("Netwitness", "https://www.netwitness.com/blog/feed/"),
         ("Microsoft Security", "https://www.microsoft.com/security/blog/feed/"),
         ("Google Blog", "https://blog.google/rss/"),
-        ("NCC Group", "https://www.nccgroup.com/us/blog/feed/"),
-        ("Tenable", "https://www.tenable.com/blog/rss"),
+
         ("Flashpoint", "https://flashpoint.io/blog/feed/"),
-        ("Silent Breach", "https://silentbreach.com/blog/feed/"),
-        ("Recorded Future", "https://www.recordedfuture.com/blog/feed/"),
+
         ("CSO Online", "https://www.csoonline.com/feed/"),
-        ("CSO Australia", "https://www.csoonline.com.au/feed/"),
-        ("CSO UK", "https://www.csoonline.com/uk/feed/"),
-        ("Tripwire", "https://www.tripwire.com/state-of-security/feed/"),
-        ("Apple Security", "https://support.apple.com/rss"),
-        ("FireEye Threat", "https://www.mandiant.com/resources/blog/rss.xml"),
+
         ("Snyk Blog", "https://snyk.io/blog/feed/"),
         ("ZDNet Tech", "https://www.zdnet.com/news/rss.xml"),
     ]
