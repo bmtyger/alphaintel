@@ -1,7 +1,10 @@
 import datetime as dt
+import logging
 import re
-import urllib.request
+from .rss_helpers import _fmt, _parse_dt, _text, _trunc
 from .base import BaseSource, SourceResult
+
+logger = logging.getLogger(__name__)
 
 UA = {"User-Agent": "AlphaIntelBot/1.0 (+nichaas-dashboard; contact: bodea.mircea@gmail.com)"}
 _CUTOFF_DAYS = 30
@@ -63,25 +66,26 @@ class GeopowerRssSource(BaseSource):
         items: list[dict] = []
         seen = set()
         cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=_CUTOFF_DAYS)
+        fetch_errors: list[str] = []
         for org, url in self.feeds:
             try:
                 xml = self._request("GET", url, headers=UA)[0].decode(
                     "utf-8", errors="replace"
                 )
                 for raw in re.findall(r"<item>(.*?)</item>", xml, re.S)[:6]:
-                    title = self._text(
+                    title = _text(
                         raw,
                         r"<title[^>]*>(?:<!\[CDATA\[(.*?)\]\]>|(.*?))</title>",
                     )
-                    pub = self._text(raw, r"<pubDate[^>]*>(.*?)</pubDate>")
-                    link = self._text(raw, r"<link[^>]*>(.*?)</link>")
+                    pub = _text(raw, r"<pubDate[^>]*>(.*?)</pubDate>")
+                    link = _text(raw, r"<link[^>]*>(.*?)</link>")
                     if not title:
                         continue
                     key = title.strip().lower()
                     if key in seen:
                         continue
                     seen.add(key)
-                    when = self._parse_dt(pub)
+                    when = _parse_dt(pub)
                     if when and when < cutoff:
                         continue
                     score = sum(
@@ -98,9 +102,8 @@ class GeopowerRssSource(BaseSource):
                         "Straits Times", "Nikkei Asia", "Reuters Asia", "UNCTAD",
                         "Asharq", "Arab News", "Guardian World", "DW News",
                         "CNBC World", "CNN World", "ABC World", "CBS News",
-                        "NBC News", "Politico",
-                        "BBC Africa", "BBC Asia", "BBC Europe", "BBC Latin America",
-                        "BBC Middle East", "BBC US Canada",
+                        "NBC News", "Politico", "BBC Africa", "BBC Asia", "BBC Europe",
+                        "BBC Latin America", "BBC Middle East", "BBC US Canada",
                     }:
                         continue
                     if score == 0:
@@ -108,58 +111,22 @@ class GeopowerRssSource(BaseSource):
                     items.append(
                         {
                             "category": self.category,
-                            "timestamp": self._fmt(pub),
-                            "headline": self._trunc(title, 170),
+                            "timestamp": _fmt(pub),
+                            "headline": _trunc(title, 170),
                             "bullet_points": [
-                                self._trunc(f"Geopower: {org} — world, conflict, policy", 120)
+                                _trunc(f"Geopower: {org} — world, conflict, policy", 120)
                             ],
                             "source": org,
                             "confidence": min(96, 78 + score * 4),
                             "url": link,
                         }
                     )
-            except Exception:
-                continue
-        return SourceResult(items=items, source_name=self.name, category=self.category)
-
-    @staticmethod
-    def _text(text, pattern):
-        m = re.search(pattern, text, re.S)
-        if not m:
-            return ""
-        return next(g for g in m.groups() if g is not None).strip()
-
-    @staticmethod
-    def _parse_dt(raw):
-        raw = raw.strip()
-        if not raw:
-            return None
-        try:
-            import email.utils
-            return email.utils.parsedate_to_datetime(raw)
-        except Exception:
-            return None
-
-    @staticmethod
-    def _fmt(raw):
-        raw = raw.strip()
-        if not raw:
-            return (
-                __import__("datetime")
-                .datetime.now(__import__("datetime").timezone.utc)
-                .strftime("%Y-%m-%d %H:%M UTC")
-            )
-        try:
-            import email.utils
-            t = email.utils.parsedate_to_datetime(raw)
-            return t.strftime("%Y-%m-%d %H:%M UTC")
-        except Exception:
-            return raw
-
-    @staticmethod
-    def _trunc(text, n=180):
-        t = text.strip()
-        return t if len(t) <= n else t[: n - 1].rstrip() + "…"
+            except Exception as exc:
+                msg = f"geopower feed failed [{org}] {url}: {exc}"
+                fetch_errors.append(msg)
+                logger.warning(msg)
+        error = "; ".join(fetch_errors) if fetch_errors else None
+        return SourceResult(items=items, source_name=self.name, category=self.category, success=not fetch_errors, error=error)
 
 
 _geopower_keywords = [

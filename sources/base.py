@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import datetime as dt
+import email.utils
 import logging
+import re
 import time
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
@@ -65,3 +67,36 @@ class BaseSource(ABC):
         return SourceResult(
             items=[], source_name=self.name, category=self.category, success=False, error=str(last_err)
         )
+
+
+def _text(text, pattern):
+    m = re.search(pattern, text, re.S)
+    if not m:
+        return ""
+    return next(g for g in m.groups() if g is not None).strip()
+
+
+def _parse_dt(raw):
+    raw = raw.strip()
+    if not raw:
+        return None
+    try:
+        return email.utils.parsedate_to_datetime(raw)
+    except Exception:
+        return None
+
+
+def _fmt(raw):
+    raw = raw.strip()
+    if not raw:
+        return dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    try:
+        t = email.utils.parsedate_to_datetime(raw)
+        return t.strftime("%Y-%m-%d %H:%M UTC")
+    except Exception:
+        return raw
+
+
+def _trunc(text, n=180):
+    t = text.strip()
+    return t if len(t) <= n else t[: n - 1].rstrip() + "…"
