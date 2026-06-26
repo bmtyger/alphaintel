@@ -1,164 +1,175 @@
 from __future__ import annotations
 
+import json
 import logging
 import os
+import secrets
+from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 from typing import Dict, List, Optional
 
-from fastapi import FastAPI, HTTPException
-from fastapi.responses import JSONResponse
-from pydantic import BaseModel, Field
-
 from intel.accounts import accounts, alert_rules, watchlists
+from intel.alert_eval import evaluate
 
 logger = logging.getLogger(__name__)
-app = FastAPI(title="AlphaIntel API", version="0.1.0")
+DATA_DIR = Path(__file__).resolve().parents[1]
 
 
-class LoginRequest(BaseModel):
-    email: str
-    password: str
+class _ApiHandler(BaseHTTPRequestHandler):
+    def _send_json(self, status: int, payload):
+        body = json.dumps(payload).encode("utf-8")
+        self.send_response(status)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
 
-
-class RegisterRequest(BaseModel):
-    email: str
-    password: str
-    tier: str = "free"
-
-
-class WatchlistCreate(BaseModel):
-    name: str = Field(default="My Watchlist")
-    tickers: List[str] = Field(default_factory=list)
-    keywords: List[str] = Field(default_factory=list)
-    categories: List[str] = Field(defaultFactory=lambda: ["finance", "security", "trends", "geopower"])
-
-
-class AlertRuleCreate(BaseModel):
-    name: str
-    condition: Dict = Field(default_factory=dict)
-    action: Dict = Field(default_factory=lambda: {"type": "telegram"})
-
-
-TELEGRAM_RELAY = "C:\\Users\\bmtyg\\telegram_send.py"
-
-
-def _user_from_token(token: Optional[str]) -> Optional[Dict]:
-    if not token:
+    def _get_token(self) -> Optional[str]:
+        auth = self.headers.get("Authorization", "")
+        if auth.lower().startswith("bearer "):
+            return auth.split(" ", 1)[1].strip() or None
         return None
-    return accounts.get_user_by_session(token)
+
+    def _current_user(self):
+        token = self._get_token()
+        if not token:
+            return None
+        return accounts.get_user_by_session(token)
+
+    def _read_json(self):
+        length = int(self.headers.get("Content-Length", "0"))
+        raw = self.rfile.read(length).decode("utf-8")
+        if not raw.strip():
+            return {}
+        return json.loads(raw)
+
+    def _route(self):
+        method = self.command.upper()
+        parsed = os.path.normpath(self.path)
+        qs = ""
+        if "?" in self.path:
+            parsed, qs = self.path.split("?", 1)
+        parsed = parsed.rstrip("/") or "/"
+
+        def route_ok(path, required=None):  # required is reserved for future gating
+            nonlocal method, parsed, qs
+            return parsed == path
+
+        user = self._current_user()
+        try:
+            if route_ok("/health"):
+                return self._send_json(200, {"status": "ok", "phase": "1", "endpoints": ["/auth/login","/watchlists","/alert_rules","/alerts/evaluate","/export/watchlist"]})
+
+            if route_ok("/auth/register"):
+                if method != "POST":
+                    return self._send_json(405, {"detail": "method_not_allowed"})
+                body = self._read_json()
+                user_obj = accounts.register(body.get("email", ""), body.get("password", ""), body.get("tier", "free"))
+                return self._send_json(200, {"user_id": user_obj.id, "tier": user_obj.tier})
+            if route_ok("/auth/login"):
+                if method != "POST":
+                    return self._send_json(405, {"detail": "method_not_allowed"})
+                body = self._read_json()
+                user_obj = accounts.login(body.get("email", ""), body.get("password", ""))
+                token = accounts.create_session(user_obj)
+                return self._send_json(200, {"token": token, "tier": user_obj.tier, "user_id": user_obj.id})
+
+            if route_ok("/watchlists"):
+                if not user:
+                    return self._send_json(401, {"detail": "unauthenticated"})
+                if method == "GET":
+                    return self._send_json(200, [w.to_dict() for w in watchlists.list_for_user(user.id)])
+                if method == "POST":
+                    if user.tier not in {"pro", "elite"}:
+                        return self._send_json(403, {"detail": "watchlist_tier_required"})
+                    body = self._read_json()
+                    wl = watchlists.create(user.id, body.get("name", "My Watchlist"), body.get("tickers", []) or [], body.get("keywords", []) or [], body.get("categories", ["finance", "security", "trends", "geopower"]) or [])
+                    return self._send_json(200, wl.to_dict())
+                return self._send_json(405, {"detail": "method_not_allowed"})
+
+            if parsed.startswith("/watchlists/") and len(parsed.split("/")) == 3:
+                wl_id = parsed.split("/")[2]
+                if not user:
+                    return self._send_json(401, {"detail": "unauthenticated"})
+                if method == "DELETE":
+                    if user.tier not in {"pro", "elite"}:
+                        return self._send_json(403, {"detail": "watchlist_tier_required"})
+                    ok = watchlists.delete(wl_id, user.id)
+                    if not ok:
+                        return self._send_json(404, {"detail": "watchlist_not_found"})
+                    return self._send_json(200, {"status": "deleted"})
+                return self._send_json(405, {"detail": "method_not_allowed"})
+
+            if route_ok("/alert_rules"):
+                if not user:
+                    return self._send_json(401, {"detail": "unauthenticated"})
+                if method == "GET":
+                    return self._send_json(200, [r.to_dict() for r in alert_rules.list_for_user(user.id)])
+                if method == "POST":
+                    if user.tier not in {"pro", "elite"}:
+                        return self._send_json(403, {"detail": "alert_tier_required"})
+                    body = self._read_json()
+                    rule = alert_rules.create(user.id, body.get("name", "Untitled"), body.get("condition", {}), body.get("action", {}))
+                    return self._send_json(200, rule.to_dict())
+                return self._send_json(405, {"detail": "method_not_allowed"})
+
+            if route_ok("/alerts/evaluate"):
+                if not user:
+                    return self._send_json(401, {"detail": "unauthenticated"})
+                if user.tier not in {"pro", "elite"}:
+                    return self._send_json(403, {"detail": "alerts_tier_required"})
+                result = evaluate()
+                return self._send_json(200, result)
+
+            if route_ok("/telegram/link"):
+                if not user:
+                    return self._send_json(401, {"detail": "unauthenticated"})
+                if method != "POST":
+                    return self._send_json(405, {"detail": "method_not_allowed"})
+                body = self._read_json()
+                chat_id = str(body.get("chat_id") or "")
+                if not chat_id:
+                    return self._send_json(400, {"detail": "chat_id_required"})
+                user_obj = accounts.link_telegram(user.id, chat_id)
+                return self._send_json(200, {"status": "linked", "telegram_chat_id": user_obj.telegram_chat_id})
+
+            if route_ok("/export/watchlist"):
+                if not user:
+                    return self._send_json(401, {"detail": "unauthenticated"})
+                if user.tier not in {"pro", "elite"}:
+                    return self._send_json(403, {"detail": "export_tier_required"})
+                wls = watchlists.list_for_user(user.id)
+                rows = ["headline,category,source,tickers,confidence,timestamp,url"]
+                for wl in wls:
+                    rows.append(f'"{wl.name}","watchlist","n/a","{",".join(wl.tickers)}","n/a","n/a",""')
+                payload = "\n".join(rows)
+                self.send_response(200)
+                self.send_header("Content-Type", "text/csv")
+                self.send_header("Content-Length", str(len(payload.encode("utf-8"))))
+                self.end_headers()
+                self.wfile.write(payload.encode("utf-8"))
+                return
+
+            return self._send_json(404, {"detail": "not_found"})
+        except Exception as exc:
+            logger.exception("API error: %s", exc)
+            return self._send_json(500, {"detail": "internal_error"})
+
+    def log_message(self, fmt, *args):
+        logger.debug(fmt, *args)
 
 
-@app.get("/health")
-def health():
-    return {"status": "ok"}
+def create_app(host: str = "0.0.0.0", port: int = 8787):
+    handler = _ApiHandler
+    server = HTTPServer((host, port), handler)
+    return server
 
 
-@app.post("/auth/register")
-def auth_register(req: RegisterRequest):
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
+    server = create_app()
+    logger.info("AlphaIntel API on http://%s:%d", "0.0.0.0", 8787)
     try:
-        user = accounts.register(req.email, req.password, req.tier)
-        return {"user_id": user.id, "tier": user.tier}
-    except ValueError as exc:
-        raise HTTPException(status_code=400, detail=str(exc)) from exc
-    except Exception as exc:
-        logger.exception("Register failed: %s", exc)
-        raise HTTPException(status_code=500, detail="register_failed") from exc
-
-
-@app.post("/auth/login")
-def auth_login(req: LoginRequest):
-    try:
-        user = accounts.login(req.email, req.password)
-        token = accounts.create_session(user)
-        return {"token": token, "tier": user.tier, "user_id": user.id}
-    except PermissionError as exc:
-        raise HTTPException(status_code=401, detail=str(exc)) from exc
-    except Exception as exc:
-        logger.exception("Login failed: %s", exc)
-        raise HTTPException(status_code=500, detail="login_failed") from exc
-
-
-@app.get("/watchlists")
-def list_watchlists(x_aleph_token: Optional[str] = None):
-    user = _user_from_token(x_aleph_token)
-    if not user:
-        return JSONResponse({"detail": "unauthenticated"}, status_code=401)
-    items = watchlists.list_for_user(user.id)
-    return [w.to_dict() for w in items]
-
-
-@app.post("/watchlists")
-def create_watchlist(req: WatchlistCreate, x_aleph_token: Optional[str] = None):
-    user = _user_from_token(x_aleph_token)
-    if not user:
-        return JSONResponse({"detail": "unauthenticated"}, status_code=401)
-    if user.tier not in {"pro", "elite"}:
-        raise HTTPException(status_code=403, detail="watchlist_tier_required")
-    wl = watchlists.create(user.id, req.name, req.tickers, req.keywords, req.categories)
-    return wl.to_dict()
-
-
-@app.delete("/watchlists/{watchlist_id}")
-def delete_watchlist(watchlist_id: str, x_aleph_token: Optional[str] = None):
-    user = _user_from_token(x_aleph_token)
-    if not user:
-        return JSONResponse({"detail": "unauthenticated"}, status_code=401)
-    if user.tier not in {"pro", "elite"}:
-        raise HTTPException(status_code=403, detail="watchlist_tier_required")
-    ok = watchlists.delete(watchlist_id, user.id)
-    if not ok:
-        raise HTTPException(status_code=404, detail="watchlist_not_found")
-    return {"status": "deleted"}
-
-
-@app.get("/alert_rules")
-def list_alert_rules(x_aleph_token: Optional[str] = None):
-    user = _user_from_token(x_aleph_token)
-    if not user:
-        return JSONResponse({"detail": "unauthenticated"}, status_code=401)
-    items = alert_rules.list_for_user(user.id)
-    return [r.to_dict() for r in items]
-
-
-@app.post("/alert_rules")
-def create_alert_rule(req: AlertRuleCreate, x_aleph_token: Optional[str] = None):
-    user = _user_from_token(x_aleph_token)
-    if not user:
-        return JSONResponse({"detail": "unauthenticated"}, status_code=401)
-    if user.tier not in {"pro", "elite"}:
-        raise HTTPException(status_code=403, detail="alert_tier_required")
-    rule = alert_rules.create(user.id, req.name, req.condition, req.action)
-    return rule.to_dict()
-
-
-class TelegramLink(BaseModel):
-    chat_id: str
-
-
-@app.post("/telegram/link")
-def link_telegram(req: TelegramLink, x_aleph_token: Optional[str] = None):
-    user = _user_from_token(x_aleph_token)
-    if not user:
-        return JSONResponse({"detail": "unauthenticated"}, status_code=401)
-    user = accounts.link_telegram(user.id, req.chat_id)
-    return {"status": "linked", "telegram_chat_id": user.telegram_chat_id}
-
-
-@app.get("/export/watchlist")
-def export_watchlist_csv(x_aleph_token: Optional[str] = None):
-    from fastapi.responses import PlainTextResponse
-
-    user = _user_from_token(x_aleph_token)
-    if not user:
-        return JSONResponse({"detail": "unauthenticated"}, status_code=401)
-    if user.tier not in {"pro", "elite"}:
-        raise HTTPException(status_code=403, detail="export_tier_required")
-
-    wls = watchlists.list_for_user(user.id)
-    rows = ["headline,tategory,source,tickers,confidence,timestamp,url"]
-    for wl in wls:
-        # The serializer cannot access intel engine here.
-        # Kept as a stub export until data.json filter is wired.
-        rows.append(f'"{wl.name}","watchlist","n/a","{",".join(wl.tickers)}","n/a","n/a",""')
-
-    return PlainTextResponse(content="\n".join(rows), media_type="text/csv")
+        server.serve_forever()
+    except KeyboardInterrupt:
+        server.server_close()

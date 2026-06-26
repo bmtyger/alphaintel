@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AlphaIntel - Login</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.auth-card{max-width:420px;margin:8vh auto;padding:32px;border-radius:16px;background:#fff;color:#111}
+.auth-card h1{margin-top:0;margin-bottom:16px}
+.auth-card label{display:block;font-size:14px;font-weight:600;margin-top:12px}
+.auth-card input{width:100%;padding:10px 12px;border-radius:8px;border:1px solid #ccc;margin-top:6px}
+.auth-card button{width:100%;padding:10px 12px;margin-top:16px;border-radius:8px;border:0;background:#111;color:#fff;font-weight:600;cursor:pointer}
+.auth-card .alt{margin-top:16px;text-align:center;font-size:14px}
+</style>
+</head>
+<body>
+  <main class="auth-card" role="main">
+    <h1>AlphaIntel</h1>
+    <label for="email">Email</label>
+    <input id="email" type="email" autocomplete="email" required>
+    <label for="password">Password</label>
+    <input id="password" type="password" autocomplete="current-password" required>
+    <button id="login">Sign in</button>
+    <div class="alt">
+      <a href="#" id="to-register">Create account</a>
+    </div>
+    <p id="error" style="color:#b00020"></p>
+  </main>
+
+  <script>
+    (function(){
+      var mode = localStorage.getItem('alphaintel.mode') || 'login';
+      function setMode(m){mode=m;localStorage.setItem('alphaintel.mode',m)}
+      document.getElementById('login').textContent = mode==='login'?'Sign in':'Create account';
+      document.getElementById('to-register').textContent = mode==='login'?'Sign in instead':'Create account';
+      setMode(mode);
+      document.getElementById('to-register').addEventListener('click',function(e){
+        e.preventDefault();
+        var next = mode==='login'?'register':'login';
+        setMode(next);
+        document.getElementById('error').textContent='';
+        document.getElementById('login').textContent = next==='login'?'Sign in':'Create account';
+        document.getElementById('to-register').textContent = next==='login'?'Create account':'Sign in instead';
+      });
+      document.getElementById('login').addEventListener('click',function(){
+        var payload = {
+          email: document.getElementById('email').value.trim(),
+          password: document.getElementById('password').value,
+          tier: mode==='register' ? 'free' : undefined
+        };
+        var path = mode==='register' ? '/auth/register' : '/auth/login';
+        fetch(path, {
+          method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body: JSON.stringify(payload)
+        }).then(function(r){ return r.json().then(function(d){return {status:r.status,data:d};}); })
+          .then(function(res){
+            if (res.status >= 400){ throw new Error((res.data && res.data.detail) || 'auth_failed'); }
+            if (res.data && res.data.token){
+              localStorage.setItem('alphaintel.token', res.data.token);
+              localStorage.setItem('alphaintel.tier', res.data.tier || 'free');
+              window.location.href = '/intel/web/index.html';
+            } else if (res.data && res.data.user_id){
+              // register success likely without token due to demo store; try login next.
+              throw new Error('registered_without_token');
+            } else {
+              throw new Error('unexpected_response');
+            }
+          })
+          .catch(function(err){
+            document.getElementById('error').textContent = err.message || 'Error';
+          });
+      });
+    })();
+  </script>
+</body>
+</html>

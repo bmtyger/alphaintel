@@ -5,7 +5,9 @@
   var STATE_TEXT = document.getElementById("state-text");
   var SEARCH = document.getElementById("search");
   var TABS = document.querySelectorAll(".tab");
-  var DATA_URL = "./data.json";
+  var DEFAULT_DATA_URL = "./data.json";
+  var ENV_DATA_URL = typeof window !== 'undefined' ? (new URLSearchParams(window.location.search)).get("data_url") : null;
+  var DATA_URL = ENV_DATA_URL || DEFAULT_DATA_URL;
   var MAX_RETRIES = 3;
 
   var allItems = [];

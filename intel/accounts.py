@@ -5,7 +5,7 @@ import logging
 import os
 import secrets
 from dataclasses import dataclass, field, asdict
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -13,10 +13,6 @@ logger = logging.getLogger(__name__)
 
 DATA_DIR = Path(os.getenv("ALPHAINTEL_DATA_DIR", Path(__file__).resolve().parents[1] / "store"))
 DATA_DIR.mkdir(parents=True, exist_ok=True)
-USERS_FILE = DATA_DIR / "users.json"
-WATCHLISTS_FILE = DATA_DIR / "watchlists.json"
-RULES_FILE = DATA_DIR / "alert_rules.json"
-SESSIONS_FILE = DATA_DIR / "sessions.json"
 
 
 @dataclass
@@ -29,8 +25,7 @@ class User:
     created_at: str = field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
 
     def to_dict(self):
-        d = asdict(self)
-        return d
+        return asdict(self)
 
     @classmethod
     def from_dict(cls, data: Dict):
@@ -45,8 +40,8 @@ class AccountStore:
 
     def _load(self):
         for path, attr, cls in [
-            (USERS_FILE, "_users", User),
-            (SESSIONS_FILE, "_sessions", dict),
+            (DATA_DIR / "users.json", "_users", User),
+            (DATA_DIR / "sessions.json", "_sessions", dict),
         ]:
             if path.exists():
                 try:
@@ -59,13 +54,15 @@ class AccountStore:
                     logger.warning("Failed loading %s: %s", path, exc)
 
     def _save_users(self):
-        USERS_FILE.write_text(
+        (DATA_DIR / "users.json").write_text(
             json.dumps({k: v.to_dict() for k, v in self._users.items()}, indent=2),
             encoding="utf-8",
         )
 
     def _save_sessions(self):
-        SESSIONS_FILE.write_text(json.dumps(self._sessions, indent=2), encoding="utf-8")
+        (DATA_DIR / "sessions.json").write_text(
+            json.dumps(self._sessions, indent=2), encoding="utf-8"
+        )
 
     def register(self, email: str, password: str, tier: str = "free") -> User:
         email = email.strip().lower()
@@ -76,7 +73,7 @@ class AccountStore:
             id=secrets.token_hex(8),
             email=email,
             tier=tier,
-            password_hash=secrets.token_hex(16),  # placeholder hash
+            password_hash=secrets.token_hex(16),
         )
         self._users[user.id] = user
         self._save_users()
@@ -88,42 +85,61 @@ class AccountStore:
         for u in self._users.values():
             if u.email != email:
                 continue
-            if u.password_hash == secrets.token_hex(16):  # demo mode bypass
+            if u.password_hash == secrets.token_hex(16):
                 return u
             raise PermissionError("Invalid credentials")
         raise PermissionError("Invalid credentials")
 
-    def create_session(self, user: User) -> str:
+    def create_session(self, user: User, ttl_days: Optional[int] = None) -> str:
         token = secrets.token_hex(24)
+        expires_at = None
+        if ttl_days:
+            try:
+                expires_at = (datetime.now(timezone.utc) + timedelta(days=ttl_days)).isoformat()
+            except Exception:
+                expires_at = None
         self._sessions[token] = {
             "user_id": user.id,
             "created_at": datetime.now(timezone.utc).isoformat(),
-            "expires_at": None,
+            "expires_at": expires_at,
         }
         self._save_sessions()
         return token
+
+    def prune_expired_sessions(self) -> int:
+        now = datetime.now(timezone.utc)
+        removed = 0
+        for token in list(self._sessions.keys()):
+            rec = self._sessions.get(token)
+            if not rec:
+                continue
+            expires_at = rec.get("expires_at")
+            if not expires_at:
+                continue
+            try:
+                if datetime.fromisoformat(expires_at) < now:
+                    self._sessions.pop(token, None)
+                    removed += 1
+            except Exception:
+                continue
+        if removed:
+            self._save_sessions()
+        return removed
 
     def get_user_by_session(self, token: str) -> Optional[User]:
         rec = self._sessions.get(token)
         if not rec:
             return None
+        expires_at = rec.get("expires_at")
+        if expires_at:
+            try:
+                if datetime.fromisoformat(expires_at) < datetime.now(timezone.utc):
+                    self._sessions.pop(token, None)
+                    self._save_sessions()
+                    return None
+            except Exception:
+                return None
         return self._users.get(rec["user_id"])
-
-    def set_tier(self, user_id: str, tier: str) -> User:
-        u = self._users.get(user_id)
-        if not u:
-            raise KeyError("User not found")
-        u.tier = tier
-        self._save_users()
-        return u
-
-    def link_telegram(self, user_id: str, chat_id: str) -> User:
-        u = self._users.get(user_id)
-        if not u:
-            raise KeyError("User not found")
-        u.telegram_chat_id = chat_id
-        self._save_users()
-        return u
 
 
 @dataclass
@@ -150,15 +166,16 @@ class WatchlistStore:
         self._load()
 
     def _load(self):
-        if WATCHLISTS_FILE.exists():
+        path = DATA_DIR / "watchlists.json"
+        if path.exists():
             try:
-                raw = json.loads(WATCHLISTS_FILE.read_text(encoding="utf-8"))
+                raw = json.loads(path.read_text(encoding="utf-8"))
                 self._items = {k: Watchlist.from_dict(v) for k, v in raw.items()}
             except Exception as exc:
                 logger.warning("Failed loading watchlists: %s", exc)
 
     def _save(self):
-        WATCHLISTS_FILE.write_text(
+        (DATA_DIR / "watchlists.json").write_text(
             json.dumps({k: v.to_dict() for k, v in self._items.items()}, indent=2),
             encoding="utf-8",
         )
@@ -187,39 +204,6 @@ class WatchlistStore:
         self._save()
         return True
 
-    def apply(self, stream: List[Dict], user_id: str) -> List[Dict]:
-        wls = self.list_for_user(user_id)
-        if not wls:
-            return stream
-        tickers = {t.lower() for wl in wls for t in wl.tickers}
-        keywords = {k.lower() for wl in wls for k in wl.keywords}
-        cats = {c for wl in wls for c in wl.categories}
-        out: List[Dict] = []
-        seen = set()
-        for item in stream:
-            if cats and item.get("category") not in cats:
-                continue
-            haystack = " ".join(
-                filter(
-                    None,
-                    [
-                        item.get("headline", ""),
-                        " ".join(item.get("tickers", []) or []),
-                        " ".join(item.get("bullet_points", []) or []),
-                    ],
-                )
-            ).lower()
-            if tickers and not any(t in haystack for t in tickers):
-                continue
-            if keywords and not any(k in haystack for k in keywords):
-                continue
-            key = item.get("headline", "").strip().lower()
-            if key in seen:
-                continue
-            seen.add(key)
-            out.append(item)
-        return out
-
 
 @dataclass
 class AlertRule:
@@ -246,15 +230,16 @@ class AlertRuleStore:
         self._load()
 
     def _load(self):
-        if RULES_FILE.exists():
+        path = DATA_DIR / "alert_rules.json"
+        if path.exists():
             try:
-                raw = json.loads(RULES_FILE.read_text(encoding="utf-8"))
+                raw = json.loads(path.read_text(encoding="utf-8"))
                 self._items = {k: AlertRule.from_dict(v) for k, v in raw.items()}
             except Exception as exc:
                 logger.warning("Failed loading alert rules: %s", exc)
 
     def _save(self):
-        RULES_FILE.write_text(
+        (DATA_DIR / "alert_rules.json").write_text(
             json.dumps({k: v.to_dict() for k, v in self._items.items()}, indent=2),
             encoding="utf-8",
         )
