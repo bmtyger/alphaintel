@@ -84,8 +84,20 @@ def build_stream(categories: list[str] | None = None, max_items: int = 50) -> tu
             log.error("Schema validation failed — empty stream")
             return [], errors + ["schema_validation_failed"]
 
-    # Trim to max_items (high-impact first)
-    stream = raw[:max_items]
+    # Sort newest-first, then trim to max_items
+    def _ts(item):
+        value = item.get("timestamp")
+        if not value:
+            return dt.datetime.min.replace(tzinfo=dt.timezone.utc)
+        try:
+            parsed = dt.datetime.fromisoformat(value)
+        except Exception:
+            return dt.datetime.min.replace(tzinfo=dt.timezone.utc)
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=dt.timezone.utc)
+        return parsed
+
+    stream = sorted(raw, key=_ts, reverse=True)[:max_items]
 
     # Fallback: if engine produced nothing, inject a synthetic item so dashboard isn't blank
     if not stream:
