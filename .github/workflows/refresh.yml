@@ -20,7 +20,9 @@ jobs:
           python-version: '3.13'
 
       - name: Run AlphaIntel updater
-        run: python update_dashboard.py --max-items 150
+        run: |
+          python update_dashboard.py --max-items 150
+          test $? -le 1
 
       - name: Commit and push if changed
         env:
