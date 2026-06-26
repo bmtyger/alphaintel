@@ -28,6 +28,35 @@
     },
     {
       "category": "finance",
+      "timestamp": "2026-06-26 21:36:29",
+      "headline": "Short Interest: Saks Global emerges from bankruptcy\u00a0under new corporate name, lower debt",
+      "bullet_points": [
+        "Short interest / bearish flow signal from Investing.com"
+      ],
+      "source": "Investing.com",
+      "confidence": 76,
+      "url": "https://www.investing.com/news/stock-market-news/saks-global-emerges-from-bankruptcyunder-new-corporate-name-lower-debt-4763699",
+      "tickers": [
+        "COM",
+        "DEBT",
+        "FLOW",
+        "LOWER",
+        "NAME",
+        "NEW",
+        "SAKS",
+        "SHORT"
+      ],
+      "event_type": "Bankruptcy",
+      "market_impact": {
+        "score": 35,
+        "tier": "low",
+        "reasons": [
+          "Bankruptcy"
+        ]
+      }
+    },
+    {
+      "category": "finance",
       "timestamp": "2026-06-26 22:37 UTC",
       "headline": "Hellman &amp; Friedman-Backed Hub Files Confidentially for IPO",
       "bullet_points": [
@@ -75,34 +104,6 @@
       "event_type": "Public Market Event",
       "market_impact": {
         "score": 35,
-        "tier": "low",
-        "reasons": [
-          "Public Market Event"
-        ]
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-06-25T16:29:00Z",
-      "headline": "Kalshi Targets $40 Billion Valuation Ahead Of IPO",
-      "bullet_points": [
-        "Source: https://finance.yahoo.com/markets/stocks/articles/kalshi-targets-40-billion-valuation-162900761.html"
-      ],
-      "source": "Yahoo Finance",
-      "confidence": 73,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/kalshi-targets-40-billion-valuation-162900761.html",
-      "tickers": [
-        "AHEAD",
-        "COM",
-        "HTML",
-        "HTTPS",
-        "IPO",
-        "OF",
-        "YAHOO"
-      ],
-      "event_type": "Public Market Event",
-      "market_impact": {
-        "score": 25,
         "tier": "low",
         "reasons": [
           "Public Market Event"
@@ -253,55 +254,31 @@
       }
     },
     {
-      "category": "security",
-      "timestamp": "2026-06-26 23:32 UTC",
-      "headline": "Hackers exploit critical PTC Windchill PLM software flaw",
+      "category": "trends",
+      "timestamp": "2026-06-26 22:00 UTC",
+      "headline": "Quote of the day by Nvidia CEO Jensen Huang: 'People talk about AI reducing jobs \u2014 complete nonsense' \u2014 pushing back against automation fears",
       "bullet_points": [
-        "Security: CSO Online \u2014 threat intel, breaches, vulns"
+        "Tech: TechRadar \u2014 AI, gadgets, software"
       ],
-      "source": "CSO Online",
-      "url": "https://www.csoonline.com/article/4190154/hackers-exploit-critical-ptc-windchill-plm-software-flaw.html",
+      "source": "TechRadar",
+      "url": "https://www.techradar.com/pro/quote-of-the-day-by-nvidia-ceo-jensen-huang-people-talk-about-ai-reducing-jobs-complete-nonsense-pushing-back-against-automation-fears",
       "confidence": 70,
       "tickers": [
-        "CSO",
-        "FLAW",
-        "INTEL",
-        "PLM",
-        "PTC",
-        "VULNS"
+        "AI",
+        "BACK",
+        "BY",
+        "CEO",
+        "DAY",
+        "FEARS",
+        "HUANG",
+        "JOBS"
       ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-06-26 23:12:27",
-      "headline": "Short Interest: SpaceX, Charter discussed mobile phone partnership in US, Bloomberg News reports",
-      "bullet_points": [
-        "Short interest / bearish flow signal from Investing.com"
-      ],
-      "source": "Investing.com",
-      "confidence": 70,
-      "url": "https://www.investing.com/news/stock-market-news/spacex-charter-discussed-mobile-phone-partnership-in-us-bloomberg-news-reports-4763843",
-      "tickers": [
-        "COM",
-        "FLOW",
-        "IN",
-        "NEWS",
-        "PHONE",
-        "SHORT",
-        "US"
-      ],
-      "event_type": "Partnership",
+      "event_type": "Leadership",
       "market_impact": {
         "score": 25,
         "tier": "low",
         "reasons": [
-          "Partnership"
+          "Leadership"
         ]
       }
     },
@@ -434,7 +411,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-26 23:41 UTC",
+      "timestamp": "2026-06-26 23:25 UTC",
       "headline": "CISA KEV: CVE-2026-12569 (PTC Windchill and FlexPLM)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-28",
@@ -461,7 +438,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-26 23:41 UTC",
+      "timestamp": "2026-06-26 23:25 UTC",
       "headline": "CISA KEV: CVE-2026-20230 (Cisco Unified Communications Manager)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-28",
@@ -489,7 +466,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-26 23:41 UTC",
+      "timestamp": "2026-06-26 23:25 UTC",
       "headline": "CISA KEV: CVE-2025-67038 (Lantronix EDS5000)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-26",
@@ -515,7 +492,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-26 23:41 UTC",
+      "timestamp": "2026-06-26 23:25 UTC",
       "headline": "CISA KEV: CVE-2026-34910 (Ubiquiti UniFi OS)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-26",
@@ -543,7 +520,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-26 23:41 UTC",
+      "timestamp": "2026-06-26 23:25 UTC",
       "headline": "CISA KEV: CVE-2026-34909 (Ubiquiti UniFi OS)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-26",
@@ -571,7 +548,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-26 23:41 UTC",
+      "timestamp": "2026-06-26 23:25 UTC",
       "headline": "CISA KEV: CVE-2026-34908 (Ubiquiti UniFi OS)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-26",
@@ -598,7 +575,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-26 23:41 UTC",
+      "timestamp": "2026-06-26 23:25 UTC",
       "headline": "CISA KEV: CVE-2026-20253 (Splunk Enterprise)",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-21",
@@ -623,7 +600,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-06-26 23:41 UTC",
+      "timestamp": "2026-06-26 23:25 UTC",
       "headline": "CISA KEV: CVE-2026-48907 (Widget Factory Joomla Content Editor )",
       "bullet_points": [
         "Agency remediation deadline: 2026-06-19",
@@ -1758,6 +1735,31 @@
     },
     {
       "category": "security",
+      "timestamp": "2026-06-26 07:30 UTC",
+      "headline": "GDPR at 10: Landmark data protections, increasing business burden",
+      "bullet_points": [
+        "Security: CSO Online \u2014 threat intel, breaches, vulns"
+      ],
+      "source": "CSO Online",
+      "url": "https://www.csoonline.com/article/4180915/10-years-of-the-gdpr-a-summary.html",
+      "confidence": 67,
+      "tickers": [
+        "AT",
+        "CSO",
+        "DATA",
+        "GDPR",
+        "INTEL",
+        "VULNS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
       "timestamp": "2026-06-26 07:18 UTC",
       "headline": "macOS.Gaslight: North Korea-Linked Malware That Tries to Gaslight the Analyst",
       "bullet_points": [
@@ -2533,33 +2535,6 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-06-26 21:59 UTC",
-      "headline": "\u2018Tit-for-tat\u2019 trade warfare threatens global economy, says IMF chief economist",
-      "bullet_points": [
-        "Finance: FT \u2014 market updates, crypto, macro"
-      ],
-      "source": "FT",
-      "confidence": 66,
-      "url": "https://www.ft.com/content/8199cd6d-e513-4c9a-9beb-8a7acd2b65dc",
-      "tickers": [
-        "CHIEF",
-        "FT",
-        "IMF",
-        "MACRO",
-        "SAYS",
-        "TAT",
-        "TIT",
-        "TRADE"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
       "timestamp": "2026-06-26 21:58 UTC",
       "headline": "SpaceX Shares Stabilize, But Now Its Bonds Are Weakening",
       "bullet_points": [
@@ -3127,6 +3102,33 @@
       }
     },
     {
+      "category": "finance",
+      "timestamp": "2026-06-25T16:12:15Z",
+      "headline": "Project Pangea Targets $150B Trade Corridor: Can Chainlink Challenge XRP and XLM in Cross-Border Payments?",
+      "bullet_points": [
+        "Source: https://finance.yahoo.com/markets/crypto/articles/project-pangea-targets-150b-trade-161215373.html"
+      ],
+      "source": "Yahoo Finance",
+      "confidence": 66,
+      "url": "https://finance.yahoo.com/markets/crypto/articles/project-pangea-targets-150b-trade-161215373.html",
+      "tickers": [
+        "CAN",
+        "COM",
+        "CROSS",
+        "HTML",
+        "HTTPS",
+        "IN",
+        "TRADE",
+        "XLM"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
       "category": "geopower",
       "timestamp": "2026-06-25 20:35 UTC",
       "headline": "Chalecki quoted in Straits Times article on the expiration of Section 122 tariffs",
@@ -3473,33 +3475,6 @@
     },
     {
       "category": "geopower",
-      "timestamp": "2026-06-27 08:17 UTC",
-      "headline": "U.S. strikes Iran in response to attack on cargo ship in Strait of Hormuz",
-      "bullet_points": [
-        "Geopower: Japan Times \u2014 world, conflict, policy"
-      ],
-      "source": "Japan Times",
-      "confidence": 65,
-      "url": "https://www.japantimes.co.jp/news/2026/06/27/world/us-military-strikes-hormuz-attack/",
-      "tickers": [
-        "CARGO",
-        "IN",
-        "IRAN",
-        "JAPAN",
-        "OF",
-        "ON",
-        "SHIP",
-        "TIMES"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
       "timestamp": "2026-06-27 03:34 UTC",
       "headline": "US conducts strikes on Iran hours after Trump's 'foolish violation' remark over Hormuz attack",
       "bullet_points": [
@@ -3828,6 +3803,33 @@
         "FLOW",
         "PEACE",
         "POOL"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-06-26 18:04 UTC",
+      "headline": "On-chain: Virtuals' Jansen Teng says AI agents are evolving into autonomous economic actors",
+      "bullet_points": [
+        "Crypto on-chain / whale flow signal"
+      ],
+      "source": "CoinDesk",
+      "confidence": 65,
+      "url": "https://www.coindesk.com/coindesk-news/2026/06/26/virtuals-jansen-teng-says-ai-agents-are-evolving-into-autonomous-economic-actors",
+      "tickers": [
+        "AI",
+        "ARE",
+        "CHAIN",
+        "FLOW",
+        "ON",
+        "SAYS",
+        "TENG",
+        "WHALE"
       ],
       "event_type": "Material Event",
       "market_impact": {
