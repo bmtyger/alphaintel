@@ -1,0 +1,9 @@
+.timestamp {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+#last-refreshed {
+    margin-left: 0.5rem;
+    font-variant-numeric: tabular-nums;
+}

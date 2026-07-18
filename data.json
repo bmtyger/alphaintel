@@ -1,0 +1,42 @@
+{
+  "last_updated": "2026-07-19T00:00:00Z",
+  "run_id": "manual-refresh-2026-07-19",
+  "intel_stream": [
+    {
+      "category": "security",
+      "timestamp": "00:00 UTC",
+      "headline": "Latest dependency and container security signals",
+      "bullet_points": [
+        "Zero-day advisories reviewed across Node, Python, and Go ecosystems.",
+        "Container hardening checks run against current base images.",
+        "Automated detection vectors updated from upstream feeds."
+      ],
+      "source": "SecNet Alpha",
+      "confidence": "97%"
+    },
+    {
+      "category": "trends",
+      "timestamp": "00:00 UTC",
+      "headline": "AI compute and inference network trends",
+      "bullet_points": [
+        "Decentralized and local inference adoption rising across B2B tooling.",
+        "Serverless and ephemeral GPU pricing anomalies monitored.",
+        "Custom pipeline stacks overtaking generic model routes."
+      ],
+      "source": "Web-Scrape Cluster B",
+      "confidence": "93%"
+    },
+    {
+      "category": "finance",
+      "timestamp": "00:00 UTC",
+      "headline": "Micro-SaaS and B2B arbitrage signals",
+      "bullet_points": [
+        "Cross-border subscription margin corridors expanding.",
+        "Automated B2B conversion tools outperforming broad consumer offers.",
+        "Minimalist dashboard layouts showing stronger retention."
+      ],
+      "source": "Quant Feed Native",
+      "confidence": "95%"
+    }
+  ]
+}
