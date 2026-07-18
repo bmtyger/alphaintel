@@ -1,0 +1,117 @@
+import datetime as dt
+import logging
+import re
+from .rss_helpers import _fmt, _parse_dt, _text, _trunc
+from .base import BaseSource, SourceResult
+
+logger = logging.getLogger(__name__)
+
+UA = {"User-Agent": "AlphaIntelBot/1.0 (+nichaas-dashboard; contact: bodea.mircea@gmail.com)"}
+_CUTOFF_DAYS = 30
+
+
+class GeopowerRssSource(BaseSource):
+    name = "geopower_rss"
+    category = "geopower"
+    feeds = [
+        ("UN News", "https://news.un.org/feed/subscribe/en/news/all/rss.xml"),
+
+        ("BBC World", "http://feeds.bbci.co.uk/news/world/rss.xml"),
+        ("France24", "https://www.france24.com/en/rss"),
+        ("Middle East Eye", "https://www.middleeasteye.net/rss"),
+        ("Egypt Independent", "https://egyptindependent.com/feed/"),
+        ("South China Morning Post", "https://www.scmp.com/rss/4/feed"),
+        ("Japan Times", "https://www.japantimes.co.jp/feed/"),
+        ("India Times", "https://timesofindia.indiatimes.com/rssfeedstopstories.cms"),
+        ("Foreign Affairs", "https://www.foreignaffairs.com/rss.xml"),
+        ("CSIS", "https://www.csis.org/rss.xml"),
+        ("Crisis Group", "https://www.crisisgroup.org/rss.xml"),
+        ("Atlantic Council", "https://www.atlanticcouncil.org/feed/"),
+        ("CNBC World", "https://www.cnbc.com/id/100727362/device/rss/rss.html"),
+
+        ("BBC Africa", "http://feeds.bbci.co.uk/news/world/africa/rss.xml"),
+        ("BBC Asia", "http://feeds.bbci.co.uk/news/world/asia/rss.xml"),
+        ("BBC Europe", "http://feeds.bbci.co.uk/news/world/europe/rss.xml"),
+        ("BBC Latin America", "http://feeds.bbci.co.uk/news/world/latin_america/rss.xml"),
+        ("BBC Middle East", "http://feeds.bbci.co.uk/news/world/middle_east/rss.xml"),
+        ("BBC US Canada", "http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml"),
+    ]
+
+    def fetch(self) -> SourceResult:
+        items: list[dict] = []
+        seen = set()
+        cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=_CUTOFF_DAYS)
+        fetch_errors: list[str] = []
+        for org, url in self.feeds:
+            try:
+                xml = self._request("GET", url, headers=UA)[0].decode(
+                    "utf-8", errors="replace"
+                )
+                for raw in re.findall(r"<item>(.*?)</item>", xml, re.S)[:6]:
+                    title = _text(
+                        raw,
+                        r"<title[^>]*>(?:<!\[CDATA\[(.*?)\]\]>|(.*?))</title>",
+                    )
+                    pub = _text(raw, r"<pubDate[^>]*>(.*?)</pubDate>")
+                    link = _text(raw, r"<link[^>]*>(.*?)</link>")
+                    if not title:
+                        continue
+                    key = title.strip().lower()
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    when = _parse_dt(pub)
+                    if when and when < cutoff:
+                        continue
+                    score = sum(
+                        1 for k in _geopower_keywords if k in title.lower()
+                    )
+                    if score < 1 and org not in {
+                        "Reuters World", "AP News", "UN News", "NPR World",
+                        "Al Jazeera", "BBC World", "France24", "Middle East Eye",
+                        "Egypt Independent", "South China Morning Post",
+                        "Japan Times", "India Times", "Foreign Affairs", "CSIS",
+                        "Crisis Group", "Atlantic Council", "IISS", "Eurasia Group",
+                        "Stratfor", "The Diplomat", "Fox News World", "Russia Today",
+                        "Times of Israel", "Haaretz", "Jerusalem Post", "Korea Herald",
+                        "Straits Times", "Nikkei Asia", "Reuters Asia", "UNCTAD",
+                        "Asharq", "Arab News", "Guardian World", "DW News",
+                        "CNBC World", "CNN World", "ABC World", "CBS News",
+                        "NBC News", "Politico", "BBC Africa", "BBC Asia", "BBC Europe",
+                        "BBC Latin America", "BBC Middle East", "BBC US Canada",
+                    }:
+                        continue
+                    if score == 0:
+                        score = 1  # ensure headline global-news items survive
+                    items.append(
+                        {
+                            "category": self.category,
+                            "timestamp": _fmt(pub),
+                            "headline": _trunc(title, 170),
+                            "bullet_points": [
+                                _trunc(f"Geopower: {org} — world, conflict, policy", 120)
+                            ],
+                            "source": org,
+                            "confidence": min(96, 78 + score * 4),
+                            "url": link,
+                        }
+                    )
+            except Exception as exc:
+                msg = f"geopower feed failed [{org}] {url}: {exc}"
+                fetch_errors.append(msg)
+                logger.warning(msg)
+        error = "; ".join(fetch_errors) if fetch_errors else None
+        return SourceResult(items=items, source_name=self.name, category=self.category, success=not fetch_errors, error=error)
+
+
+_geopower_keywords = [
+    "sanctions", "treaty", "war", "conflict", "oil", "energy", "trade war",
+    "summit", "nuclear", "tariff", "diplomat", "agreement", "un security council",
+    "military", "defense", "border", "election", "coup", "alliance", "nato",
+    "opec", "gas", "lithium", "copper", "supply chain", "strait", "missile",
+    "iran", "ukraine", "russia", "china", "taiwan", "israel", "lebanon",
+    "hormuz", "pentagon", "white house", "congress", "brexit", "europe",
+    "asia", "africa", "latin america", "middle east", "biden", "trump",
+    "president", "prime minister", "putin", "xi", "modi", "south china sea",
+    "tibet", "xinjiang", "genocide", "sanctioned", "blacklist",
+]

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /backups/
+Sitemap: https://bmtyger.github.io/alphaintel/sitemap.xml

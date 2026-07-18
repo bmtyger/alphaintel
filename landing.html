@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  STRIPE PAYMENT LINKS — replace these placeholders with your real Stripe Payment Links.
+  Create them in Stripe Dashboard → Products → Payment links. No backend required.
+-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AlphaIntel — Real-Time Intelligence for Markets, M&A, and Geopolitics</title>
+<meta name="description" content="Autonomous multi-source intelligence across AI, markets, cybersecurity, and geopolitics. Trusted by analysts, traders, and operators.">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<style>
+  .landing { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+  .hero { padding: 5rem 0 3.5rem; text-align: center; }
+  .hero h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 700; letter-spacing: -0.03em; line-height: 1.2; margin-bottom: 1rem; }
+  .hero h1 span { color: var(--accent-blue); }
+  .hero p { color: var(--text-secondary); font-size: 1.05rem; max-width: 640px; margin: 0 auto 1.5rem; }
+  .cta-row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .btn { display: inline-block; padding: 12px 22px; border-radius: 8px; font-weight: 600; text-decoration: none; font-size: 14px; }
+  .btn.primary { background: var(--accent-blue); color: #fff; border: 1px solid var(--accent-blue); }
+  .btn.ghost { background: transparent; color: var(--text-primary); border: 1px solid var(--bg-border); }
+  .section { padding: 3rem 0; }
+  .section-title { font-size: 13px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--text-secondary); margin-bottom: 0.75rem; }
+  .columns { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .v-card { background: var(--bg-card); border: 1px solid var(--bg-border); border-radius: var(--radius); padding: 1.25rem; }
+  .v-card h3 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.5rem; color: var(--text-primary); }
+  .v-card p { font-size: 13px; color: var(--text-secondary); line-height: 1.5; }
+  .pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; max-width: 960px; margin: 0 auto; }
+  .price-card { background: var(--bg-card); border: 1px solid var(--bg-border); border-radius: var(--radius); padding: 1.5rem; position: relative; }
+  .price-card.featured { border-color: var(--accent-blue); box-shadow: 0 0 24px rgba(59,130,246,0.12); }
+  .price-card .badge { position: absolute; top: -10px; right: 14px; background: var(--accent-blue); color: #fff; font-size: 10px; font-weight: 700; padding: 4px 8px; border-radius: 6px; text-transform: uppercase; }
+  .price-card h3 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-secondary); }
+  .price { font-size: 32px; font-weight: 700; margin: 10px 0; }
+  .price span { font-size: 14px; color: var(--text-secondary); font-weight: 400; }
+  .price-card ul { list-style: none; padding: 0; margin: 14px 0 18px; }
+  .price-card li { font-size: 13px; color: var(--text-secondary); padding: 3px 0; }
+  .roadmap { background: var(--bg-card); border: 1px solid var(--bg-border); border-radius: var(--radius); padding: 1.25rem; margin-top: 0.75rem; }
+  .roadmap h3 { font-size: 13px; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; }
+  .roadmap ul { list-style: none; padding: 0; margin: 0; }
+  .roadmap li { font-size: 12px; color: var(--text-secondary); padding: 3px 0; }
+  .roadmap li::before { content: "→ "; color: var(--accent-blue); }
+  @media (max-width: 900px) { .columns { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 640px) { .columns { grid-template-columns: 1fr; } .pricing-grid { grid-template-columns: 1fr; max-width: 420px; } }
+</style>
+</head>
+<body>
+
+<header class="topbar" style="position:sticky;top:0;z-index:50;">
+  <a class="brand" href="index.html"><span class="logo">◧</span> <span>AlphaIntel</span></a>
+  <a class="cta" href="#pricing">Pricing</a>
+</header>
+
+<main class="landing">
+  <section class="hero">
+    <h1>Real-time intelligence for <span>markets, M&A, and geopolitics</span></h1>
+    <p>4 niche verticals. 30+ live sources. 1 dashboard. We monitor SEC filings, central banks, CISA advisories, geopolitical signals, and major tech blogs so you can focus on decisions.</p>
+    <div class="cta-row">
+      <a class="btn primary" href="#waitlist">Join the waitlist</a>
+      <a class="btn ghost" href="index.html">View sample dashboard</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Vertical Coverage</h2>
+    <div class="columns">
+      <article class="v-card">
+        <h3>Markets & M&A</h3>
+        <p>SEC 8-K material events, insider trades, 13D/G positions, tender offers, Seeking Alpha market signals, and crypto market news distilled into deal signals.</p>
+      </article>
+      <article class="v-card">
+        <h3>Cybersecurity</h3>
+        <p>CISA Known Exploited Vulnerabilities, NVD, KrebsOnSecurity, BleepingComputer — prioritized by active exploitation and asset criticality.</p>
+      </article>
+      <article class="v-card">
+        <h3>AI &amp; Big Tech</h3>
+        <p>OpenAI, Anthropic, DeepMind, arXiv breakthroughs, product launches, and regulatory actions affecting compute, chips, and model releases.</p>
+      </article>
+      <article class="v-card">
+        <h3>Geopower</h3>
+        <p>Sanctions, treaties, energy shocks, central bank moves, and supply-chain disruptions that move commodities and risk assets.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Premium Source Roadmap</h2>
+    <p style="color: var(--text-secondary); font-size: 13px; max-width: 760px;">These data sets are included for Elite tier and as add-on modules for Enterprise. They move markets before retail news hits the wire.</p>
+    <div class="roadmap">
+      <h3>Markets / Finance</h3>
+      <ul>
+        <li>Unusual options flow (sweeps, blocks, dark pool prints)</li>
+        <li>FINRA ATS quarterly short interest (High Short Interest % alerts)</li>
+        <li>SEC Form 4 insider buys / sells with ticker scoring</li>
+        <li>Crypto on-chain whale flows + exchange netflow (Glassnode / CryptoQuant)</li>
+        <li>13F institutional position changes (whale wallet accumulation)</li>
+      </ul>
+    </div>
+    <div class="roadmap" style="margin-top: 8px;">
+      <h3>Geopolitical + Macro</h3>
+      <ul>
+        <li>Treasury yield curve / Fed funds proxy (live spread anomaly)</li>
+        <li>OPEC+ production statements + Brent/WTI differentials</li>
+        <li>UN Security Council resolutions / sanctions language parser</li>
+        <li>Regulatory proposal density (SEC, EU, HK, MAS) by affected sector</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="pricing">
+    <h2 class="section-title">Plans</h2>
+    <div class="pricing-grid">
+      <article class="price-card">
+        <h3>Starter</h3>
+        <p class="price">$9<span>/mo</span></p>
+        <ul>
+          <li>4 vertical feeds</li>
+          <li>Web dashboard</li>
+          <li>Daily briefing</li>
+        </ul>
+        <a class="btn primary" href="https://buy.stripe.com/REPLACE_WITH_YOUR_STARTER_LINK">Notify at launch</a>
+      </article>
+      <article class="price-card featured">
+        <div class="badge">Most popular</div>
+        <h3>Pro</h3>
+        <p class="price">$19<span>/mo</span></p>
+        <ul>
+          <li>4 vertical feeds</li>
+          <li>Email digest (daily)</li>
+          <li>1 alert keyword</li>
+          <li>Curator's note</li>
+        </ul>
+        <a class="btn primary" href="https://buy.stripe.com/REPLACE_WITH_YOUR_PRO_LINK">Join waitlist</a>
+      </article>
+      <article class="price-card">
+        <h3>Enterprise</h3>
+        <p class="price">$49<span>/mo</span></p>
+        <ul>
+          <li>Unlimited alerts</li>
+          <li>API access</li>
+          <li>Custom verticals</li>
+          <li>Premium sources (options, short interest, whale flows)</li>
+        </ul>
+        <a class="btn ghost" href="https://buy.stripe.com/REPLACE_WITH_YOUR_ENTERPRISE_LINK">Contact sales</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="waitlist">
+    <h2 class="section-title">Join the Waitlist</h2>
+    <form class="waitlist-form" id="waitlist-form" action="https://formspree.io/f/placeholder" method="POST" novalidate>
+      <label for="wl-email">Work email</label>
+      <input type="email" id="wl-email" name="email" placeholder="you@firm.com" required autocomplete="email">
+      <label for="wl-role">Role</label>
+      <select id="wl-role" name="role">
+        <option value="">Select…</option>
+        <option value="analyst">Analyst / Associate</option>
+        <option value="trader">Trader</option>
+        <option value="compliance">Compliance</option>
+        <option value="executive">Executive</option>
+        <option value="other">Other</option>
+      </select>
+      <label for="wl-company">Company (optional)</label>
+      <input type="text" id="wl-company" name="company" placeholder="Firm name" autocomplete="organization">
+      <button type="submit" class="btn primary">Request early access</button>
+      <p class="form-note" id="form-note" role="alert" hidden></p>
+    </form>
+  </section>
+
+  <section class="section" style="padding-bottom:6rem;">
+    <h2 class="section-title">How It Works</h2>
+    <div class="columns">
+      <article class="v-card">
+        <h3>1. Source</h3>
+        <p>We monitor 30+ authoritative public data streams in real time: SEC EDGAR, CISA KEV, central banks, crypto markets, and major tech blogs.</p>
+      </article>
+      <article class="v-card">
+        <h3>2. Synthesize</h3>
+        <p>An autonomous pipeline filters noise, classifies event types, extracts tickers, and assigns confidence scores and market impact ratings.</p>
+      </article>
+      <article class="v-card">
+        <h3>3. Deliver</h3>
+        <p>Signals surface on your dashboard and via daily email digest. Pro and Enterprise users get keyword alerts and weekly curator notes.</p>
+      </article>
+      <article class="v-card">
+        <h3>4. Act</h3>
+        <p>Spend seconds, not hours. Each card gives you the headline, context bullets, source link, and impact score.</p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="foot" role="contentinfo">
+  <span>&copy; <span id="year"></span> AlphaIntel. All rights reserved.</span>
+  <span><a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a></span>
+</footer>
+
+<script src="app.js" defer></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<div id="waitlist-modal" class="modal-overlay" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="wm-title">
+    <h2 id="wm-title">You're on the list</h2>
+    <p id="wm-body">We'll reach out when AlphaIntel opens for early access.</p>
+    <button class="btn primary" id="wm-close">Got it</button>
+  </div>
+</div>
+<script>
+(function(){
+  var overlay = document.getElementById('waitlist-modal');
+  var close = document.getElementById('wm-close');
+  var form = document.getElementById('waitlist-form');
+  var note = document.getElementById('form-note');
+  function openModal(title, body) {
+    var t = document.getElementById('wm-title');
+    var b = document.getElementById('wm-body');
+    if (t && title) t.textContent = title;
+    if (b && body) b.textContent = body;
+    overlay.hidden = false;
+  }
+  function closeModal() { overlay.hidden = true; }
+  close && close.addEventListener('click', closeModal);
+  overlay && overlay.addEventListener('click', function(e){ if (e.target === overlay) closeModal(); });
+  if (form) {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      var email = (form.querySelector('#wl-email') || {}).value || '';
+      if (!email || !/@/.test(email)) {
+        if (note) { note.hidden = false; note.textContent = 'Please enter a valid email.'; }
+        return;
+      }
+      if (note) { note.hidden = true; note.textContent = ''; }
+      openModal('You\'re on the list', 'We saved your request. We\'ll contact you at ' + email + ' when early access opens.');
+    });
+  }
+})();
+</script>
+</body>
+</html>
