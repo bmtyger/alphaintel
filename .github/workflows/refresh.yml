@@ -30,14 +30,19 @@ jobs:
 
       - name: Run AlphaIntel updater
         run: |
-          python update_dashboard.py --max-items 150
+          python update_dashboard.py --max-items 150 \
+            || echo 'Updater failed; preserving existing data.json'
 
       - name: Show diagnostics
+        if: always()
         run: |
           python - << 'PY'
           import json
           from pathlib import Path
           p = Path("data.json")
+          if not p.exists():
+            print("diagnostics=data.json missing")
+            raise SystemExit(0)
           data = json.loads(p.read_text(encoding="utf-8"))
           print("last_updated=" + str(data.get("last_updated", "")))
           print("items=" + str(len(data.get("intel_stream", []))))
