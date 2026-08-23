@@ -2,6 +2,33 @@
   "intel_stream": [
     {
       "category": "finance",
+      "timestamp": "2026-08-23T19:38:55Z",
+      "headline": "AstraZeneca Made a $1.5 Billion Lung Cancer Bet, but Can Zegfrovy Strengthen its Oncology Growth?",
+      "bullet_points": [
+        "Source: https://finance.yahoo.com/healthcare/articles/astrazeneca-made-1-5-billion-193855181.html"
+      ],
+      "source": "Yahoo Finance",
+      "confidence": 63,
+      "url": "https://finance.yahoo.com/healthcare/articles/astrazeneca-made-1-5-billion-193855181.html",
+      "tickers": [
+        "BET",
+        "BUT",
+        "CAN",
+        "COM",
+        "HTML",
+        "HTTPS",
+        "ITS",
+        "LUNG"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
       "timestamp": "2026-08-23T18:36:56Z",
       "headline": "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
       "bullet_points": [
@@ -260,33 +287,6 @@
         "HTTPS",
         "TO",
         "YAHOO"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-08-23T15:00:00Z",
-      "headline": "Rocket Mortgage pushes home equity loans to wipe out credit card debt \u2014 here's how that could backfire on homeowners",
-      "bullet_points": [
-        "Source: https://finance.yahoo.com/real-estate/articles/rocket-mortgage-pushes-home-equity-150000372.html"
-      ],
-      "source": "Yahoo Finance",
-      "confidence": 63,
-      "url": "https://finance.yahoo.com/real-estate/articles/rocket-mortgage-pushes-home-equity-150000372.html",
-      "tickers": [
-        "CARD",
-        "COM",
-        "COULD",
-        "DEBT",
-        "HERE",
-        "HOME",
-        "HOW",
-        "HTML"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -747,7 +747,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-08-23 19:48 UTC",
+      "timestamp": "2026-08-23 19:51 UTC",
       "headline": "CISA KEV: CVE-2026-73570 (Synacor Zimbra Collaboration Suite (ZCS))",
       "bullet_points": [
         "Agency remediation deadline: 2026-08-24",
@@ -1229,7 +1229,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-08-23 19:48 UTC",
+      "timestamp": "2026-08-23 19:51 UTC",
       "headline": "CISA KEV: CVE-2026-72530 (TrueConf Server)",
       "bullet_points": [
         "Agency remediation deadline: 2026-09-03",
@@ -1255,7 +1255,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-08-23 19:48 UTC",
+      "timestamp": "2026-08-23 19:51 UTC",
       "headline": "CISA KEV: CVE-2026-72529 (TrueConf Server)",
       "bullet_points": [
         "Agency remediation deadline: 2026-08-23",
@@ -1280,7 +1280,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-08-23 19:48 UTC",
+      "timestamp": "2026-08-23 19:51 UTC",
       "headline": "CISA KEV: CVE-2026-64849 (MLflow MLflow)",
       "bullet_points": [
         "Agency remediation deadline: 2026-09-02",
@@ -1306,7 +1306,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-08-23 19:48 UTC",
+      "timestamp": "2026-08-23 19:51 UTC",
       "headline": "CISA KEV: CVE-2026-33824 (Microsoft Internet Key Exchange (IKE) Service Extensions)",
       "bullet_points": [
         "Agency remediation deadline: 2026-08-21",
@@ -1334,7 +1334,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-08-23 19:48 UTC",
+      "timestamp": "2026-08-23 19:51 UTC",
       "headline": "CISA KEV: CVE-2026-59310 (Broadcom VMware vCenter)",
       "bullet_points": [
         "Agency remediation deadline: 2026-08-21",
@@ -1360,7 +1360,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-08-23 19:48 UTC",
+      "timestamp": "2026-08-23 19:51 UTC",
       "headline": "CISA KEV: CVE-2026-55040 (Microsoft SharePoint)",
       "bullet_points": [
         "Agency remediation deadline: 2026-08-21",
@@ -1386,7 +1386,7 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-08-23 19:48 UTC",
+      "timestamp": "2026-08-23 19:51 UTC",
       "headline": "CISA KEV: CVE-2026-65400 (Apple macOS)",
       "bullet_points": [
         "Agency remediation deadline: 2026-08-21",
