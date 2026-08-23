@@ -1,30 +1,61 @@
-name: Refresh AlphaIntel dashboard
+name: Refresh AlphaIntel Dashboard
 
 on:
-  schedule:
-    - cron: '0 * * * *'
   workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
+          python-version: "3.13"
 
       - name: Run AlphaIntel updater
-        run: python update_dashboard.py --max-items 150 || true
+        run: |
+          python update_dashboard.py --max-items 150 \
+            || echo 'Updater failed; preserving existing data.json'
 
-      - name: Upload refreshed data
-        uses: actions/upload-artifact@v4
+      - name: Show diagnostics
+        if: always()
+        run: |
+          python - << 'PY'
+          import json
+          from pathlib import Path
+          p = Path("data.json")
+          if not p.exists():
+            print("diagnostics=data.json missing")
+            raise SystemExit(0)
+          data = json.loads(p.read_text(encoding="utf-8"))
+          print("last_updated=" + str(data.get("last_updated", "")))
+          print("items=" + str(len(data.get("intel_stream", []))))
+          from collections import Counter
+          c = Counter(i.get("category") for i in data.get("intel_stream", []))
+          print("categories=" + ", ".join(f"{k}:{v}" for k, v in sorted(c.items())))
+          PY
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: alphaintel-data
-          path: data.json
-          retention-days: 7
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

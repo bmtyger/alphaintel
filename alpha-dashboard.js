@@ -231,6 +231,7 @@
       var counts = {};
       allItems.forEach(function (i) { counts[i.category] = (counts[i.category] || 0) + 1; });
       setDiagnostics("ok", Object.keys(counts).map(function (k) { return k + ":" + counts[k]; }).join(", ") + " (" + allItems.length + " total)");
+      setLastRefreshed();
     } catch (err) {
       console.error("Dashboard load failed:", err);
       setState("error", "Signal feed unreachable. Retrying…");
@@ -266,4 +267,11 @@
   }
 
   if (GRID) init();
+
+  function setLastRefreshed() {
+    var el = document.getElementById("last-refreshed");
+    if (!el) return;
+    var now = new Date();
+    el.textContent = "Refreshed " + now.toLocaleString();
+  }
 })();
