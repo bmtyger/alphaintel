@@ -2,22 +2,49 @@
   "intel_stream": [
     {
       "category": "finance",
-      "timestamp": "2026-07-24 19:32:45",
-      "headline": "Short Interest: Devon Energy explores sale of shale assets worth over $4bn- Bloomberg",
+      "timestamp": "2026-08-24 20:30:10",
+      "headline": "Short Interest: TSX ends flat as Trump tariff threat keeps trade tensions in focus",
+      "bullet_points": [
+        "Short interest / bearish flow signal from Investing.com"
+      ],
+      "source": "Investing.com",
+      "confidence": 65,
+      "url": "https://www.investing.com/news/stock-market-news/canadian-futures-flatline-as-us-tariff-escalation-snuffs-out-earnings-boost-4872825",
+      "tickers": [
+        "AS",
+        "COM",
+        "ENDS",
+        "FLAT",
+        "FLOW",
+        "FOCUS",
+        "IN",
+        "KEEPS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 20:23:13",
+      "headline": "Short Interest: Why is The Trade Desk stock sliding in the after-hours?",
       "bullet_points": [
         "Short interest / bearish flow signal from Investing.com"
       ],
       "source": "Investing.com",
       "confidence": 63,
-      "url": "https://www.investing.com/news/stock-market-news/devon-energy-explores-sale-of-shale-assets-worth-over-4bn-bloomberg-93CH-4812428",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-the-trade-desk-stock-sliding-in-the-afterhours-93CH-4874145",
       "tickers": [
+        "AFTER",
         "COM",
-        "DEVON",
+        "DESK",
         "FLOW",
-        "OF",
-        "OVER",
-        "SALE",
-        "SHALE",
+        "HOURS",
+        "IN",
+        "IS",
         "SHORT"
       ],
       "event_type": "Material Event",
@@ -29,23 +56,736 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-07-24 19:27:07",
-      "headline": "Short Interest: Uber under pressure: Waymo partnership on the brink",
+      "timestamp": "2026-08-24 20:13:00",
+      "headline": "Short Interest: The Trade Desk stock falls after filing shelf prospectus",
       "bullet_points": [
         "Short interest / bearish flow signal from Investing.com"
       ],
       "source": "Investing.com",
-      "confidence": 70,
-      "url": "https://www.investing.com/news/stock-market-news/uber-under-pressure-waymo-partnership-on-the-brink-4812422",
+      "confidence": 63,
+      "url": "https://www.investing.com/news/stock-market-news/the-trade-desk-stock-falls-after-filing-shelf-prospectus-93CH-4874123",
       "tickers": [
-        "BRINK",
+        "AFTER",
+        "COM",
+        "DESK",
+        "FALLS",
+        "FLOW",
+        "SHELF",
+        "SHORT",
+        "STOCK"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 20:12:33",
+      "headline": "Short Interest: Lula\u2019s campaign considers curbing on independent contractors in potential new term",
+      "bullet_points": [
+        "Short interest / bearish flow signal from Investing.com"
+      ],
+      "source": "Investing.com",
+      "confidence": 63,
+      "url": "https://www.investing.com/news/stock-market-news/lulas-campaign-considers-curbing-on-independent-contractors-in-potential-new-term-4874122",
+      "tickers": [
         "COM",
         "FLOW",
+        "IN",
+        "LULA",
+        "NEW",
         "ON",
         "SHORT",
-        "UBER",
-        "UNDER",
-        "WAYMO"
+        "TERM"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 20:10:03",
+      "headline": "Short Interest: Wall Street ends mixed amid fall in tech stocks, rising U.S.-Canada trade tensions",
+      "bullet_points": [
+        "Short interest / bearish flow signal from Investing.com"
+      ],
+      "source": "Investing.com",
+      "confidence": 63,
+      "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-steady-after-weekly-losses-nvidia-results-jackson-hole-in-focus-4872516",
+      "tickers": [
+        "AMID",
+        "COM",
+        "ENDS",
+        "FALL",
+        "FLOW",
+        "IN",
+        "MIXED",
+        "SHORT"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 20:00:28",
+      "headline": "Short Interest: California cancels talks with Paramount over Warner Bros deal",
+      "bullet_points": [
+        "Short interest / bearish flow signal from Investing.com"
+      ],
+      "source": "Investing.com",
+      "confidence": 63,
+      "url": "https://www.investing.com/news/stock-market-news/california-cancels-talks-with-paramount-over-warner-bros-merger-4873780",
+      "tickers": [
+        "BROS",
+        "COM",
+        "DEAL",
+        "FLOW",
+        "OVER",
+        "SHORT",
+        "TALKS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 19:58:20",
+      "headline": "Short Interest: Fox Corp: technicals, valuation, and the $22B acquisition deal",
+      "bullet_points": [
+        "Short interest / bearish flow signal from Investing.com"
+      ],
+      "source": "Investing.com",
+      "confidence": 72,
+      "url": "https://www.investing.com/news/stock-market-news/fox-corp-technicals-valuation-and-the-22b-acquisition-deal-93CH-4874103",
+      "tickers": [
+        "COM",
+        "DEAL",
+        "FLOW",
+        "FOX",
+        "SHORT"
+      ],
+      "event_type": "M&A",
+      "market_impact": {
+        "score": 25,
+        "tier": "low",
+        "reasons": [
+          "M&A"
+        ]
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 19:54:31",
+      "headline": "Short Interest: Xpeng earnings analysis: questions answered and next catalysts",
+      "bullet_points": [
+        "Short interest / bearish flow signal from Investing.com"
+      ],
+      "source": "Investing.com",
+      "confidence": 63,
+      "url": "https://www.investing.com/news/stock-market-news/xpeng-earnings-analysis-questions-answered-and-next-catalysts-93CH-4874102",
+      "tickers": [
+        "COM",
+        "FLOW",
+        "NEXT",
+        "SHORT",
+        "XPENG"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24T02:47:00Z",
+      "headline": "Walmart stock price target reset by JPMorgan after earnings",
+      "bullet_points": [
+        "Source: https://finance.yahoo.com/markets/stocks/articles/walmart-stock-price-target-reset-024700402.html"
+      ],
+      "source": "Yahoo Finance",
+      "confidence": 63,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-stock-price-target-reset-024700402.html",
+      "tickers": [
+        "AFTER",
+        "BY",
+        "COM",
+        "HTML",
+        "HTTPS",
+        "PRICE",
+        "RESET",
+        "STOCK"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-23T12:15:00Z",
+      "headline": "Most Americans retire with this much banked in savings, but is it actually enough for you?",
+      "bullet_points": [
+        "Source: https://finance.yahoo.com/markets/articles/most-americans-retire-much-banked-121500399.html"
+      ],
+      "source": "Yahoo Finance",
+      "confidence": 63,
+      "url": "https://finance.yahoo.com/markets/articles/most-americans-retire-much-banked-121500399.html",
+      "tickers": [
+        "BUT",
+        "COM",
+        "HTML",
+        "HTTPS",
+        "IN",
+        "IS",
+        "IT",
+        "MOST"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-23T12:00:00Z",
+      "headline": "Ramsey Show caller earns $95K but can't save $1,000 \u2014 his $131K in debt has him trapped in cash advance loops",
+      "bullet_points": [
+        "Source: https://finance.yahoo.com/markets/articles/ramsey-show-caller-earns-95k-120000539.html"
+      ],
+      "source": "Yahoo Finance",
+      "confidence": 63,
+      "url": "https://finance.yahoo.com/markets/articles/ramsey-show-caller-earns-95k-120000539.html",
+      "tickers": [
+        "BUT",
+        "CAN",
+        "CASH",
+        "COM",
+        "DEBT",
+        "EARNS",
+        "HAS",
+        "HIM"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-23T12:00:00Z",
+      "headline": "As Bubble Fears Percolate, Advisors Are Bracing for a Crunch",
+      "bullet_points": [
+        "Source: https://finance.yahoo.com/markets/stocks/articles/bubble-fears-percolate-advisors-bracing-120000641.html"
+      ],
+      "source": "Yahoo Finance",
+      "confidence": 63,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bubble-fears-percolate-advisors-bracing-120000641.html",
+      "tickers": [
+        "ARE",
+        "AS",
+        "COM",
+        "FEARS",
+        "HTML",
+        "HTTPS",
+        "YAHOO"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-23T11:34:19Z",
+      "headline": "Cardinal Health's Pharma Chief Sold 7,354 Shares and Still Grew Her Stake by 47%. Here's How That Happened",
+      "bullet_points": [
+        "Source: https://finance.yahoo.com/markets/stocks/articles/cardinal-healths-pharma-chief-sold-113419485.html"
+      ],
+      "source": "Yahoo Finance",
+      "confidence": 63,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cardinal-healths-pharma-chief-sold-113419485.html",
+      "tickers": [
+        "BY",
+        "CHIEF",
+        "COM",
+        "GREW",
+        "HER",
+        "HERE",
+        "HOW",
+        "HTML"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-23T11:30:00Z",
+      "headline": "Ramsey Show says asking for a child's inheritance is \u2018gross\u2019 \u2014 but it\u2019s the one way to get husband\u2019s $2M bloodline trust",
+      "bullet_points": [
+        "Source: https://finance.yahoo.com/small-business/articles/ramsey-show-says-asking-childs-113000774.html"
+      ],
+      "source": "Yahoo Finance",
+      "confidence": 63,
+      "url": "https://finance.yahoo.com/small-business/articles/ramsey-show-says-asking-childs-113000774.html",
+      "tickers": [
+        "BUT",
+        "CHILD",
+        "COM",
+        "GET",
+        "GROSS",
+        "HTML",
+        "HTTPS",
+        "IS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-23T11:00:00Z",
+      "headline": "\u2018The village idiot could have made it\u2019: Warren Buffett\u2019s dead-simple playbook to supercharge your retirement now",
+      "bullet_points": [
+        "Source: https://finance.yahoo.com/markets/stocks/articles/village-idiot-could-made-warren-110000603.html"
+      ],
+      "source": "Yahoo Finance",
+      "confidence": 63,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/village-idiot-could-made-warren-110000603.html",
+      "tickers": [
+        "COM",
+        "COULD",
+        "DEAD",
+        "HTML",
+        "HTTPS",
+        "IDIOT",
+        "IT",
+        "MADE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-23T11:00:00Z",
+      "headline": "Wall Street firms are waiting for people to die so they can get their life insurance money. And yes, it\u2019s legal",
+      "bullet_points": [
+        "Source: https://finance.yahoo.com/healthcare/articles/wall-street-firms-waiting-people-110000647.html"
+      ],
+      "source": "Yahoo Finance",
+      "confidence": 63,
+      "url": "https://finance.yahoo.com/healthcare/articles/wall-street-firms-waiting-people-110000647.html",
+      "tickers": [
+        "ARE",
+        "CAN",
+        "COM",
+        "DIE",
+        "FIRMS",
+        "GET",
+        "HTML",
+        "HTTPS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "1990-10-03 04:00:00.000",
+      "headline": "NVD: CVE-1999-1198 ()",
+      "bullet_points": [
+        "BuildDisk program on NeXT systems before 2.0 does not prompt users for the root password, which allows local users to g\u2026"
+      ],
+      "source": "NVD",
+      "confidence": 63,
+      "cves": [
+        "CVE-1999-1198"
+      ],
+      "tickers": [
+        "CVE",
+        "DOES",
+        "LOCAL",
+        "NEXT",
+        "NVD",
+        "ON",
+        "ROOT",
+        "TO"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "1990-08-14 04:00:00.000",
+      "headline": "NVD: CVE-1999-0209 ()",
+      "bullet_points": [
+        "The SunView (SunTools) selection_svc facility allows remote users to read files."
+      ],
+      "source": "NVD",
+      "confidence": 63,
+      "cves": [
+        "CVE-1999-0209"
+      ],
+      "tickers": [
+        "CVE",
+        "FILES",
+        "NVD",
+        "READ",
+        "TO",
+        "USERS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "1990-05-09 04:00:00.000",
+      "headline": "NVD: CVE-2000-0388 ()",
+      "bullet_points": [
+        "Buffer overflow in FreeBSD libmytinfo library allows local users to execute commands via a long TERMCAP environmental v\u2026"
+      ],
+      "source": "NVD",
+      "confidence": 63,
+      "cves": [
+        "CVE-2000-0388"
+      ],
+      "tickers": [
+        "CVE",
+        "IN",
+        "LOCAL",
+        "LONG",
+        "NVD",
+        "TO",
+        "USERS",
+        "VIA"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "1990-05-01 04:00:00.000",
+      "headline": "NVD: CVE-1999-0084 (HIGH)",
+      "bullet_points": [
+        "Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID\u2026"
+      ],
+      "source": "NVD",
+      "confidence": 66,
+      "cves": [
+        "CVE-1999-0084"
+      ],
+      "tickers": [
+        "ALLOW",
+        "BY",
+        "CVE",
+        "GAIN",
+        "HIGH",
+        "KMEM",
+        "MKNOD",
+        "NFS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "1990-01-29 05:00:00.000",
+      "headline": "NVD: CVE-1999-1506 ()",
+      "bullet_points": [
+        "Vulnerability in SMI Sendmail 4.0 and earlier, on SunOS up to 4.0.3, allows remote attackers to access user bin."
+      ],
+      "source": "NVD",
+      "confidence": 63,
+      "cves": [
+        "CVE-1999-1506"
+      ],
+      "tickers": [
+        "BIN",
+        "CVE",
+        "IN",
+        "NVD",
+        "ON",
+        "SMI",
+        "SUNOS",
+        "TO"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "1989-10-26 04:00:00.000",
+      "headline": "NVD: CVE-1999-1467 ()",
+      "bullet_points": [
+        "Vulnerability in rcp on SunOS 4.0.x allows remote attackers from trusted hosts to execute arbitrary commands as root, p\u2026"
+      ],
+      "source": "NVD",
+      "confidence": 63,
+      "cves": [
+        "CVE-1999-1467"
+      ],
+      "tickers": [
+        "AS",
+        "CVE",
+        "HOSTS",
+        "IN",
+        "NVD",
+        "ON",
+        "RCP",
+        "ROOT"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "1989-07-26 04:00:00.000",
+      "headline": "NVD: CVE-1999-1122 ()",
+      "bullet_points": [
+        "Vulnerability in restore in SunOS 4.0.3 and earlier allows local users to gain privileges."
+      ],
+      "source": "NVD",
+      "confidence": 63,
+      "cves": [
+        "CVE-1999-1122"
+      ],
+      "tickers": [
+        "CVE",
+        "GAIN",
+        "IN",
+        "LOCAL",
+        "NVD",
+        "SUNOS",
+        "TO",
+        "USERS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "1989-01-01 05:00:00.000",
+      "headline": "NVD: CVE-1999-1471 ()",
+      "bullet_points": [
+        "Buffer overflow in passwd in BSD based operating systems 4.3 and earlier allows local users to gain root privileges by\u2026"
+      ],
+      "source": "NVD",
+      "confidence": 63,
+      "cves": [
+        "CVE-1999-1471"
+      ],
+      "tickers": [
+        "BASED",
+        "BSD",
+        "BY",
+        "CVE",
+        "GAIN",
+        "IN",
+        "LOCAL",
+        "NVD"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "1988-11-11 05:00:00.000",
+      "headline": "NVD: CVE-1999-0082 ()",
+      "bullet_points": [
+        "CWD ~root command in ftpd allows root access."
+      ],
+      "source": "NVD",
+      "confidence": 63,
+      "cves": [
+        "CVE-1999-0082"
+      ],
+      "tickers": [
+        "CVE",
+        "CWD",
+        "FTPD",
+        "IN",
+        "NVD",
+        "ROOT"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "1988-10-01 04:00:00.000",
+      "headline": "NVD: CVE-1999-0095 ()",
+      "bullet_points": [
+        "The debug command in Sendmail is enabled, allowing attackers to execute commands as root."
+      ],
+      "source": "NVD",
+      "confidence": 63,
+      "cves": [
+        "CVE-1999-0095"
+      ],
+      "tickers": [
+        "AS",
+        "CVE",
+        "DEBUG",
+        "IN",
+        "IS",
+        "NVD",
+        "ROOT",
+        "TO"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-08-24 13:56 UTC",
+      "headline": "TikTok reaches $400M settlement with US over COPPA violations",
+      "bullet_points": [
+        "Security news, malware, breaches"
+      ],
+      "source": "BleepingComputer",
+      "confidence": 77,
+      "url": "https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/",
+      "tickers": [
+        "COPPA",
+        "NEWS",
+        "OVER",
+        "US"
+      ],
+      "event_type": "Regulatory Action",
+      "market_impact": {
+        "score": 35,
+        "tier": "low",
+        "reasons": [
+          "Regulatory Action"
+        ]
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-20 15:00 UTC",
+      "headline": "Federal Reserve: Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Cor\u2026",
+      "bullet_points": [
+        "Source: Federal Reserve press release"
+      ],
+      "source": "Federal Reserve",
+      "confidence": 77,
+      "url": "<![CDATA[https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm]]>",
+      "tickers": [
+        "AG",
+        "BANK",
+        "BOARD",
+        "COR",
+        "DB",
+        "OF",
+        "PRESS",
+        "USA"
+      ],
+      "event_type": "Termination",
+      "market_impact": {
+        "score": 35,
+        "tier": "low",
+        "reasons": [
+          "Termination"
+        ]
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-08-24 20:39 UTC",
+      "headline": "CISA KEV: CVE-2026-73570 (Synacor Zimbra Collaboration Suite (ZCS))",
+      "bullet_points": [
+        "Agency remediation deadline: 2026-08-24",
+        "Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability"
+      ],
+      "source": "CISA KEV",
+      "confidence": 76,
+      "cves": [
+        "CVE-2026-73570"
+      ],
+      "tickers": [
+        "CISA",
+        "CVE",
+        "KEV",
+        "OS",
+        "SUITE",
+        "ZCS"
       ],
       "event_type": "Partnership",
       "market_impact": {
@@ -57,127 +797,187 @@
       }
     },
     {
-      "category": "finance",
-      "timestamp": "2026-07-24 19:20:00",
-      "headline": "Short Interest: Stocks set for weekly losses amid widening Iran conflict, AI worries, and tariffs",
+      "category": "trends",
+      "timestamp": "2026-08-24 15:43 UTC",
+      "headline": "Bitmine Buys Another $81M in Ethereum as ETH Outperforms Bitcoin",
       "bullet_points": [
-        "Short interest / bearish flow signal from Investing.com"
+        "Tech: Decrypt Tech \u2014 AI, gadgets, software"
       ],
-      "source": "Investing.com",
-      "confidence": 65,
-      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-techfueled-wipeout-tariffs-iran-tensions-in-focus-4810435",
+      "source": "Decrypt Tech",
+      "url": "https://decrypt.co/376336/bitmine-81m-more-ethereum-eth-tops-bitcoin",
+      "confidence": 76,
       "tickers": [
         "AI",
-        "AMID",
-        "COM",
-        "FLOW",
-        "IRAN",
-        "SET",
-        "SHORT"
+        "AS",
+        "BUYS",
+        "ETH",
+        "IN",
+        "TECH"
       ],
-      "event_type": "Material Event",
+      "event_type": "M&A",
       "market_impact": {
-        "score": 20,
+        "score": 35,
         "tier": "low",
-        "reasons": []
+        "reasons": [
+          "M&A"
+        ]
       }
     },
     {
-      "category": "finance",
-      "timestamp": "2026-07-24 19:19:08",
-      "headline": "Short Interest: Nasdaq falls on angst over AI spending ahead of earnings reports",
+      "category": "trends",
+      "timestamp": "2026-08-18 10:00 UTC",
+      "headline": "Nvidia Backs OpenAI Data Center, Anthropic News, Google Buys Spirit Airlines Data",
       "bullet_points": [
-        "Short interest / bearish flow signal from Investing.com"
+        "Tech: Stratechery \u2014 AI, gadgets, software"
       ],
-      "source": "Investing.com",
-      "confidence": 63,
-      "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-rise-after-tech-rout-mideast-tariffs-in-focus-4810955",
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/nvidia-backs-openai-data-center-anthropic-news-google-buys-spirit-airlines-data/",
+      "confidence": 76,
       "tickers": [
-        "AHEAD",
         "AI",
-        "ANGST",
-        "COM",
-        "FALLS",
-        "FLOW",
-        "OF",
-        "ON"
+        "BACKS",
+        "BUYS",
+        "DATA",
+        "NEWS",
+        "TECH"
       ],
-      "event_type": "Material Event",
+      "event_type": "M&A",
       "market_impact": {
-        "score": 10,
+        "score": 35,
         "tier": "low",
-        "reasons": []
+        "reasons": [
+          "M&A"
+        ]
       }
     },
     {
       "category": "finance",
-      "timestamp": "2026-07-24 19:10:09",
-      "headline": "Short Interest: Microsoft tests $384 Fibonacci support: Live levels",
+      "timestamp": "2026-08-24 16:44 UTC",
+      "headline": "On-chain: Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%",
       "bullet_points": [
-        "Short interest / bearish flow signal from Investing.com"
+        "Crypto on-chain / whale flow signal"
       ],
-      "source": "Investing.com",
-      "confidence": 63,
-      "url": "https://www.investing.com/news/stock-market-news/microsoft-pinned-at-200ma-as-momentum-fades-live-levels-93CH-4801557",
+      "source": "Cointelegraph",
+      "confidence": 75,
+      "url": "<![CDATA[https://cointelegraph.com/news/strive-buys-1110-bitcoin-for-815m-holdings-top-21k-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
       "tickers": [
-        "COM",
-        "FLOW",
-        "LIVE",
-        "SHORT",
-        "TESTS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 19:09:26",
-      "headline": "Short Interest: Tesla gaps down 16%, oversold but no reversal: Live levels",
-      "bullet_points": [
-        "Short interest / bearish flow signal from Investing.com"
-      ],
-      "source": "Investing.com",
-      "confidence": 63,
-      "url": "https://www.investing.com/news/stock-market-news/tesla-hovers-above-key-support-at-36874-live-levels-93CH-4801254",
-      "tickers": [
-        "BUT",
-        "COM",
-        "DOWN",
-        "FLOW",
-        "GAPS",
-        "LIVE",
-        "NO",
-        "SHORT"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 19:08:45",
-      "headline": "Short Interest: Google welcomes US government engagement on EU fine",
-      "bullet_points": [
-        "Short interest / bearish flow signal from Investing.com"
-      ],
-      "source": "Investing.com",
-      "confidence": 71,
-      "url": "https://www.investing.com/news/stock-market-news/google-welcomes-us-government-engagement-on-eu-fine-93CH-4812410",
-      "tickers": [
-        "COM",
-        "EU",
-        "FINE",
+        "ASST",
+        "BTC",
+        "BUYS",
+        "CHAIN",
         "FLOW",
         "ON",
-        "SHORT",
-        "US"
+        "SURGE",
+        "TOP"
+      ],
+      "event_type": "M&A",
+      "market_impact": {
+        "score": 35,
+        "tier": "low",
+        "reasons": [
+          "M&A"
+        ]
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-08-24 00:00 UTC",
+      "headline": "Bankruptcy Prediction via Hybrid Resampling and Stacking Ensemble Techniques with Explainable Artificial Intelligence (XAI)-Driven Analysis",
+      "bullet_points": [
+        "Source: arXiv cs.LG"
+      ],
+      "source": "arXiv cs.LG",
+      "confidence": 75,
+      "url": "https://arxiv.org/abs/2608.20343",
+      "tickers": [
+        "ARXIV",
+        "CS",
+        "LG",
+        "VIA",
+        "XAI"
+      ],
+      "event_type": "Bankruptcy",
+      "market_impact": {
+        "score": 25,
+        "tier": "low",
+        "reasons": [
+          "Bankruptcy"
+        ]
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-08-24 17:24 UTC",
+      "headline": "Shein\u2019s acquisition of Everlane faces US national security review",
+      "bullet_points": [
+        "Geopower: South China Morning Post \u2014 world, conflict, policy"
+      ],
+      "source": "South China Morning Post",
+      "confidence": 74,
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3365109/sheins-acquisition-everlane-faces-us-national-security-review?utm_source=rss_feed",
+      "tickers": [
+        "CHINA",
+        "FACES",
+        "OF",
+        "POST",
+        "SHEIN",
+        "SOUTH",
+        "US",
+        "WORLD"
+      ],
+      "event_type": "M&A",
+      "market_impact": {
+        "score": 35,
+        "tier": "low",
+        "reasons": [
+          "M&A"
+        ]
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 15:43 UTC",
+      "headline": "Kenvue: Acquisition By Kimberly-Clark Hit An Obstacle - What Now",
+      "bullet_points": [
+        "Market analysis + earnings previews"
+      ],
+      "source": "Seeking Alpha",
+      "confidence": 73,
+      "url": "https://seekingalpha.com/article/4939742-kenvue-acquisition-by-kimberly-clark-hit-an-obstacle-what-now?source=feed_all_articles",
+      "tickers": [
+        "AN",
+        "BY",
+        "CLARK",
+        "HIT",
+        "NOW",
+        "WHAT"
+      ],
+      "event_type": "M&A",
+      "market_impact": {
+        "score": 25,
+        "tier": "low",
+        "reasons": [
+          "M&A"
+        ]
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-08-24 00:00 UTC",
+      "headline": "MEMPOWER: Efficient Power Management with Fine-grained Memory Analysis and Modeling for HPC Workloads",
+      "bullet_points": [
+        "Source: arXiv cs.DC"
+      ],
+      "source": "arXiv cs.DC",
+      "confidence": 73,
+      "url": "https://arxiv.org/abs/2608.20734",
+      "tickers": [
+        "ARXIV",
+        "CS",
+        "DC",
+        "FINE",
+        "HPC",
+        "POWER"
       ],
       "event_type": "Regulatory Action",
       "market_impact": {
@@ -190,339 +990,226 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-07-24 18:44:56",
-      "headline": "Short Interest: Why is Scribe Therapeutics stock surging today?",
+      "timestamp": "2026-08-24 13:36 UTC",
+      "headline": "\u2018Upside move in ETH was overdue,\u2019 Tom Lee says as Bitmine buys another 32,447 ether",
       "bullet_points": [
-        "Short interest / bearish flow signal from Investing.com"
+        "Finance: The Block \u2014 market updates, crypto, macro"
       ],
-      "source": "Investing.com",
-      "confidence": 63,
-      "url": "https://www.investing.com/news/stock-market-news/why-is-scribe-therapeutics-stock-surging-today-93CH-4812397",
+      "source": "The Block",
+      "confidence": 72,
+      "url": "https://www.theblock.co/news/business/2026-08-24-upside-move-eth-was-overdue-tom-lee-says-bitmine-buys-more-ether-412589",
       "tickers": [
-        "COM",
-        "FLOW",
-        "IS",
-        "SHORT",
-        "STOCK",
-        "TODAY",
-        "WHY"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24T17:26:07Z",
-      "headline": "Analyst Report: American Express Co",
-      "bullet_points": [
-        "Source: https://finance.yahoo.com/research/reports/ARGUS_2751_AnalystReport_1784913967000?yptr=yahoo&amp;ncid=yahooprop\u2026"
-      ],
-      "source": "Yahoo Finance",
-      "confidence": 63,
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_2751_AnalystReport_1784913967000?yptr=yahoo&amp;ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "tickers": [
-        "AMP",
-        "CO",
-        "COM",
-        "HTTPS",
-        "NCID",
-        "YAHOO",
-        "YPTR"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-23T22:11:18Z",
-      "headline": "World\u2019s quietest metal just dropped a huge bullish signal",
-      "bullet_points": [
-        "Source: https://finance.yahoo.com/markets/commodities/articles/world-quietest-metal-just-dropped-221118249.html"
-      ],
-      "source": "Yahoo Finance",
-      "confidence": 63,
-      "url": "https://finance.yahoo.com/markets/commodities/articles/world-quietest-metal-just-dropped-221118249.html",
-      "tickers": [
-        "COM",
-        "HTML",
-        "HTTPS",
-        "HUGE",
-        "METAL",
-        "WORLD",
-        "YAHOO"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-23T10:11:00Z",
-      "headline": "RTX Again Raises Full-Year Forecast on Robust Demand, Higher Backlog",
-      "bullet_points": [
-        "Source: https://www.wsj.com/business/earnings/rtx-again-raises-full-year-forecast-on-robust-demand-higher-backlog-9e5f0\u2026"
-      ],
-      "source": "Yahoo Finance",
-      "confidence": 63,
-      "url": "https://www.wsj.com/business/earnings/rtx-again-raises-full-year-forecast-on-robust-demand-higher-backlog-9e5f08e5?siteid=yhoof2&amp;yptr=yahoo",
-      "tickers": [
-        "AGAIN",
-        "COM",
-        "FULL",
-        "HTTPS",
-        "ON",
-        "RTX",
-        "WSJ",
-        "WWW"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-23T10:08:03Z",
-      "headline": "Comcast's Peacock records first ever profit on World Cup, 'Love Island USA' boost",
-      "bullet_points": [
-        "Source: https://finance.yahoo.com/media-advertising/articles/comcasts-peacock-records-first-ever-100803738.html"
-      ],
-      "source": "Yahoo Finance",
-      "confidence": 63,
-      "url": "https://finance.yahoo.com/media-advertising/articles/comcasts-peacock-records-first-ever-100803738.html",
-      "tickers": [
-        "BOOST",
-        "COM",
-        "CUP",
-        "EVER",
-        "FIRST",
-        "HTML",
-        "HTTPS",
-        "LOVE"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-23T10:00:00Z",
-      "headline": "Mortgage and refinance interest rates today, Thursday, July 23, 2026: Interest ticks down",
-      "bullet_points": [
-        "Source: https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-thursd\u2026"
-      ],
-      "source": "Yahoo Finance",
-      "confidence": 66,
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-thursday-july-23-2026-interest-ticks-down-100000013.html",
-      "tickers": [
-        "COM",
-        "DOWN",
-        "HTTPS",
-        "JULY",
-        "RATES",
-        "TICKS",
-        "TODAY",
-        "YAHOO"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-23T10:00:00Z",
-      "headline": "Best CD rates today, Thursday, July 23, 2026: Lock in up to 4.20% APY",
-      "bullet_points": [
-        "Source: https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-thursday-july-23-2026-lock-in-up\u2026"
-      ],
-      "source": "Yahoo Finance",
-      "confidence": 66,
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-thursday-july-23-2026-lock-in-up-to-420-apy-100000568.html",
-      "tickers": [
-        "APY",
-        "BEST",
-        "CD",
-        "COM",
-        "HTTPS",
+        "AS",
+        "BLOCK",
+        "BUYS",
+        "ETH",
+        "ETHER",
         "IN",
-        "JULY",
-        "LOCK"
+        "LEE",
+        "MACRO"
       ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-23T10:00:00Z",
-      "headline": "First look: Norfolk Southern earnings",
-      "bullet_points": [
-        "Source: https://finance.yahoo.com/markets/stocks/articles/first-look-norfolk-southern-earnings-100000531.html"
-      ],
-      "source": "Yahoo Finance",
-      "confidence": 63,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/first-look-norfolk-southern-earnings-100000531.html",
-      "tickers": [
-        "COM",
-        "FIRST",
-        "HTML",
-        "HTTPS",
-        "LOOK",
-        "YAHOO"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-23T10:00:00Z",
-      "headline": "Why the midterm elections could be a buying opportunity for investors",
-      "bullet_points": [
-        "Source: https://finance.yahoo.com/markets/article/why-the-midterm-elections-could-be-a-buying-opportunity-for-investors\u2026"
-      ],
-      "source": "Yahoo Finance",
-      "confidence": 63,
-      "url": "https://finance.yahoo.com/markets/article/why-the-midterm-elections-could-be-a-buying-opportunity-for-investors-100000873.html",
-      "tickers": [
-        "BE",
-        "COM",
-        "COULD",
-        "HTTPS",
-        "WHY",
-        "YAHOO"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 17:44 UTC",
-      "headline": "Poolin, Once One of Bitcoin&#39;s Biggest Mining Pools, Files for Bankruptcy",
-      "bullet_points": [
-        "Source: Decrypt"
-      ],
-      "source": "Decrypt",
-      "confidence": 78,
-      "url": "https://decrypt.co/374289/poolin-bitcoin-biggest-mining-pools-files-bankruptcy",
-      "tickers": [
-        "FILES",
-        "OF",
-        "ONCE",
-        "ONE",
-        "POOLS"
-      ],
-      "event_type": "Bankruptcy",
+      "event_type": "M&A",
       "market_impact": {
         "score": 35,
         "tier": "low",
         "reasons": [
-          "Bankruptcy"
+          "M&A"
+        ]
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-08-24 20:52 UTC",
+      "headline": "EU says E1 settlement plan fundamentally harms prospects for two-state solution",
+      "bullet_points": [
+        "Geopower: Middle East Eye \u2014 world, conflict, policy"
+      ],
+      "source": "Middle East Eye",
+      "confidence": 71,
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/eu-says-e1-settlement-plan-fundamentally-harms-prospects-two-state",
+      "tickers": [
+        "EAST",
+        "EU",
+        "EYE",
+        "HARMS",
+        "PLAN",
+        "SAYS",
+        "STATE",
+        "TWO"
+      ],
+      "event_type": "Regulatory Action",
+      "market_impact": {
+        "score": 25,
+        "tier": "low",
+        "reasons": [
+          "Regulatory Action"
         ]
       }
     },
     {
       "category": "finance",
-      "timestamp": "2026-07-24 14:36 UTC",
-      "headline": "Institutional crypto trading platform LMAX is exploring sale, IPO",
+      "timestamp": "2026-08-24 17:23 UTC",
+      "headline": "Market Flow: California AG Rob Bonta cancels Paramount settlement meeting, citing &apos;lack of good faith&apos;",
       "bullet_points": [
-        "Source: CoinDesk"
+        "Options / dark-pool flow signal from CNBC"
       ],
-      "source": "CoinDesk",
-      "confidence": 76,
-      "url": "https://www.coindesk.com/business/2026/05/22/institutional-crypto-trading-platform-lmax-is-exploring-sale-ipo",
+      "source": "CNBC",
+      "confidence": 71,
+      "url": "https://www.cnbc.com/2026/08/24/california-ag-bonta-paramount-settlement-meeting.html",
       "tickers": [
-        "IPO",
-        "IS",
-        "LMAX",
-        "SALE"
-      ],
-      "event_type": "Public Market Event",
-      "market_impact": {
-        "score": 35,
-        "tier": "low",
-        "reasons": [
-          "Public Market Event"
-        ]
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 14:36 UTC",
-      "headline": "On-chain: Institutional crypto trading platform LMAX is exploring sale, IPO",
-      "bullet_points": [
-        "Crypto on-chain / whale flow signal"
-      ],
-      "source": "CoinDesk",
-      "confidence": 75,
-      "url": "https://www.coindesk.com/business/2026/05/22/institutional-crypto-trading-platform-lmax-is-exploring-sale-ipo",
-      "tickers": [
-        "CHAIN",
+        "AG",
+        "APOS",
+        "BONTA",
+        "CNBC",
+        "DARK",
+        "FAITH",
         "FLOW",
-        "IPO",
-        "IS",
-        "LMAX",
-        "ON",
-        "SALE",
-        "WHALE"
+        "GOOD"
       ],
-      "event_type": "Public Market Event",
+      "event_type": "Regulatory Action",
+      "market_impact": {
+        "score": 25,
+        "tier": "low",
+        "reasons": [
+          "Regulatory Action"
+        ]
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-08-24 13:40 UTC",
+      "headline": "The UK becomes the first foreign nation to gain access to Ukrainian combat data used to train AI models to strike Russian targets, as part of an AI partnership (Financia\u2026",
+      "bullet_points": [
+        "Tech: Techmeme \u2014 AI, gadgets, software"
+      ],
+      "source": "Techmeme",
+      "url": "https://www.techmeme.com/260824/p28#a260824p28",
+      "confidence": 71,
+      "tickers": [
+        "AI",
+        "AN",
+        "AS",
+        "DATA",
+        "FIRST",
+        "GAIN",
+        "OF",
+        "PART"
+      ],
+      "event_type": "Partnership",
+      "market_impact": {
+        "score": 25,
+        "tier": "low",
+        "reasons": [
+          "Partnership"
+        ]
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-08-21 05:00 UTC",
+      "headline": "Israel re-establishes closed West Bank settlement, defying growing international protests",
+      "bullet_points": [
+        "Geopower: BBC Middle East \u2014 world, conflict, policy"
+      ],
+      "source": "BBC Middle East",
+      "confidence": 71,
+      "url": "https://www.bbc.co.uk/news/articles/cn7n0l4p0kzo?at_medium=RSS&amp;at_campaign=rss",
+      "tickers": [
+        "BANK",
+        "BBC",
+        "EAST",
+        "RE",
+        "WEST",
+        "WORLD"
+      ],
+      "event_type": "Regulatory Action",
+      "market_impact": {
+        "score": 25,
+        "tier": "low",
+        "reasons": [
+          "Regulatory Action"
+        ]
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-08-24 19:54 UTC",
+      "headline": "Amjad Masad,\u00a0CEO\u00a0and co-founder\u00a0of\u00a0Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026",
+      "bullet_points": [
+        "Source: TechCrunch"
+      ],
+      "source": "TechCrunch",
+      "confidence": 70,
+      "url": "https://techcrunch.com/2026/08/24/amjad-masad-ceo-and-co-founder-of-replit-joins-the-disrupt-stage-at-techcrunch-disrupt-2026/",
+      "tickers": [
+        "AMJAD",
+        "AT",
+        "CEO",
+        "CO",
+        "JOINS",
+        "MASAD",
+        "OF",
+        "STAGE"
+      ],
+      "event_type": "Leadership",
+      "market_impact": {
+        "score": 25,
+        "tier": "low",
+        "reasons": [
+          "Leadership"
+        ]
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 17:23 UTC",
+      "headline": "California AG Rob Bonta cancels Paramount settlement meeting, citing &apos;lack of good faith&apos;",
+      "bullet_points": [
+        "Finance: CNBC \u2014 market updates, crypto, macro"
+      ],
+      "source": "CNBC",
+      "confidence": 70,
+      "url": "https://www.cnbc.com/2026/08/24/california-ag-bonta-paramount-settlement-meeting.html",
+      "tickers": [
+        "AG",
+        "APOS",
+        "BONTA",
+        "CNBC",
+        "FAITH",
+        "GOOD",
+        "LACK",
+        "MACRO"
+      ],
+      "event_type": "Regulatory Action",
       "market_impact": {
         "score": 35,
         "tier": "low",
         "reasons": [
-          "Public Market Event"
+          "Regulatory Action"
         ]
       }
     },
     {
       "category": "security",
-      "timestamp": "2026-07-24 19:58 UTC",
-      "headline": "CISA KEV: CVE-2026-16232 (Check Point SmartConsole)",
+      "timestamp": "2026-08-24 20:39 UTC",
+      "headline": "CISA KEV: CVE-2026-21962 (Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in)",
       "bullet_points": [
-        "Agency remediation deadline: 2026-07-25",
-        "Check Point SmartConsole Improper Authentication Vulnerability"
+        "Agency remediation deadline: 2026-08-27",
+        "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability"
       ],
       "source": "CISA KEV",
       "confidence": 69,
       "cves": [
-        "CVE-2026-16232"
+        "CVE-2026-21962"
       ],
       "tickers": [
-        "CHECK",
         "CISA",
         "CVE",
+        "HTTP",
+        "IN",
         "KEV",
-        "POINT"
+        "PLUG",
+        "PROXY"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -533,74 +1220,20 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-07-24 19:58 UTC",
-      "headline": "CISA KEV: CVE-2026-50522 (Microsoft SharePoint)",
+      "timestamp": "2026-08-24 20:39 UTC",
+      "headline": "CISA KEV: CVE-2026-72530 (TrueConf Server)",
       "bullet_points": [
-        "Agency remediation deadline: 2026-07-25",
-        "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability"
+        "Agency remediation deadline: 2026-09-03",
+        "TrueConf Server Code Injection Vulnerability"
       ],
       "source": "CISA KEV",
       "confidence": 69,
       "cves": [
-        "CVE-2026-50522"
+        "CVE-2026-72530"
       ],
       "tickers": [
         "CISA",
-        "CVE",
-        "DATA",
-        "KEV",
-        "OF"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "security",
-      "timestamp": "2026-07-24 19:58 UTC",
-      "headline": "CISA KEV: CVE-2026-60137 (WordPress Core)",
-      "bullet_points": [
-        "Agency remediation deadline: 2026-08-04",
-        "WordPress Core SQL Injection Vulnerability"
-      ],
-      "source": "CISA KEV",
-      "confidence": 69,
-      "cves": [
-        "CVE-2026-60137"
-      ],
-      "tickers": [
-        "CISA",
-        "CORE",
-        "CVE",
-        "KEV",
-        "SQL"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "security",
-      "timestamp": "2026-07-24 19:58 UTC",
-      "headline": "CISA KEV: CVE-2026-63030 (WordPress Core)",
-      "bullet_points": [
-        "Agency remediation deadline: 2026-07-24",
-        "WordPress Core Interpretation Conflict Vulnerability"
-      ],
-      "source": "CISA KEV",
-      "confidence": 69,
-      "cves": [
-        "CVE-2026-63030"
-      ],
-      "tickers": [
-        "CISA",
-        "CORE",
+        "CODE",
         "CVE",
         "KEV"
       ],
@@ -613,22 +1246,21 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-07-24 19:58 UTC",
-      "headline": "CISA KEV: CVE-2026-0770 (Langflow Langflow)",
+      "timestamp": "2026-08-24 20:39 UTC",
+      "headline": "CISA KEV: CVE-2026-72529 (TrueConf Server)",
       "bullet_points": [
-        "Agency remediation deadline: 2026-07-24",
-        "Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability"
+        "Agency remediation deadline: 2026-08-23",
+        "TrueConf Server Missing Authentication for Critical Function Vulnerability"
       ],
       "source": "CISA KEV",
       "confidence": 69,
       "cves": [
-        "CVE-2026-0770"
+        "CVE-2026-72529"
       ],
       "tickers": [
         "CISA",
         "CVE",
-        "KEV",
-        "OF"
+        "KEV"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -639,25 +1271,22 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-07-24 19:58 UTC",
-      "headline": "CISA KEV: CVE-2021-27137 (DD-WRT DD-WRT)",
+      "timestamp": "2026-08-24 20:39 UTC",
+      "headline": "CISA KEV: CVE-2026-64849 (MLflow MLflow)",
       "bullet_points": [
-        "Agency remediation deadline: 2026-07-24",
-        "DD-WRT Stack-Based Buffer Overflow Vulnerability"
+        "Agency remediation deadline: 2026-09-02",
+        "MLflow Server-Side Request Forgery Vulnerability"
       ],
       "source": "CISA KEV",
       "confidence": 69,
       "cves": [
-        "CVE-2021-27137"
+        "CVE-2026-64849"
       ],
       "tickers": [
-        "BASED",
         "CISA",
         "CVE",
-        "DD",
         "KEV",
-        "STACK",
-        "WRT"
+        "SIDE"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -668,23 +1297,24 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-07-24 19:58 UTC",
-      "headline": "CISA KEV: CVE-2026-58644 (Microsoft SharePoint)",
+      "timestamp": "2026-08-24 20:39 UTC",
+      "headline": "CISA KEV: CVE-2026-33824 (Microsoft Internet Key Exchange (IKE) Service Extensions)",
       "bullet_points": [
-        "Agency remediation deadline: 2026-07-19",
-        "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability"
+        "Agency remediation deadline: 2026-08-21",
+        "Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability"
       ],
       "source": "CISA KEV",
       "confidence": 69,
       "cves": [
-        "CVE-2026-58644"
+        "CVE-2026-33824"
       ],
       "tickers": [
         "CISA",
         "CVE",
-        "DATA",
+        "FREE",
+        "IKE",
         "KEV",
-        "OF"
+        "KEY"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -695,26 +1325,244 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-07-24 19:58 UTC",
-      "headline": "CISA KEV: CVE-2026-25089 (Fortinet FortiSandbox)",
+      "timestamp": "2026-08-24 20:39 UTC",
+      "headline": "CISA KEV: CVE-2026-59310 (Broadcom VMware vCenter)",
       "bullet_points": [
-        "Agency remediation deadline: 2026-07-19",
-        "Fortinet FortiSandbox OS Command Injection Vulnerability"
+        "Agency remediation deadline: 2026-08-21",
+        "Broadcom VMware vCenter Path Traversal Vulnerability"
       ],
       "source": "CISA KEV",
       "confidence": 69,
       "cves": [
-        "CVE-2026-25089"
+        "CVE-2026-59310"
       ],
       "tickers": [
         "CISA",
         "CVE",
         "KEV",
-        "OS"
+        "PATH"
       ],
       "event_type": "Material Event",
       "market_impact": {
         "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-08-24 20:39 UTC",
+      "headline": "CISA KEV: CVE-2026-55040 (Microsoft SharePoint)",
+      "bullet_points": [
+        "Agency remediation deadline: 2026-08-21",
+        "Microsoft SharePoint Weak Authentication Vulnerability"
+      ],
+      "source": "CISA KEV",
+      "confidence": 69,
+      "cves": [
+        "CVE-2026-55040"
+      ],
+      "tickers": [
+        "CISA",
+        "CVE",
+        "KEV",
+        "WEAK"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-08-24 19:08 UTC",
+      "headline": "Trump says U.S. will hike Canada auto tariffs to 50% as trade war escalates",
+      "bullet_points": [
+        "Geopower: CNBC World \u2014 world, conflict, policy"
+      ],
+      "source": "CNBC World",
+      "confidence": 69,
+      "url": "https://www.cnbc.com/2026/08/24/trump-canada-auto-tariffs-trade-war.html",
+      "tickers": [
+        "AS",
+        "AUTO",
+        "CNBC",
+        "HIKE",
+        "SAYS",
+        "TO",
+        "TRADE",
+        "TRUMP"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-20 20:00 UTC",
+      "headline": "Federal Reserve: Federal Reserve Board announces approval of application by National Westminster Bank Plc",
+      "bullet_points": [
+        "Source: Federal Reserve press release"
+      ],
+      "source": "Federal Reserve",
+      "confidence": 69,
+      "url": "<![CDATA[https://www.federalreserve.gov/newsevents/pressreleases/orders20260820a.htm]]>",
+      "tickers": [
+        "BANK",
+        "BOARD",
+        "BY",
+        "OF",
+        "PLC",
+        "PRESS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-20 15:00 UTC",
+      "headline": "Federal Reserve: Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
+      "bullet_points": [
+        "Source: Federal Reserve press release"
+      ],
+      "source": "Federal Reserve",
+      "confidence": 69,
+      "url": "<![CDATA[https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm]]>",
+      "tickers": [
+        "BANK",
+        "BOARD",
+        "OF",
+        "PRESS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-19 18:00 UTC",
+      "headline": "Federal Reserve: Minutes of the Federal Open Market Committee, July 28\u201329, 2026",
+      "bullet_points": [
+        "Source: Federal Reserve press release"
+      ],
+      "source": "Federal Reserve",
+      "confidence": 69,
+      "url": "<![CDATA[https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm]]>",
+      "tickers": [
+        "JULY",
+        "OF",
+        "OPEN",
+        "PRESS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-08-14 11:24 UTC",
+      "headline": "Who&#8217;s Tracking You? Use This New Service to Find Out",
+      "bullet_points": [
+        "Cybersecurity news and analysis"
+      ],
+      "source": "KrebsOnSecurity",
+      "confidence": 69,
+      "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "tickers": [
+        "FIND",
+        "NEW",
+        "NEWS",
+        "OUT",
+        "TO",
+        "USE",
+        "WHO"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-08-11 21:28 UTC",
+      "headline": "Microsoft Plugs Nearly 400 Security Holes",
+      "bullet_points": [
+        "Cybersecurity news and analysis"
+      ],
+      "source": "KrebsOnSecurity",
+      "confidence": 69,
+      "url": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "tickers": [
+        "HOLES",
+        "NEWS",
+        "PLUGS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-08-06 17:00 UTC",
+      "headline": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "bullet_points": [
+        "Cybersecurity news and analysis"
+      ],
+      "source": "KrebsOnSecurity",
+      "confidence": 69,
+      "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "tickers": [
+        "IN",
+        "MAN",
+        "NEWS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-07-30 16:49 UTC",
+      "headline": "Read This Before You Buy That TV Streaming Stick",
+      "bullet_points": [
+        "Cybersecurity news and analysis"
+      ],
+      "source": "KrebsOnSecurity",
+      "confidence": 69,
+      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "tickers": [
+        "BUY",
+        "NEWS",
+        "READ",
+        "STICK",
+        "TV"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
         "tier": "low",
         "reasons": []
       }
@@ -746,56 +1594,6 @@
       }
     },
     {
-      "category": "finance",
-      "timestamp": "2026-07-16 18:00 UTC",
-      "headline": "Federal Reserve: Agencies issue joint statement on handling of highly sensitive information during bank examinations",
-      "bullet_points": [
-        "Source: Federal Reserve press release"
-      ],
-      "source": "Federal Reserve",
-      "confidence": 69,
-      "url": "<![CDATA[https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm]]>",
-      "tickers": [
-        "BANK",
-        "ISSUE",
-        "JOINT",
-        "OF",
-        "ON",
-        "PRESS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-16 15:00 UTC",
-      "headline": "Federal Reserve: Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
-      "bullet_points": [
-        "Source: Federal Reserve press release"
-      ],
-      "source": "Federal Reserve",
-      "confidence": 69,
-      "url": "<![CDATA[https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm]]>",
-      "tickers": [
-        "BANK",
-        "BOARD",
-        "CHIEF",
-        "OF",
-        "PRESS",
-        "STATE"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
       "category": "security",
       "timestamp": "2026-07-14 19:22 UTC",
       "headline": "Microsoft Patches a Record 570 Security Flaws",
@@ -817,22 +1615,24 @@
       }
     },
     {
-      "category": "finance",
-      "timestamp": "2026-07-14 18:00 UTC",
-      "headline": "Federal Reserve: Minutes of the Board&#39;s discount rate meetings on June 8 and June 17, 2026",
+      "category": "geopower",
+      "timestamp": "2026-08-24 19:45 UTC",
+      "headline": "Watch: Doug Ford's blunt warning to Trump over Canada tariffs",
       "bullet_points": [
-        "Source: Federal Reserve press release"
+        "Geopower: BBC US Canada \u2014 world, conflict, policy"
       ],
-      "source": "Federal Reserve",
-      "confidence": 69,
-      "url": "<![CDATA[https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm]]>",
+      "source": "BBC US Canada",
+      "confidence": 68,
+      "url": "https://www.bbc.co.uk/news/videos/cx2zgr4272zo?at_medium=RSS&amp;at_campaign=rss",
       "tickers": [
-        "BOARD",
-        "JUNE",
-        "OF",
-        "ON",
-        "PRESS",
-        "RATE"
+        "BBC",
+        "BLUNT",
+        "DOUG",
+        "FORD",
+        "OVER",
+        "TO",
+        "TRUMP",
+        "US"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -842,112 +1642,24 @@
       }
     },
     {
-      "category": "security",
-      "timestamp": "2026-07-13 15:03 UTC",
-      "headline": "Lessons Learned from CISA&#8217;s Recent GitHub Leak",
+      "category": "geopower",
+      "timestamp": "2026-08-24 18:03 UTC",
+      "headline": "US sanctions Chinese entities, issues global warning on \u2018Economic D-Day\u2019 against Iran",
       "bullet_points": [
-        "Cybersecurity news and analysis"
+        "Geopower: South China Morning Post \u2014 world, conflict, policy"
       ],
-      "source": "KrebsOnSecurity",
-      "confidence": 69,
-      "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+      "source": "South China Morning Post",
+      "confidence": 68,
+      "url": "https://www.scmp.com/news/us/diplomacy/article/3365111/us-sanctions-chinese-entities-issues-global-warning-economic-d-day-against-iran?utm_source=rss_feed",
       "tickers": [
-        "CISA",
-        "LEAK",
-        "NEWS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-09 19:00 UTC",
-      "headline": "Federal Reserve: Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-      "bullet_points": [
-        "Source: Federal Reserve press release"
-      ],
-      "source": "Federal Reserve",
-      "confidence": 69,
-      "url": "<![CDATA[https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm]]>",
-      "tickers": [
-        "ITS",
-        "OF",
-        "PRESS",
-        "TASK",
-        "TO"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "security",
-      "timestamp": "2026-07-08 12:31 UTC",
-      "headline": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-      "bullet_points": [
-        "Cybersecurity news and analysis"
-      ],
-      "source": "KrebsOnSecurity",
-      "confidence": 69,
-      "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-      "tickers": [
-        "FLOG",
-        "NEWS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "security",
-      "timestamp": "2026-07-02 19:27 UTC",
-      "headline": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-      "bullet_points": [
-        "Cybersecurity news and analysis"
-      ],
-      "source": "KrebsOnSecurity",
-      "confidence": 69,
-      "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
-      "tickers": [
-        "FBI",
-        "NEWS",
-        "POPA",
-        "PROXY"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "security",
-      "timestamp": "2026-06-23 16:12 UTC",
-      "headline": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
-      "bullet_points": [
-        "Cybersecurity news and analysis"
-      ],
-      "source": "KrebsOnSecurity",
-      "confidence": 69,
-      "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-      "tickers": [
+        "CHINA",
         "DAY",
-        "NEWS",
-        "OF",
+        "IRAN",
         "ON",
-        "PLEAD",
-        "TRIAL"
+        "POST",
+        "SOUTH",
+        "US",
+        "WORLD"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -958,20 +1670,98 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-07-24 15:55 UTC",
-      "headline": "OnTrac notifies customers of data breach after network hack",
+      "timestamp": "2026-08-24 15:26 UTC",
+      "headline": "Hackers target WordPress sites in miniOrange auth bypass attacks",
       "bullet_points": [
         "Security news, malware, breaches"
       ],
       "source": "BleepingComputer",
       "confidence": 68,
-      "url": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
+      "tickers": [
+        "AUTH",
+        "IN",
+        "NEWS",
+        "SITES"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-08-24 13:48 UTC",
+      "headline": "China and Jordan call for Strait of Hormuz to get back to normal after US-Iran conflict",
+      "bullet_points": [
+        "Geopower: South China Morning Post \u2014 world, conflict, policy"
+      ],
+      "source": "South China Morning Post",
+      "confidence": 68,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3365097/china-and-jordan-call-strait-hormuz-get-back-normal-after-us-iran-conflict?utm_source=rss_feed",
+      "tickers": [
+        "AFTER",
+        "BACK",
+        "CALL",
+        "CHINA",
+        "GET",
+        "IRAN",
+        "OF",
+        "POST"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 11:32 UTC",
+      "headline": "Jack Welch fired him from GE. He became a Fortune 500 CEO 3 years later",
+      "bullet_points": [
+        "Finance: Fortune \u2014 market updates, crypto, macro"
+      ],
+      "source": "Fortune",
+      "confidence": 68,
+      "url": "https://fortune.com/article/david-cote-honeywell-vertiv-ceo/",
+      "tickers": [
+        "CEO",
+        "FIRED",
+        "GE",
+        "HE",
+        "HIM",
+        "JACK",
+        "LATER",
+        "MACRO"
+      ],
+      "event_type": "Leadership",
+      "market_impact": {
+        "score": 35,
+        "tier": "low",
+        "reasons": [
+          "Leadership"
+        ]
+      }
+    },
+    {
+      "category": "security",
+      "timestamp": "2026-08-24 11:17 UTC",
+      "headline": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
+      "bullet_points": [
+        "Security news, malware, breaches"
+      ],
+      "source": "BleepingComputer",
+      "confidence": 68,
+      "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
       "tickers": [
         "AFTER",
         "DATA",
-        "HACK",
         "NEWS",
-        "OF"
+        "THEFT"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -982,22 +1772,21 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-07-24 15:09 UTC",
-      "headline": "Hermes AI agent used to automate attack on Thai Finance Ministry",
+      "timestamp": "2026-08-24 10:00 UTC",
+      "headline": "Microsoft Teams now lets admins block external bots from meetings",
       "bullet_points": [
         "Security news, malware, breaches"
       ],
       "source": "BleepingComputer",
       "confidence": 68,
-      "url": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
       "tickers": [
-        "AGENT",
-        "AI",
+        "BLOCK",
+        "BOTS",
+        "LETS",
         "NEWS",
-        "ON",
-        "THAI",
-        "TO",
-        "USED"
+        "NOW",
+        "TEAMS"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -1008,22 +1797,18 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-07-24 13:50 UTC",
-      "headline": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
+      "timestamp": "2026-08-24 10:00 UTC",
+      "headline": "South Korean startup platform breach exposes key management failures",
       "bullet_points": [
         "Security news, malware, breaches"
       ],
       "source": "BleepingComputer",
       "confidence": 68,
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
+      "url": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/",
       "tickers": [
-        "DNS",
-        "FI",
-        "HOTEL",
+        "KEY",
         "NEWS",
-        "STEAL",
-        "TO",
-        "WI"
+        "SOUTH"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -1034,64 +1819,21 @@
     },
     {
       "category": "security",
-      "timestamp": "2026-07-24 11:41 UTC",
-      "headline": "Microsoft blames massive Microsoft 365 outage on maintenance bug",
+      "timestamp": "2026-08-24 08:40 UTC",
+      "headline": "Microsoft: August updates break printing, PDF export in WPF apps",
       "bullet_points": [
         "Security news, malware, breaches"
       ],
       "source": "BleepingComputer",
       "confidence": 68,
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
       "tickers": [
-        "BUG",
+        "APPS",
+        "BREAK",
+        "IN",
         "NEWS",
-        "ON"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "security",
-      "timestamp": "2026-07-24 10:04 UTC",
-      "headline": "Chick-fil-A data breach affects more than 13,000 customers",
-      "bullet_points": [
-        "Security news, malware, breaches"
-      ],
-      "source": "BleepingComputer",
-      "confidence": 68,
-      "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
-      "tickers": [
-        "CHICK",
-        "DATA",
-        "FIL",
-        "NEWS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "security",
-      "timestamp": "2026-07-24 10:01 UTC",
-      "headline": "Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack",
-      "bullet_points": [
-        "Security news, malware, breaches"
-      ],
-      "source": "BleepingComputer",
-      "confidence": 68,
-      "url": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
-      "tickers": [
-        "AI",
-        "ARE",
-        "NEWS",
-        "SAME"
+        "PDF",
+        "WPF"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -1102,7 +1844,31 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-07-24 19:03 UTC",
+      "timestamp": "2026-08-24 20:16 UTC",
+      "headline": "Why the Bitcoin Rally Looks Like a Vote Against the Dollar",
+      "bullet_points": [
+        "Source: Decrypt"
+      ],
+      "source": "Decrypt",
+      "confidence": 67,
+      "url": "https://decrypt.co/376394/bitcoins-price-rally-trade-against-dollar",
+      "tickers": [
+        "LIKE",
+        "LOOKS",
+        "RALLY",
+        "VOTE",
+        "WHY"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 19:58 UTC",
       "headline": "Here\u2019s what happened in crypto today",
       "bullet_points": [
         "Source: Cointelegraph"
@@ -1125,86 +1891,16 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-07-24 16:55 UTC",
-      "headline": "Crypto advocacy groups support CLARITY passage as ethics rules face pushback",
+      "timestamp": "2026-08-24 19:43 UTC",
+      "headline": "Coinbase Brings Tokenized Stocks to Ethereum L2 Base",
       "bullet_points": [
-        "Source: Cointelegraph"
+        "Source: Decrypt"
       ],
-      "source": "Cointelegraph",
+      "source": "Decrypt",
       "confidence": 67,
-      "url": "<![CDATA[https://cointelegraph.com/news/crypto-advocacy-groups-support-clarity-act-pushback-ethics-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "url": "https://decrypt.co/376393/coinbase-tokenized-stocks-base-ethereum",
       "tickers": [
-        "AS",
-        "FACE",
-        "RULES"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-24 16:49 UTC",
-      "headline": "Atlantic Council: Piasecki&#8217;s piece on African debt republished by Public Debt Management Network",
-      "bullet_points": [
-        "Source: Atlantic Council"
-      ],
-      "source": "Atlantic Council",
-      "confidence": 67,
-      "url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/piaseckis-piece-on-african-debt-republished-by-public-debt-management-network/",
-      "tickers": [
-        "BY",
-        "DEBT",
-        "ON",
-        "PIECE"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-24 15:56 UTC",
-      "headline": "Atlantic Council: What to know about Trump\u2019s newest global tariffs",
-      "bullet_points": [
-        "Source: Atlantic Council"
-      ],
-      "source": "Atlantic Council",
-      "confidence": 67,
-      "url": "https://www.atlanticcouncil.org/content-series/fastthinking/fast-thinking-what-to-know-about-trumps-newest-global-tariffs/",
-      "tickers": [
-        "KNOW",
-        "TO",
-        "TRUMP",
-        "WHAT"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 15:15 UTC",
-      "headline": "Crypto Biz: Is the AI-to-crypto rotation underway?",
-      "bullet_points": [
-        "Source: Cointelegraph"
-      ],
-      "source": "Cointelegraph",
-      "confidence": 67,
-      "url": "<![CDATA[https://cointelegraph.com/news/crypto-biz-ai-to-crypto-rotation-bitcoin-etf-inflows-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "tickers": [
-        "AI",
-        "BIZ",
-        "IS",
+        "BASE",
         "TO"
       ],
       "event_type": "Material Event",
@@ -1216,22 +1912,71 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-07-24 15:01 UTC",
-      "headline": "Senate Dems should accept the victory they won on Trump's crypto limits: White House",
+      "timestamp": "2026-08-24 19:36 UTC",
+      "headline": "Bitcoin nears $80,000, but analysts say the next pullback will be key",
       "bullet_points": [
         "Source: CoinDesk"
       ],
       "source": "CoinDesk",
       "confidence": 67,
-      "url": "https://www.coindesk.com/policy/2026/07/24/senate-dems-should-accept-the-victory-they-won-on-trump-s-crypto-limits-white-house",
+      "url": "https://www.coindesk.com/markets/2026/08/24/bitcoin-nears-usd80-000-but-analysts-say-the-next-pullback-will-be-key",
       "tickers": [
-        "DEMS",
-        "HOUSE",
-        "ON",
-        "THEY",
-        "TRUMP",
-        "WHITE",
-        "WON"
+        "BE",
+        "BUT",
+        "KEY",
+        "NEARS",
+        "NEXT",
+        "SAY"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-08-24 18:16 UTC",
+      "headline": "UK, France \u2018re-announce\u2019 anti-missile technology for Ukraine: \u2018None will be online for years\u2019",
+      "bullet_points": [
+        "Source: France24"
+      ],
+      "source": "France24",
+      "confidence": 67,
+      "url": "https://www.france24.com/en/video/20260824-uk-france-re-announce-anti-missile-technology-for-ukraine-none-will-be-online-for-years",
+      "tickers": [
+        "ANTI",
+        "BE",
+        "NONE",
+        "RE",
+        "UK",
+        "YEARS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 17:48 UTC",
+      "headline": "Bitcoin price hits $80K as 24-hour crypto short liquidations pass $220M",
+      "bullet_points": [
+        "Source: Cointelegraph"
+      ],
+      "source": "Cointelegraph",
+      "confidence": 67,
+      "url": "<![CDATA[https://cointelegraph.com/markets/bitcoin-price-hits-80k-as-24-hour-crypto-short-liquidations-pass-m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "tickers": [
+        "AS",
+        "HITS",
+        "HOUR",
+        "PASS",
+        "PRICE",
+        "SHORT"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -1242,21 +1987,198 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-07-24 15:00 UTC",
-      "headline": "Sam Altman-backed World Network secures $52.5 million in fresh funding to fight online AI deepfakes",
+      "timestamp": "2026-08-24 17:30 UTC",
+      "headline": "Crypto political group details list of U.S. congressional allies its backing this year",
       "bullet_points": [
         "Source: CoinDesk"
       ],
       "source": "CoinDesk",
       "confidence": 67,
-      "url": "https://www.coindesk.com/business/2026/07/24/sam-altman-backed-world-network-secures-fresh-funding-to-fight-online-ai-deepfakes",
+      "url": "https://www.coindesk.com/policy/2026/08/24/crypto-political-group-details-list-of-u-s-congressional-allies-its-backing-this-year",
       "tickers": [
-        "AI",
-        "FIGHT",
-        "FRESH",
+        "GROUP",
+        "ITS",
+        "LIST",
+        "OF",
+        "YEAR"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 17:07 UTC",
+      "headline": "Bitcoin, Ethereum ETFs Grew $23 Billion Last Week\u2014Only $2.6 Billion Was New Money",
+      "bullet_points": [
+        "Source: Decrypt"
+      ],
+      "source": "Decrypt",
+      "confidence": 67,
+      "url": "https://decrypt.co/376349/bitcoin-ethereum-etfs-23-billion-aum-inflows",
+      "tickers": [
+        "ETFS",
+        "GREW",
+        "LAST",
+        "MONEY",
+        "NEW",
+        "ONLY",
+        "WAS",
+        "WEEK"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-08-24 15:44 UTC",
+      "headline": "Ukraine celebrates Independence Day amid war's latest escalation",
+      "bullet_points": [
+        "Source: France24"
+      ],
+      "source": "France24",
+      "confidence": 67,
+      "url": "https://www.france24.com/en/video/20260824-ukraine-celebrates-independence-day-amid-war-s-latest-escalation",
+      "tickers": [
+        "AMID",
+        "DAY",
+        "WAR"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-08-24 00:00 UTC",
+      "headline": "aiXamine: Unified Black-Box Evaluation of Cross-Dimensional Trade-offs in LLM Safety, Security, and Privacy",
+      "bullet_points": [
+        "Source: arXiv cs.CR"
+      ],
+      "source": "arXiv cs.CR",
+      "confidence": 67,
+      "url": "https://arxiv.org/abs/2608.20554",
+      "tickers": [
+        "ARXIV",
+        "BLACK",
+        "BOX",
+        "CR",
+        "CROSS",
+        "CS",
         "IN",
-        "SAM",
-        "TO",
+        "LLM"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-08-24 00:00 UTC",
+      "headline": "Beyond End-to-End Success: Diagnosing Failures in Long-Horizon Security LLM Agents",
+      "bullet_points": [
+        "Source: arXiv cs.CR"
+      ],
+      "source": "arXiv cs.CR",
+      "confidence": 67,
+      "url": "https://arxiv.org/abs/2608.20563",
+      "tickers": [
+        "ARXIV",
+        "CR",
+        "CS",
+        "END",
+        "IN",
+        "LLM",
+        "LONG",
+        "TO"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-08-24 00:00 UTC",
+      "headline": "Keyed Provenance Watermarking with Complementary Lattice-Based Secure Aggregation for Federated Learning",
+      "bullet_points": [
+        "Source: arXiv cs.CR"
+      ],
+      "source": "arXiv cs.CR",
+      "confidence": 67,
+      "url": "https://arxiv.org/abs/2608.20580",
+      "tickers": [
+        "ARXIV",
+        "BASED",
+        "CR",
+        "CS",
+        "KEYED"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-25 01:48 UTC",
+      "headline": "<![CDATA[US stocks today: S&amp;P 500, Nasdaq decline as tech sector falls, US prepares to impose more Iran sanctions]]>",
+      "bullet_points": [
+        "Finance: Economic Times \u2014 market updates, crypto, macro"
+      ],
+      "source": "Economic Times",
+      "confidence": 66,
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-sp-500-nasdaq-decline-as-tech-sector-falls-us-prepares-to-impose-more-iran-sanctions/articleshow/133478615.cms",
+      "tickers": [
+        "AMP",
+        "AS",
+        "CDATA",
+        "FALLS",
+        "IRAN",
+        "MACRO",
+        "TECH",
+        "TIMES"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-08-24 22:51 UTC",
+      "headline": "5 sectors and a warning for world: US launches \u2018Op Economic Outcast\u2019 against Iran",
+      "bullet_points": [
+        "Geopower: India Times \u2014 world, conflict, policy"
+      ],
+      "source": "India Times",
+      "confidence": 66,
+      "url": "<![CDATA[https://timesofindia.indiatimes.com/business/international-business/5-sectors-and-a-warning-for-world-us-launches-operation-economic-outcast-against-iran/articleshow/133474633.cms]]>",
+      "tickers": [
+        "INDIA",
+        "IRAN",
+        "OP",
+        "TIMES",
+        "US",
         "WORLD"
       ],
       "event_type": "Material Event",
@@ -1268,18 +2190,50 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-07-24 13:15 UTC",
-      "headline": "Saylor and team overhaul Strategy's bitcoin metrics as bear market persists",
+      "timestamp": "2026-08-24 21:56 UTC",
+      "headline": "<![CDATA[Sebi drops proceedings against Max Financial, Axis Bank in Max Life deal case]]>",
       "bullet_points": [
-        "Source: CoinDesk"
+        "Finance: Economic Times \u2014 market updates, crypto, macro"
       ],
-      "source": "CoinDesk",
-      "confidence": 67,
-      "url": "https://www.coindesk.com/markets/2026/07/24/saylor-and-team-overhaul-strategy-s-bitcoin-metrics-as-bear-market-persists",
+      "source": "Economic Times",
+      "confidence": 66,
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-drops-proceedings-against-max-financial-axis-bank-in-max-life-deal-case/articleshow/133473094.cms",
       "tickers": [
-        "AS",
-        "BEAR",
-        "TEAM"
+        "AXIS",
+        "BANK",
+        "CASE",
+        "CDATA",
+        "DEAL",
+        "DROPS",
+        "IN",
+        "LIFE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 21:23 UTC",
+      "headline": "<![CDATA[SoftBank pares nearly 2.6% stake in Lenskart for Rs 2,888 crore]]>",
+      "bullet_points": [
+        "Finance: Economic Times \u2014 market updates, crypto, macro"
+      ],
+      "source": "Economic Times",
+      "confidence": 66,
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/softbank-pares-nearly-2-6-stake-in-lenskart-for-rs-2888-crore/articleshow/133472713.cms",
+      "tickers": [
+        "CDATA",
+        "CRORE",
+        "IN",
+        "MACRO",
+        "PARES",
+        "RS",
+        "STAKE",
+        "TIMES"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -1290,47 +2244,152 @@
     },
     {
       "category": "geopower",
-      "timestamp": "2026-07-24 12:00 UTC",
-      "headline": "Middle East: UN warns against wider escalation after Houthi attacks in the Red Sea",
+      "timestamp": "2026-08-24 20:36 UTC",
+      "headline": "Iran has a 'two year plan' to counter sanctions, economic minister says",
       "bullet_points": [
-        "Source: UN News"
+        "Geopower: Middle East Eye \u2014 world, conflict, policy"
       ],
-      "source": "UN News",
-      "confidence": 67,
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168016",
+      "source": "Middle East Eye",
+      "confidence": 66,
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-has-two-year-plan-counter-sanctions-economic-minister-says",
       "tickers": [
-        "AFTER",
         "EAST",
-        "IN",
-        "NEWS",
-        "RED",
-        "SEA",
-        "UN",
-        "WARNS"
+        "EYE",
+        "HAS",
+        "IRAN",
+        "PLAN",
+        "SAYS",
+        "TO",
+        "TWO"
       ],
       "event_type": "Material Event",
       "market_impact": {
-        "score": 10,
+        "score": 20,
         "tier": "low",
         "reasons": []
       }
     },
     {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "AINTMA: Agentic AI Architecture for Autonomous Test Management with Generative Intelligence, Secure Cloud Communication and Adaptive Quality Analytics",
+      "category": "geopower",
+      "timestamp": "2026-08-24 20:23 UTC",
+      "headline": "US targets China\u2019s telecoms grip in Venezuela with new sanctions carve-out",
       "bullet_points": [
-        "Source: arXiv cs.AI"
+        "Geopower: South China Morning Post \u2014 world, conflict, policy"
       ],
-      "source": "arXiv cs.AI",
-      "confidence": 67,
-      "url": "https://arxiv.org/abs/2607.20452",
+      "source": "South China Morning Post",
+      "confidence": 66,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3365115/us-targets-chinas-telecoms-grip-venezuela-new-sanctions-carve-out?utm_source=rss_feed",
       "tickers": [
-        "AI",
-        "ARXIV",
-        "CLOUD",
-        "CS",
-        "TEST"
+        "CARVE",
+        "CHINA",
+        "GRIP",
+        "IN",
+        "NEW",
+        "OUT",
+        "POST",
+        "SOUTH"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 20:22 UTC",
+      "headline": "Ford&#x2019;s $3 billion Canadian bet is getting caught in trade-war crosshairs",
+      "bullet_points": [
+        "Finance: MarketWatch \u2014 market updates, crypto, macro"
+      ],
+      "source": "MarketWatch",
+      "confidence": 66,
+      "url": "https://www.marketwatch.com/story/u-s-automakers-and-home-builders-are-among-the-big-losers-as-trump-launches-a-trade-war-against-canada-063c1d4c?mod=mw_rss_topstories",
+      "tickers": [
+        "BET",
+        "FORD",
+        "IN",
+        "IS",
+        "MACRO",
+        "TRADE",
+        "WAR"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 20:15 UTC",
+      "headline": "Stocks Close Lower, US to Isolate Iran From World Economy, More",
+      "bullet_points": [
+        "Finance: Bloomberg \u2014 market updates, crypto, macro"
+      ],
+      "source": "Bloomberg",
+      "confidence": 66,
+      "url": "https://www.bloomberg.com/news/audio/2026-08-24/stocks-close-lower-us-to-isolate-iran-from-world-economy-more",
+      "tickers": [
+        "CLOSE",
+        "IRAN",
+        "LOWER",
+        "MACRO",
+        "TO",
+        "US",
+        "WORLD"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 19:59 UTC",
+      "headline": "Trump\u2019s oil and gas stocks gained up to $15.5 million amid Iran war, congressional Democrats say",
+      "bullet_points": [
+        "Finance: CNBC \u2014 market updates, crypto, macro"
+      ],
+      "source": "CNBC",
+      "confidence": 66,
+      "url": "https://www.cnbc.com/2026/08/24/trump-oil-gas-stocks-iran-war-investments-democrats.html",
+      "tickers": [
+        "AMID",
+        "CNBC",
+        "GAS",
+        "IRAN",
+        "MACRO",
+        "OIL",
+        "SAY",
+        "TO"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 19:44 UTC",
+      "headline": "Bloomberg Businessweek Daily: Trump National Bank (Podcast)",
+      "bullet_points": [
+        "Finance: Bloomberg \u2014 market updates, crypto, macro"
+      ],
+      "source": "Bloomberg",
+      "confidence": 66,
+      "url": "https://www.bloomberg.com/news/audio/2026-08-24/bloomberg-businessweek-daily-trump-national-bank-podcast",
+      "tickers": [
+        "BANK",
+        "DAILY",
+        "MACRO",
+        "TRUMP"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -1341,18 +2400,935 @@
     },
     {
       "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "The Consensus Number of Untraceable Cryptocurrencies",
+      "timestamp": "2026-08-24 19:42 UTC",
+      "headline": "GM vehicles under federal scrutiny after hundreds of reports",
       "bullet_points": [
-        "Source: arXiv cs.DC"
+        "Source: Ars Technica"
       ],
-      "source": "arXiv cs.DC",
-      "confidence": 67,
-      "url": "https://arxiv.org/abs/2607.20929",
+      "source": "Ars Technica",
+      "confidence": 66,
+      "url": "https://arstechnica.com/cars/2026/08/feds-deepen-probe-into-general-motors-brake-failures/",
       "tickers": [
-        "ARXIV",
-        "CS",
-        "DC",
+        "AFTER",
+        "ARS",
+        "GM",
+        "OF",
+        "UNDER"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 19:37 UTC",
+      "headline": "Trump says US to increase tariffs on Canadian cars to 50%",
+      "bullet_points": [
+        "Finance: FT \u2014 market updates, crypto, macro"
+      ],
+      "source": "FT",
+      "confidence": 66,
+      "url": "https://www.ft.com/content/52978bad-2b91-41e3-be94-7fb6776fbb91?syn-25a6b1a6=1",
+      "tickers": [
+        "CARS",
+        "FT",
+        "MACRO",
+        "ON",
+        "SAYS",
+        "TO",
+        "TRUMP",
+        "US"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 19:23 UTC",
+      "headline": "US escalates Iran pressure with sanctions on crypto, aviation, shipping and gold as part of \u2018economic D-Day\u2019",
+      "bullet_points": [
+        "Finance: The Block \u2014 market updates, crypto, macro"
+      ],
+      "source": "The Block",
+      "confidence": 66,
+      "url": "https://www.theblock.co/news/regulation/2026-08-24-us-escalates-iran-pressure-sanctions-crypto-aviation-shipping-gold-economic-d-day-412648",
+      "tickers": [
+        "AS",
+        "BLOCK",
+        "DAY",
+        "GOLD",
+        "IRAN",
+        "MACRO",
+        "OF",
+        "ON"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 19:14 UTC",
+      "headline": "Bloomberg Tech: AI\u2019s Global Capital Race Accelerates (Podcast)",
+      "bullet_points": [
+        "Finance: Bloomberg \u2014 market updates, crypto, macro"
+      ],
+      "source": "Bloomberg",
+      "confidence": 66,
+      "url": "https://www.bloomberg.com/news/audio/2026-08-24/bloomberg-tech-ai-s-global-capital-race-accelerates-podcast",
+      "tickers": [
+        "AI",
+        "MACRO",
+        "RACE",
+        "TECH"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 19:06 UTC",
+      "headline": "US to Isolate Iran, Trump Vows to Double Canada Auto Tariffs",
+      "bullet_points": [
+        "Finance: Bloomberg \u2014 market updates, crypto, macro"
+      ],
+      "source": "Bloomberg",
+      "confidence": 66,
+      "url": "https://www.bloomberg.com/news/audio/2026-08-24/us-to-isolate-iran-trump-vows-to-double-canada-auto-tariffs",
+      "tickers": [
+        "AUTO",
+        "IRAN",
+        "MACRO",
+        "TO",
+        "TRUMP",
+        "US",
+        "VOWS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 19:03 UTC",
+      "headline": "Trump&#x2019;s trade war with Canada could lead the U.S. back to quantitative easing",
+      "bullet_points": [
+        "Finance: MarketWatch \u2014 market updates, crypto, macro"
+      ],
+      "source": "MarketWatch",
+      "confidence": 66,
+      "url": "https://www.marketwatch.com/story/trumps-canada-trade-war-could-lead-the-u-s-back-to-quantitative-easing-eef9be8b?mod=mw_rss_topstories",
+      "tickers": [
+        "BACK",
+        "COULD",
+        "LEAD",
+        "MACRO",
+        "TO",
+        "TRADE",
+        "TRUMP",
+        "WAR"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-08-24 19:00 UTC",
+      "headline": "&#8216;Magic: The Gathering&#8217; Unveils New &#8216;Masters of the Universe&#8217; Secret Lair Superdrop Details",
+      "bullet_points": [
+        "Tech: Gizmodo \u2014 AI, gadgets, software"
+      ],
+      "source": "Gizmodo",
+      "url": "https://gizmodo.com/magic-the-gathering-unveils-new-masters-of-the-universe-secret-lair-superdrop-details-2000802329",
+      "confidence": 66,
+      "tickers": [
+        "AI",
+        "LAIR",
+        "MAGIC",
+        "NEW",
+        "OF",
+        "TECH"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 18:41 UTC",
+      "headline": "A massive trade just happened in gold. The options market is buzzing",
+      "bullet_points": [
+        "Finance: CNBC \u2014 market updates, crypto, macro"
+      ],
+      "source": "CNBC",
+      "confidence": 66,
+      "url": "https://www.cnbc.com/2026/08/24/a-massive-trade-just-happened-in-gold-the-options-market-is-buzzing.html",
+      "tickers": [
+        "CNBC",
+        "GOLD",
+        "IN",
+        "IS",
+        "MACRO",
+        "TRADE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 18:10 UTC",
+      "headline": "Zilliqa points to hardware wallet flaw discarding entropy to expose crypto keys, enabling 683M ZIL theft",
+      "bullet_points": [
+        "Finance: CryptoSlate \u2014 market updates, crypto, macro"
+      ],
+      "source": "CryptoSlate",
+      "confidence": 66,
+      "url": "https://cryptoslate.com/zilliqa-points-to-hardware-wallet-flaw-discarding-entropy-to-expose-crypto-keys-enabling-683m-zil-theft/",
+      "tickers": [
+        "FLAW",
+        "KEYS",
+        "MACRO",
+        "THEFT",
+        "TO",
+        "ZIL"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 18:07 UTC",
+      "headline": "Crypto exchange volumes double in five days as market activity rebounds",
+      "bullet_points": [
+        "Finance: The Block \u2014 market updates, crypto, macro"
+      ],
+      "source": "The Block",
+      "confidence": 66,
+      "url": "https://www.theblock.co/news/markets/2026-08-24-crypto-exchange-volumes-double-in-five-days-as-market-activity-rebounds-412641",
+      "tickers": [
+        "AS",
+        "BLOCK",
+        "DAYS",
+        "FIVE",
+        "IN",
+        "MACRO"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-08-24 18:03 UTC",
+      "headline": "Instinct\u2019s powerful AI assistant is raising privacy and security concerns",
+      "bullet_points": [
+        "Tech: TechCrunch \u2014 AI, gadgets, software"
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+      "confidence": 66,
+      "tickers": [
+        "AI",
+        "IS",
+        "TECH"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 17:16 UTC",
+      "headline": "Treasury market interventions are only a band-aid",
+      "bullet_points": [
+        "Finance: FT \u2014 market updates, crypto, macro"
+      ],
+      "source": "FT",
+      "confidence": 66,
+      "url": "https://www.ft.com/content/d6c9e705-ef30-4896-880b-8e88941e0f58?syn-25a6b1a6=1",
+      "tickers": [
+        "AID",
+        "ARE",
+        "BAND",
+        "FT",
+        "MACRO",
+        "ONLY"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 17:00 UTC",
+      "headline": "Saylor sat out Bitcoin\u2019s 20% rally while Tom Lee bought Ethereum after a 30% surge",
+      "bullet_points": [
+        "Finance: CryptoSlate \u2014 market updates, crypto, macro"
+      ],
+      "source": "CryptoSlate",
+      "confidence": 66,
+      "url": "https://cryptoslate.com/saylor-sat-out-bitcoins-20-rally-while-tom-lee-bought-ethereum-after-a-30-surge/",
+      "tickers": [
+        "AFTER",
+        "LEE",
+        "MACRO",
+        "OUT",
+        "RALLY",
+        "SAT",
+        "SURGE",
+        "TOM"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 16:35 UTC",
+      "headline": "Why The Nuclear Sector Still Has Room To Grow",
+      "bullet_points": [
+        "Market analysis + earnings previews"
+      ],
+      "source": "Seeking Alpha",
+      "confidence": 66,
+      "url": "https://seekingalpha.com/article/4939755-why-nuclear-sector-still-has-room-to-grow?source=feed_all_articles",
+      "tickers": [
+        "GROW",
+        "HAS",
+        "ROOM",
+        "STILL",
+        "TO",
+        "WHY"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 15:57 UTC",
+      "headline": "Stand With Crypto ramps up midterm push with 32 House endorsements",
+      "bullet_points": [
+        "Finance: The Block \u2014 market updates, crypto, macro"
+      ],
+      "source": "The Block",
+      "confidence": 66,
+      "url": "https://www.theblock.co/news/regulation/2026-08-24-stand-with-crypto-ramps-up-midterm-push-with-32-house-endorsements-412616",
+      "tickers": [
+        "BLOCK",
+        "HOUSE",
+        "MACRO",
+        "PUSH",
+        "RAMPS",
+        "STAND",
+        "UP"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 15:50 UTC",
+      "headline": "Goldman Sachs partner warns of &apos;huge danger&apos; in letting AI replace bankers&apos; reasoning skills",
+      "bullet_points": [
+        "Finance: CNBC \u2014 market updates, crypto, macro"
+      ],
+      "source": "CNBC",
+      "confidence": 66,
+      "url": "https://www.cnbc.com/2026/08/24/goldman-sachs-ai-partner-danger-skills.html",
+      "tickers": [
+        "AI",
+        "APOS",
+        "CNBC",
+        "HUGE",
+        "IN",
+        "MACRO",
+        "OF",
+        "SACHS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 15:39 UTC",
+      "headline": "Strive acquires 1,110 bitcoin for $81.5 million as total holdings reach 21,356 BTC",
+      "bullet_points": [
+        "Finance: The Block \u2014 market updates, crypto, macro"
+      ],
+      "source": "The Block",
+      "confidence": 66,
+      "url": "https://www.theblock.co/news/business/2026-08-24-strive-acquires-1110-bitcoin-for-81-5-million-as-total-holdings-reach-21356-btc-412604",
+      "tickers": [
+        "AS",
+        "BLOCK",
+        "BTC",
+        "MACRO",
+        "REACH",
+        "TOTAL"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-08-24 15:09 UTC",
+      "headline": "Nine indicted by Taiwan over illegal export of Nvidia B300 GPUs to China \u2014 details reveal five-point strategy to exploit and avoid customs controls",
+      "bullet_points": [
+        "Tech: Tom Hardware \u2014 AI, gadgets, software"
+      ],
+      "source": "Tom Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nine-indicted-by-taiwan-over-illegal-export-of-nvidia-b300-gpus-to-china-details-reveal-five-point-strategy-to-exploit-and-avoid-customs-controls",
+      "confidence": 66,
+      "tickers": [
+        "AI",
+        "AVOID",
+        "BY",
+        "CHINA",
+        "FIVE",
+        "GPUS",
+        "NINE",
+        "OF"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 15:05 UTC",
+      "headline": "Canadian businesses fear \u2018vortex of downward pressures\u2019 from Trump\u2019s tariffs",
+      "bullet_points": [
+        "Finance: FT \u2014 market updates, crypto, macro"
+      ],
+      "source": "FT",
+      "confidence": 66,
+      "url": "https://www.ft.com/content/7522bdde-49f8-4bf0-a930-6591b40eb5e4?syn-25a6b1a6=1",
+      "tickers": [
+        "FEAR",
+        "FT",
+        "MACRO",
+        "OF",
+        "TRUMP"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-08-24 14:00 UTC",
+      "headline": "Alabama AG Steve Marshall launches an investigation into OpenAI&apos;s security procedures following the Hugging Face breach in July (Cassandre Coyer/Bloomberg Law)",
+      "bullet_points": [
+        "Tech: Techmeme \u2014 AI, gadgets, software"
+      ],
+      "source": "Techmeme",
+      "url": "https://www.techmeme.com/260824/p29#a260824p29",
+      "confidence": 66,
+      "tickers": [
+        "AG",
+        "AI",
+        "AN",
+        "APOS",
+        "COYER",
+        "FACE",
+        "IN",
+        "JULY"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-08-24 12:33 UTC",
+      "headline": "The US has been imposing sanctions on Iran since 1979",
+      "bullet_points": [
+        "Geopower: Egypt Independent \u2014 world, conflict, policy"
+      ],
+      "source": "Egypt Independent",
+      "confidence": 66,
+      "url": "https://www.egyptindependent.com/the-us-has-been-imposing-sanctions-on-iran-since-1979/",
+      "tickers": [
+        "EGYPT",
+        "HAS",
+        "IRAN",
+        "ON",
+        "SINCE",
+        "US",
+        "WORLD"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-08-24 12:30 UTC",
+      "headline": "Iranian currency drops to record low as US plans to tighten sanctions",
+      "bullet_points": [
+        "Geopower: Egypt Independent \u2014 world, conflict, policy"
+      ],
+      "source": "Egypt Independent",
+      "confidence": 66,
+      "url": "https://www.egyptindependent.com/iranian-currency-drops-to-record-low-as-us-plans-to-tighten-sanctions/",
+      "tickers": [
+        "AS",
+        "DROPS",
+        "EGYPT",
+        "LOW",
+        "PLANS",
+        "TO",
+        "US",
+        "WORLD"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-23 17:22 UTC",
+      "headline": "The Treasury&#8217;s recent moves in the bond and currency markets add up to &#8216;soft-form financial repression&#8217; to lower debt costs, economist warns",
+      "bullet_points": [
+        "Finance: Fortune \u2014 market updates, crypto, macro"
+      ],
+      "source": "Fortune",
+      "confidence": 66,
+      "url": "https://fortune.com/2026/08/23/treasury-bond-buyback-dollar-yen-currency-markets-financial-repression-us-debt-costs/",
+      "tickers": [
+        "ADD",
+        "BOND",
+        "COSTS",
+        "DEBT",
+        "IN",
+        "LOWER",
+        "MACRO",
+        "MOVES"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-23 13:38 UTC",
+      "headline": "<![CDATA[Is Scott Bessent the Fed chair Donald Trump always wanted?]]>",
+      "bullet_points": [
+        "Finance: Economist Finance \u2014 market updates, crypto, macro"
+      ],
+      "source": "Economist Finance",
+      "confidence": 66,
+      "url": "https://www.economist.com/finance-and-economics/2026/08/23/is-scott-bessent-the-fed-chair-donald-trump-always-wanted",
+      "tickers": [
+        "CDATA",
+        "CHAIR",
+        "FED",
+        "IS",
+        "MACRO",
+        "SCOTT",
+        "TRUMP"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-08-21 17:36 UTC",
+      "headline": "OWASP Flags Top AI Skill Risks in New Security Blueprint",
+      "bullet_points": [
+        "Source: Dark Reading"
+      ],
+      "source": "Dark Reading",
+      "confidence": 66,
+      "url": "<![CDATA[https://www.darkreading.com/application-security/owasp-flags-top-ai-skill-risks-security-blueprint]]>",
+      "tickers": [
+        "AI",
+        "DARK",
+        "FLAGS",
+        "IN",
+        "NEW",
+        "OWASP",
+        "RISKS",
+        "SKILL"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-21 17:00 UTC",
+      "headline": "<![CDATA[Tracking the cost of Donald Trump\u2019s tariffs]]>",
+      "bullet_points": [
+        "Finance: Economist Finance \u2014 market updates, crypto, macro"
+      ],
+      "source": "Economist Finance",
+      "confidence": 66,
+      "url": "https://www.economist.com/interactive/trump-tariff-costs-tracker",
+      "tickers": [
+        "CDATA",
+        "COST",
+        "MACRO",
+        "OF",
+        "TRUMP"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-08-21 17:00 UTC",
+      "headline": "2026.34: App Snore",
+      "bullet_points": [
+        "Tech: Stratechery \u2014 AI, gadgets, software"
+      ],
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/app-snore/",
+      "confidence": 66,
+      "tickers": [
+        "AI",
+        "APP",
+        "SNORE",
+        "TECH"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-08-20 19:52 UTC",
+      "headline": "US says sanctions will 'squash' Iran's economy and 'collapse' its regime",
+      "bullet_points": [
+        "Geopower: BBC Middle East \u2014 world, conflict, policy"
+      ],
+      "source": "BBC Middle East",
+      "confidence": 66,
+      "url": "https://www.bbc.co.uk/news/articles/c87n90eg0p2o?at_medium=RSS&amp;at_campaign=rss",
+      "tickers": [
+        "BBC",
+        "EAST",
+        "IRAN",
+        "ITS",
+        "SAYS",
+        "US",
+        "WORLD"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-20 09:21 UTC",
+      "headline": "<![CDATA[However you measure it, China\u2019s job market is weak]]>",
+      "bullet_points": [
+        "Finance: Economist Finance \u2014 market updates, crypto, macro"
+      ],
+      "source": "Economist Finance",
+      "confidence": 66,
+      "url": "https://www.economist.com/finance-and-economics/2026/08/20/however-you-measure-it-chinas-job-market-is-weak",
+      "tickers": [
+        "CDATA",
+        "CHINA",
+        "IS",
+        "IT",
+        "JOB",
+        "MACRO",
+        "WEAK"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-19 18:02 UTC",
+      "headline": "<![CDATA[Why bond markets are unnerving rich-world politicians]]>",
+      "bullet_points": [
+        "Finance: Economist Finance \u2014 market updates, crypto, macro"
+      ],
+      "source": "Economist Finance",
+      "confidence": 66,
+      "url": "https://www.economist.com/finance-and-economics/2026/08/19/why-bond-markets-are-unnerving-rich-world-politicians",
+      "tickers": [
+        "ARE",
+        "BOND",
+        "CDATA",
+        "MACRO",
+        "RICH",
+        "WHY",
+        "WORLD"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-08-19 10:00 UTC",
+      "headline": "Apple Settles With E.U., U.S. App Store Fees, ATT Rules in Germany",
+      "bullet_points": [
+        "Tech: Stratechery \u2014 AI, gadgets, software"
+      ],
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/apple-settles-with-e-u-u-s-app-store-fees-att-rules-in-germany/",
+      "confidence": 66,
+      "tickers": [
+        "AI",
+        "APP",
+        "APPLE",
+        "ATT",
+        "FEES",
+        "IN",
+        "RULES",
+        "STORE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-18 17:50 UTC",
+      "headline": "<![CDATA[Stock indices no longer reflect equity reality]]>",
+      "bullet_points": [
+        "Finance: Economist Finance \u2014 market updates, crypto, macro"
+      ],
+      "source": "Economist Finance",
+      "confidence": 66,
+      "url": "https://www.economist.com/finance-and-economics/2026/08/18/stock-indices-no-longer-reflect-equity-reality",
+      "tickers": [
+        "CDATA",
+        "MACRO",
+        "NO",
+        "STOCK"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-08-18 04:00 UTC",
+      "headline": "Benchmarking Secure-and-Functional Remediation and How Snyk Agent Fix Lifts Frontier-Model Fix Rates by over 14%",
+      "bullet_points": [
+        "Source: Snyk Blog"
+      ],
+      "source": "Snyk Blog",
+      "confidence": 66,
+      "url": "https://snyk.io/blog/snyk-agent-fix-remediation-benchmark/",
+      "tickers": [
+        "AGENT",
+        "BLOG",
+        "BY",
+        "FIX",
+        "HOW",
+        "LIFTS",
+        "MODEL",
+        "OVER"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-08-17 10:00 UTC",
+      "headline": "Stripe Acquiring OpenRouter, Aggregating AI?, Flipping the Business Model",
+      "bullet_points": [
+        "Tech: Stratechery \u2014 AI, gadgets, software"
+      ],
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/stripe-acquiring-openrouter-aggregating-ai-flipping-the-business-model/",
+      "confidence": 66,
+      "tickers": [
+        "AI",
+        "MODEL",
+        "TECH"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-08-14 17:00 UTC",
+      "headline": "2026.33: The CapEx Train Keeps Rolling",
+      "bullet_points": [
+        "Tech: Stratechery \u2014 AI, gadgets, software"
+      ],
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling/",
+      "confidence": 66,
+      "tickers": [
+        "AI",
+        "CAPEX",
+        "KEEPS",
+        "TECH",
+        "TRAIN"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-14 14:00 UTC",
+      "headline": "Machine Learning Has a Specific Role in Blockchain Intelligence",
+      "bullet_points": [
+        "Finance: Chainalysis \u2014 market updates, crypto, macro"
+      ],
+      "source": "Chainalysis",
+      "confidence": 66,
+      "url": "https://www.chainalysis.com/blog/ml-role-in-blockchain-intelligence/",
+      "tickers": [
+        "HAS",
+        "IN",
+        "MACRO",
+        "ROLE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "trends",
+      "timestamp": "2026-08-11 17:00 UTC",
+      "headline": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+      "bullet_points": [
+        "Source: Google AI Blog"
+      ],
+      "source": "Google AI Blog",
+      "confidence": 66,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+      "tickers": [
+        "AI",
+        "AMIE",
+        "BLOG",
+        "FIRST",
+        "IN",
+        "ITS",
+        "KIND",
         "OF"
       ],
       "event_type": "Material Event",
@@ -1364,18 +3340,67 @@
     },
     {
       "category": "trends",
-      "timestamp": "2026-07-24 07:00 UTC",
-      "headline": "Europe's Multilingual Reality Exposes AI Security Gaps",
+      "timestamp": "2026-08-10 00:00 UTC",
+      "headline": "Show, Don't Tell: What Evo Continuous Offensive Security Found in a Real Enterprise SaaS",
       "bullet_points": [
-        "Source: Dark Reading"
+        "Source: Snyk Blog"
       ],
-      "source": "Dark Reading",
+      "source": "Snyk Blog",
       "confidence": 66,
-      "url": "<![CDATA[https://www.darkreading.com/cybersecurity-operations/europes-multilingual-reality-exposes-ai-security-gaps]]>",
+      "url": "https://snyk.io/blog/what-evo-cos-found-real-enterprise-saas/",
       "tickers": [
-        "AI",
-        "DARK",
-        "GAPS"
+        "BLOG",
+        "DON",
+        "EVO",
+        "FOUND",
+        "IN",
+        "REAL",
+        "SAAS",
+        "SHOW"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-06 14:22 UTC",
+      "headline": "Penlink Plugs Into Trusted Blockchain Data With Chainalysis",
+      "bullet_points": [
+        "Finance: Chainalysis \u2014 market updates, crypto, macro"
+      ],
+      "source": "Chainalysis",
+      "confidence": 66,
+      "url": "https://www.chainalysis.com/blog/penlink-integration-blockchain-intelligence-august-2026/",
+      "tickers": [
+        "DATA",
+        "MACRO",
+        "PLUGS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-06 12:00 UTC",
+      "headline": "Estimated $30 Million Stolen in Violent Crypto Attacks in 2026 as France Records Emerges as Hotspot",
+      "bullet_points": [
+        "Finance: Chainalysis \u2014 market updates, crypto, macro"
+      ],
+      "source": "Chainalysis",
+      "confidence": 66,
+      "url": "https://www.chainalysis.com/blog/violent-crypto-wrench-attacks-2026/",
+      "tickers": [
+        "AS",
+        "IN",
+        "MACRO"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -1386,17 +3411,18 @@
     },
     {
       "category": "trends",
-      "timestamp": "2026-06-23 04:00 UTC",
-      "headline": "Announcing Agentic Development Security (ADS)",
+      "timestamp": "2026-08-05 04:00 UTC",
+      "headline": "Continuous Offensive Security & AI Pentesting: 20 FAQs",
       "bullet_points": [
         "Source: Snyk Blog"
       ],
       "source": "Snyk Blog",
       "confidence": 66,
-      "url": "https://snyk.io/blog/agentic-development-security-ads/",
+      "url": "https://snyk.io/blog/continuous-offensive-security-ai-pentesting-20-faqs/",
       "tickers": [
-        "ADS",
+        "AI",
         "BLOG",
+        "FAQS",
         "SNYK"
       ],
       "event_type": "Material Event",
@@ -1408,23 +3434,23 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-07-24 19:39 UTC",
-      "headline": "Market Flow: Trump threatens EU with &apos;substantial TARIFF&apos; for &apos;ROBBING&apos; U.S. tech giants",
+      "timestamp": "2026-07-30 16:00 UTC",
+      "headline": "The 2026 World Cup On-Chain: $20 Billion in Crypto Flows, From Bets to Tickets",
       "bullet_points": [
-        "Options / dark-pool flow signal from CNBC"
+        "Finance: Chainalysis \u2014 market updates, crypto, macro"
       ],
-      "source": "CNBC",
-      "confidence": 65,
-      "url": "https://www.cnbc.com/2026/07/24/trump-tariffs-eu-trade-google-apple-tech.html",
+      "source": "Chainalysis",
+      "confidence": 66,
+      "url": "https://www.chainalysis.com/blog/2026-world-cup-prediction-markets-nft-tickets/",
       "tickers": [
-        "APOS",
-        "CNBC",
-        "DARK",
-        "EU",
-        "FLOW",
-        "POOL",
-        "TECH",
-        "TRUMP"
+        "BETS",
+        "CHAIN",
+        "CUP",
+        "FLOWS",
+        "IN",
+        "MACRO",
+        "ON",
+        "TO"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -1435,16 +3461,153 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-07-24 19:30 UTC",
-      "headline": "Samsung Wallet Will Add Stablecoin Support, Including USDC",
+      "timestamp": "2026-07-30 12:00 UTC",
+      "headline": "Bank Rate maintained at 3.75% - July 2026 Monetary Policy Summary and Minutes",
       "bullet_points": [
-        "Source: Decrypt"
+        "Finance: Bank of England \u2014 market updates, crypto, macro"
       ],
-      "source": "Decrypt",
-      "confidence": 65,
-      "url": "https://decrypt.co/374324/samsung-wallet-stablecoin-support-usdc",
+      "source": "Bank of England",
+      "confidence": 66,
+      "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026",
       "tickers": [
-        "ADD",
+        "AT",
+        "BANK",
+        "JULY",
+        "MACRO",
+        "OF",
+        "RATE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-08-24 21:07 UTC",
+      "headline": "US public approval of Iran war falls to lowest level since early days of conflict",
+      "bullet_points": [
+        "Geopower: Middle East Eye \u2014 world, conflict, policy"
+      ],
+      "source": "Middle East Eye",
+      "confidence": 65,
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-public-approval-iran-war-falls-lowest-level-early-days-conflict",
+      "tickers": [
+        "DAYS",
+        "EARLY",
+        "EAST",
+        "EYE",
+        "FALLS",
+        "IRAN",
+        "LEVEL",
+        "OF"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "geopower",
+      "timestamp": "2026-08-24 20:50 UTC",
+      "headline": "Bessent admits sanctions may blow up global economy in apparent slip",
+      "bullet_points": [
+        "Geopower: Middle East Eye \u2014 world, conflict, policy"
+      ],
+      "source": "Middle East Eye",
+      "confidence": 65,
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bessent-admits-sanctions-may-blow-global-economy-apparent-slip",
+      "tickers": [
+        "BLOW",
+        "EAST",
+        "EYE",
+        "IN",
+        "MAY",
+        "SLIP",
+        "UP",
+        "WORLD"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 20:02 UTC",
+      "headline": "Market Flow: Crypto extends gains after biggest 3-day rally since 2023",
+      "bullet_points": [
+        "Options / dark-pool flow signal from CNBC"
+      ],
+      "source": "CNBC",
+      "confidence": 65,
+      "url": "https://www.cnbc.com/2026/08/24/crypto-extends-gains-after-biggest-3-day-rally-since-2023.html",
+      "tickers": [
+        "AFTER",
+        "CNBC",
+        "DARK",
+        "DAY",
+        "FLOW",
+        "GAINS",
+        "POOL",
+        "RALLY"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 20:00 UTC",
+      "headline": "On-chain: Bernstein sees new USDC growth cycle, sets $140 Circle price target",
+      "bullet_points": [
+        "Crypto on-chain / whale flow signal"
+      ],
+      "source": "Cointelegraph",
+      "confidence": 65,
+      "url": "<![CDATA[https://cointelegraph.com/news/bernstein-circle-usdc-growth-140-price-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "tickers": [
+        "CHAIN",
+        "CYCLE",
+        "FLOW",
+        "NEW",
+        "ON",
+        "PRICE",
+        "SEES",
+        "SETS"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 20:00 UTC",
+      "headline": "Bernstein sees new USDC growth cycle, sets $140 Circle price target",
+      "bullet_points": [
+        "Source: Cointelegraph"
+      ],
+      "source": "Cointelegraph",
+      "confidence": 65,
+      "url": "<![CDATA[https://cointelegraph.com/news/bernstein-circle-usdc-growth-140-price-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "tickers": [
+        "CYCLE",
+        "NEW",
+        "PRICE",
+        "SEES",
+        "SETS",
         "USDC"
       ],
       "event_type": "Material Event",
@@ -1456,7 +3619,7 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-07-24 19:03 UTC",
+      "timestamp": "2026-08-24 19:58 UTC",
       "headline": "On-chain: Here\u2019s what happened in crypto today",
       "bullet_points": [
         "Crypto on-chain / whale flow signal"
@@ -1482,22 +3645,24 @@
       }
     },
     {
-      "category": "geopower",
-      "timestamp": "2026-07-24 18:38 UTC",
-      "headline": "ICC prosecutor Khan removed over \u2018politicised\u2019 sex abuse claims: Sources",
+      "category": "finance",
+      "timestamp": "2026-08-24 19:36 UTC",
+      "headline": "On-chain: Bitcoin nears $80,000, but analysts say the next pullback will be key",
       "bullet_points": [
-        "Source: Al Jazeera"
+        "Crypto on-chain / whale flow signal"
       ],
-      "source": "Al Jazeera",
+      "source": "CoinDesk",
       "confidence": 65,
-      "url": "https://www.aljazeera.com/news/2026/7/24/icc-prosecutor-khan-removed-over-sexual-misconduct-allegations-sources?traffic_source=rss",
+      "url": "https://www.coindesk.com/markets/2026/08/24/bitcoin-nears-usd80-000-but-analysts-say-the-next-pullback-will-be-key",
       "tickers": [
-        "ABUSE",
-        "AL",
-        "ICC",
-        "KHAN",
-        "OVER",
-        "SEX"
+        "BE",
+        "BUT",
+        "CHAIN",
+        "FLOW",
+        "KEY",
+        "NEARS",
+        "NEXT",
+        "ON"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -1508,21 +3673,93 @@
     },
     {
       "category": "finance",
-      "timestamp": "2026-07-24 18:28 UTC",
-      "headline": "Claude Opus 5 Outscores Fable 5 on Most Benchmarks\u2014At Half the Price",
+      "timestamp": "2026-08-24 19:18 UTC",
+      "headline": "On-chain: Coinbase-affiliated advocacy group endorses candidates for US midterms",
       "bullet_points": [
-        "Source: Decrypt"
+        "Crypto on-chain / whale flow signal"
       ],
-      "source": "Decrypt",
+      "source": "Cointelegraph",
       "confidence": 65,
-      "url": "https://decrypt.co/374305/claude-opus-5-outscores-fable-5-most-benchmarks-half-price",
+      "url": "<![CDATA[https://cointelegraph.com/news/coinbase-stand-crypto-advocacy-group-endorses-midterm-candidates?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
       "tickers": [
-        "AT",
-        "FABLE",
-        "HALF",
-        "MOST",
+        "CHAIN",
+        "FLOW",
+        "GROUP",
         "ON",
-        "OPUS",
+        "US",
+        "WHALE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 19:18 UTC",
+      "headline": "Coinbase-affiliated advocacy group endorses candidates for US midterms",
+      "bullet_points": [
+        "Source: Cointelegraph"
+      ],
+      "source": "Cointelegraph",
+      "confidence": 65,
+      "url": "<![CDATA[https://cointelegraph.com/news/coinbase-stand-crypto-advocacy-group-endorses-midterm-candidates?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "tickers": [
+        "GROUP",
+        "US"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 19:11 UTC",
+      "headline": "On-chain: Coinbase tokenized stocks go live on Base with Chainlink price feeds",
+      "bullet_points": [
+        "Crypto on-chain / whale flow signal"
+      ],
+      "source": "Cointelegraph",
+      "confidence": 65,
+      "url": "<![CDATA[https://cointelegraph.com/news/coinbase-taps-chainlink-for-tokenized-stock-data-on-base?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "tickers": [
+        "BASE",
+        "CHAIN",
+        "FEEDS",
+        "FLOW",
+        "GO",
+        "LIVE",
+        "ON",
+        "PRICE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 19:11 UTC",
+      "headline": "Coinbase tokenized stocks go live on Base with Chainlink price feeds",
+      "bullet_points": [
+        "Source: Cointelegraph"
+      ],
+      "source": "Cointelegraph",
+      "confidence": 65,
+      "url": "<![CDATA[https://cointelegraph.com/news/coinbase-taps-chainlink-for-tokenized-stock-data-on-base?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "tickers": [
+        "BASE",
+        "FEEDS",
+        "GO",
+        "LIVE",
+        "ON",
         "PRICE"
       ],
       "event_type": "Material Event",
@@ -1533,1611 +3770,24 @@
       }
     },
     {
-      "category": "geopower",
-      "timestamp": "2026-07-24 18:15 UTC",
-      "headline": "Oman talking with Tehran on Hormuz as US and Iran continue strikes",
-      "bullet_points": [
-        "Source: Al Jazeera"
-      ],
-      "source": "Al Jazeera",
-      "confidence": 65,
-      "url": "https://www.aljazeera.com/news/2026/7/24/oman-talking-with-tehran-on-hormuz-as-us-and-iran-continue-strikes?traffic_source=rss",
-      "tickers": [
-        "AL",
-        "AS",
-        "IRAN",
-        "OMAN",
-        "ON",
-        "US"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
       "category": "finance",
-      "timestamp": "2026-07-24 17:50 UTC",
-      "headline": "Clarity Act on the Ropes as Ethics Fight and Shrinking Calendar Threaten Passage",
+      "timestamp": "2026-08-24 18:32 UTC",
+      "headline": "Market Flow: Trump admin unveils anti-Iran global sanctions plan, signals China not exempt",
       "bullet_points": [
-        "Source: Decrypt"
+        "Options / dark-pool flow signal from CNBC"
       ],
-      "source": "Decrypt",
+      "source": "CNBC",
       "confidence": 65,
-      "url": "https://decrypt.co/374300/clarity-act-ethics-fight-shrinking-calendar-threaten-passage",
-      "tickers": [
-        "ACT",
-        "AS",
-        "FIGHT",
-        "ON",
-        "ROPES"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 16:55 UTC",
-      "headline": "On-chain: Crypto advocacy groups support CLARITY passage as ethics rules face pushback",
-      "bullet_points": [
-        "Crypto on-chain / whale flow signal"
-      ],
-      "source": "Cointelegraph",
-      "confidence": 65,
-      "url": "<![CDATA[https://cointelegraph.com/news/crypto-advocacy-groups-support-clarity-act-pushback-ethics-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "tickers": [
-        "AS",
-        "CHAIN",
-        "FACE",
-        "FLOW",
-        "ON",
-        "RULES",
-        "WHALE"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-24 16:53 UTC",
-      "headline": "Romanian jet fighter shoots down suspected Russian drone",
-      "bullet_points": [
-        "Source: Al Jazeera"
-      ],
-      "source": "Al Jazeera",
-      "confidence": 65,
-      "url": "https://www.aljazeera.com/news/2026/7/24/romanian-jet-fighter-shoots-down-suspected-russian-drone?traffic_source=rss",
-      "tickers": [
-        "AL",
-        "DOWN",
-        "DRONE",
-        "JET"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 16:34 UTC",
-      "headline": "Nvidia, Meta, and Microsoft Tell Washington: Don&#39;t Kill Open-Source AI",
-      "bullet_points": [
-        "Source: Decrypt"
-      ],
-      "source": "Decrypt",
-      "confidence": 65,
-      "url": "https://decrypt.co/374282/nvidia-meta-microsoft-washington-dont-kill-open-source-ai",
-      "tickers": [
-        "AI",
-        "DON",
-        "KILL",
-        "META",
-        "OPEN",
-        "TELL"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-24 16:34 UTC",
-      "headline": "Atlantic Council: The CBDC tracker cited in Coindesk on the number of countries actively testing or developing CBDCs",
-      "bullet_points": [
-        "Source: Atlantic Council"
-      ],
-      "source": "Atlantic Council",
-      "confidence": 65,
-      "url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/the-cbdc-tracker-cited-in-coindesk-on-the-number-of-countries-actively-testing-or-developing-cbdcs/",
-      "tickers": [
-        "CBDC",
-        "CBDCS",
-        "CITED",
-        "IN",
-        "OF",
-        "ON",
-        "OR"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-24 16:31 UTC",
-      "headline": "Atlantic Council: ESI&#8217;s term, &#8216;Positive Economic Statecraft&#8217;, featured in National Interest article on the other half of economic statecraft",
-      "bullet_points": [
-        "Source: Atlantic Council"
-      ],
-      "source": "Atlantic Council",
-      "confidence": 65,
-      "url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/esis-term-positive-economic-statecraft-featured-in-national-interest-article-on-the-other-half-of-economic-statecraft/",
-      "tickers": [
-        "ESI",
-        "HALF",
-        "IN",
-        "OF",
-        "ON",
-        "OTHER",
-        "TERM"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 16:04 UTC",
-      "headline": "On-chain: Internet Freedom Foundation calls India\u2019s BitChat GitHub takedown order \u2018unconstitutional\u2019",
-      "bullet_points": [
-        "Crypto on-chain / whale flow signal"
-      ],
-      "source": "Cointelegraph",
-      "confidence": 65,
-      "url": "<![CDATA[https://cointelegraph.com/news/internet-freedom-foundation-calls-indias-bitchat-github-takedown-order-unconstitutional?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "tickers": [
-        "CALLS",
-        "CHAIN",
-        "FLOW",
-        "INDIA",
-        "ON",
-        "ORDER",
-        "WHALE"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 16:04 UTC",
-      "headline": "Internet Freedom Foundation calls India\u2019s BitChat GitHub takedown order \u2018unconstitutional\u2019",
-      "bullet_points": [
-        "Source: Cointelegraph"
-      ],
-      "source": "Cointelegraph",
-      "confidence": 65,
-      "url": "<![CDATA[https://cointelegraph.com/news/internet-freedom-foundation-calls-indias-bitchat-github-takedown-order-unconstitutional?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "tickers": [
-        "CALLS",
-        "INDIA",
-        "ORDER"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 15:15 UTC",
-      "headline": "On-chain: Crypto Biz: Is the AI-to-crypto rotation underway?",
-      "bullet_points": [
-        "Crypto on-chain / whale flow signal"
-      ],
-      "source": "Cointelegraph",
-      "confidence": 65,
-      "url": "<![CDATA[https://cointelegraph.com/news/crypto-biz-ai-to-crypto-rotation-bitcoin-etf-inflows-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "tickers": [
-        "AI",
-        "BIZ",
-        "CHAIN",
-        "FLOW",
-        "IS",
-        "ON",
-        "TO",
-        "WHALE"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 15:09 UTC",
-      "headline": "On-chain: World Foundation raises $52.5M in Pantera-led funding to expand World ID infrastructure",
-      "bullet_points": [
-        "Crypto on-chain / whale flow signal"
-      ],
-      "source": "Cointelegraph",
-      "confidence": 65,
-      "url": "<![CDATA[https://cointelegraph.com/news/world-foundation-funding-led-by-pantera-world-id-infrastructure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "tickers": [
-        "CHAIN",
-        "FLOW",
-        "ID",
-        "IN",
-        "LED",
-        "ON",
-        "TO",
-        "WHALE"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 15:09 UTC",
-      "headline": "World Foundation raises $52.5M in Pantera-led funding to expand World ID infrastructure",
-      "bullet_points": [
-        "Source: Cointelegraph"
-      ],
-      "source": "Cointelegraph",
-      "confidence": 65,
-      "url": "<![CDATA[https://cointelegraph.com/news/world-foundation-funding-led-by-pantera-world-id-infrastructure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "tickers": [
-        "ID",
-        "IN",
-        "LED",
-        "TO",
-        "WORLD"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 15:01 UTC",
-      "headline": "On-chain: Senate Dems should accept the victory they won on Trump's crypto limits: White House",
-      "bullet_points": [
-        "Crypto on-chain / whale flow signal"
-      ],
-      "source": "CoinDesk",
-      "confidence": 65,
-      "url": "https://www.coindesk.com/policy/2026/07/24/senate-dems-should-accept-the-victory-they-won-on-trump-s-crypto-limits-white-house",
-      "tickers": [
-        "CHAIN",
-        "DEMS",
-        "FLOW",
-        "HOUSE",
-        "ON",
-        "THEY",
-        "TRUMP",
-        "WHALE"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 15:00 UTC",
-      "headline": "On-chain: Sam Altman-backed World Network secures $52.5 million in fresh funding to fight online AI deepfakes",
-      "bullet_points": [
-        "Crypto on-chain / whale flow signal"
-      ],
-      "source": "CoinDesk",
-      "confidence": 65,
-      "url": "https://www.coindesk.com/business/2026/07/24/sam-altman-backed-world-network-secures-fresh-funding-to-fight-online-ai-deepfakes",
-      "tickers": [
-        "AI",
-        "CHAIN",
-        "FIGHT",
-        "FLOW",
-        "FRESH",
-        "IN",
-        "ON",
-        "SAM"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 14:28 UTC",
-      "headline": "On-chain: Bitcoin falls under $64K as surging US bond yields boost Fed rate-hike odds",
-      "bullet_points": [
-        "Crypto on-chain / whale flow signal"
-      ],
-      "source": "Cointelegraph",
-      "confidence": 65,
-      "url": "<![CDATA[https://cointelegraph.com/markets/bitcoin-falls-under-64k-us-bond-yields-fed-rate-hike-odds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "tickers": [
-        "AS",
-        "BOND",
-        "BOOST",
-        "CHAIN",
-        "FALLS",
-        "FED",
-        "FLOW",
-        "HIKE"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-24 14:08 UTC",
-      "headline": "Atlantic Council: Turning to Azerbaijani gas and US LNG, Turkey seeks to break its reliance on Russian energy",
-      "bullet_points": [
-        "Source: Atlantic Council"
-      ],
-      "source": "Atlantic Council",
-      "confidence": 65,
-      "url": "https://www.atlanticcouncil.org/blogs/turkeysource/azerbaijan-and-us-helping-turkey-diversify-gas/",
-      "tickers": [
-        "BREAK",
-        "GAS",
-        "ITS",
-        "LNG",
-        "ON",
-        "SEEKS",
-        "TO",
-        "US"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 13:15 UTC",
-      "headline": "On-chain: Saylor and team overhaul Strategy's bitcoin metrics as bear market persists",
-      "bullet_points": [
-        "Crypto on-chain / whale flow signal"
-      ],
-      "source": "CoinDesk",
-      "confidence": 65,
-      "url": "https://www.coindesk.com/markets/2026/07/24/saylor-and-team-overhaul-strategy-s-bitcoin-metrics-as-bear-market-persists",
-      "tickers": [
-        "AS",
-        "BEAR",
-        "CHAIN",
-        "FLOW",
-        "ON",
-        "TEAM",
-        "WHALE"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-24 13:10 UTC",
-      "headline": "Atlantic Council: Want AI you can trust? Start by building the right institutions.",
-      "bullet_points": [
-        "Source: Atlantic Council"
-      ],
-      "source": "Atlantic Council",
-      "confidence": 65,
-      "url": "https://www.atlanticcouncil.org/dispatches/want-ai-you-can-trust-start-by-building-the-right-institutions/",
-      "tickers": [
-        "AI",
-        "BY",
-        "CAN",
-        "RIGHT",
-        "START",
-        "TRUST",
-        "WANT"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 13:03 UTC",
-      "headline": "On-chain: Brazilian farmers tokenized dairy cows to get loans, bypassing bank lending limits",
-      "bullet_points": [
-        "Crypto on-chain / whale flow signal"
-      ],
-      "source": "CoinDesk",
-      "confidence": 65,
-      "url": "https://www.coindesk.com/markets/2026/07/24/brazilian-farmers-tokenized-dairy-cows-to-get-loans-bypassing-bank-lending-limits",
-      "tickers": [
-        "BANK",
-        "CHAIN",
-        "COWS",
-        "DAIRY",
-        "FLOW",
-        "GET",
-        "LOANS",
-        "ON"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 13:03 UTC",
-      "headline": "Brazilian farmers tokenized dairy cows to get loans, bypassing bank lending limits",
-      "bullet_points": [
-        "Source: CoinDesk"
-      ],
-      "source": "CoinDesk",
-      "confidence": 65,
-      "url": "https://www.coindesk.com/markets/2026/07/24/brazilian-farmers-tokenized-dairy-cows-to-get-loans-bypassing-bank-lending-limits",
-      "tickers": [
-        "BANK",
-        "COWS",
-        "DAIRY",
-        "GET",
-        "LOANS",
-        "TO"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "finance",
-      "timestamp": "2026-07-24 11:58 UTC",
-      "headline": "On-chain: EU hits Russia with massive 21st sanctions package targeting $120B crypto network",
-      "bullet_points": [
-        "Crypto on-chain / whale flow signal"
-      ],
-      "source": "CoinDesk",
-      "confidence": 65,
-      "url": "https://www.coindesk.com/policy/2026/07/24/eu-hits-russia-with-massive-21st-sanctions-package-targeting-usd120b-crypto-network",
-      "tickers": [
-        "CHAIN",
-        "EU",
-        "FLOW",
-        "HITS",
-        "ON",
-        "WHALE"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "Marking the Wrong Symptoms: Evaluating LLM Watermarks in Medical Texts",
-      "bullet_points": [
-        "Source: arXiv cs.AI"
-      ],
-      "source": "arXiv cs.AI",
-      "confidence": 65,
-      "url": "https://arxiv.org/abs/2607.20462",
-      "tickers": [
-        "AI",
-        "ARXIV",
-        "CS",
-        "IN",
-        "LLM",
-        "TEXTS",
-        "WRONG"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "ClickGuard: Detecting and Spoiling Clickbait News with Informativeness Measures and Large Language Models",
-      "bullet_points": [
-        "Source: arXiv cs.AI"
-      ],
-      "source": "arXiv cs.AI",
-      "confidence": 65,
-      "url": "https://arxiv.org/abs/2607.20463",
-      "tickers": [
-        "AI",
-        "ARXIV",
-        "CS",
-        "LARGE",
-        "NEWS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "Stochastic Sampling is Epistemically Shallow: The Dimensionality Gap Between Temperature Variation and Model Diversity in LLMs",
-      "bullet_points": [
-        "Source: arXiv cs.AI"
-      ],
-      "source": "arXiv cs.AI",
-      "confidence": 65,
-      "url": "https://arxiv.org/abs/2607.20464",
-      "tickers": [
-        "AI",
-        "ARXIV",
-        "CS",
-        "GAP",
-        "IN",
-        "IS",
-        "LLMS",
-        "MODEL"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "JAXBench: Benchmarking Autonomous TPU Kernel Optimization",
-      "bullet_points": [
-        "Source: arXiv cs.AI"
-      ],
-      "source": "arXiv cs.AI",
-      "confidence": 65,
-      "url": "https://arxiv.org/abs/2607.20466",
-      "tickers": [
-        "AI",
-        "ARXIV",
-        "CS",
-        "TPU"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "DataPrep-Bench: Benchmarking LLMs as Training Data Preparators",
-      "bullet_points": [
-        "Source: arXiv cs.LG"
-      ],
-      "source": "arXiv cs.LG",
-      "confidence": 65,
-      "url": "https://arxiv.org/abs/2607.20465",
-      "tickers": [
-        "ARXIV",
-        "AS",
-        "BENCH",
-        "CS",
-        "DATA",
-        "LG",
-        "LLMS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "PhantomFill: When the Form Demands an Answer, Language Models Invent One",
-      "bullet_points": [
-        "Source: arXiv cs.LG"
-      ],
-      "source": "arXiv cs.LG",
-      "confidence": 65,
-      "url": "https://arxiv.org/abs/2607.20492",
-      "tickers": [
-        "AN",
-        "ARXIV",
-        "CS",
-        "LG",
-        "ONE",
-        "WHEN"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "The Active Ingredient in Muon's Grokking",
-      "bullet_points": [
-        "Source: arXiv cs.LG"
-      ],
-      "source": "arXiv cs.LG",
-      "confidence": 65,
-      "url": "https://arxiv.org/abs/2607.20512",
-      "tickers": [
-        "ARXIV",
-        "CS",
-        "IN",
-        "LG",
-        "MUON"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "Scaling Closed-Loop Feature Channel Configuration with LLMs",
-      "bullet_points": [
-        "Source: arXiv cs.LG"
-      ],
-      "source": "arXiv cs.LG",
-      "confidence": 65,
-      "url": "https://arxiv.org/abs/2607.20516",
-      "tickers": [
-        "ARXIV",
-        "CS",
-        "LG",
-        "LLMS",
-        "LOOP"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "Multimodal CoLRAG-TF: Triple-Filtered Retrieval for Complex PDFs",
-      "bullet_points": [
-        "Source: arXiv cs.LG"
-      ],
-      "source": "arXiv cs.LG",
-      "confidence": 65,
-      "url": "https://arxiv.org/abs/2607.20517",
-      "tickers": [
-        "ARXIV",
-        "CS",
-        "LG",
-        "PDFS",
-        "TF"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "PhantomSeal: Proactive Deepfakes Defense with Identity/Context Protection and Forensic Tracing",
-      "bullet_points": [
-        "Source: arXiv cs.CR"
-      ],
-      "source": "arXiv cs.CR",
-      "confidence": 65,
-      "url": "https://arxiv.org/abs/2607.20564",
-      "tickers": [
-        "ARXIV",
-        "CR",
-        "CS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "AuthProbe: Specification-Driven, Multi-Identity Detection of Broken Object-Level Authorization in Recruitment API",
-      "bullet_points": [
-        "Source: arXiv cs.CR"
-      ],
-      "source": "arXiv cs.CR",
-      "confidence": 65,
-      "url": "https://arxiv.org/abs/2607.20574",
-      "tickers": [
-        "API",
-        "ARXIV",
-        "CR",
-        "CS",
-        "IN",
-        "LEVEL",
-        "MULTI",
-        "OF"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "Deepfake News Detection: A Multimodal Framework Integrating LipNet, DeepSpeech and ResNET for Enhanced Audio-Visual Analysis",
-      "bullet_points": [
-        "Source: arXiv cs.CR"
-      ],
-      "source": "arXiv cs.CR",
-      "confidence": 65,
-      "url": "https://arxiv.org/abs/2607.20579",
-      "tickers": [
-        "ARXIV",
-        "AUDIO",
-        "CR",
-        "CS",
-        "NEWS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "Geometric Configurations of Perturbed Jailbreak Prompts",
-      "bullet_points": [
-        "Source: arXiv cs.CR"
-      ],
-      "source": "arXiv cs.CR",
-      "confidence": 65,
-      "url": "https://arxiv.org/abs/2607.20581",
-      "tickers": [
-        "ARXIV",
-        "CR",
-        "CS",
-        "OF"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "Enhancing Attack Detection Capabilities in BACnet/IP Networks Using Machine-Learning Models",
-      "bullet_points": [
-        "Source: arXiv cs.CR"
-      ],
-      "source": "arXiv cs.CR",
-      "confidence": 65,
-      "url": "https://arxiv.org/abs/2607.20686",
-      "tickers": [
-        "ARXIV",
-        "CR",
-        "CS",
-        "IN",
-        "IP",
-        "USING"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "PortLBM: A Portable Lattice Boltzmann Tool Leveraging SYCL on AMD, NVIDIA, and Intel GPUs",
-      "bullet_points": [
-        "Source: arXiv cs.DC"
-      ],
-      "source": "arXiv cs.DC",
-      "confidence": 65,
-      "url": "https://arxiv.org/abs/2607.20650",
-      "tickers": [
-        "AMD",
-        "ARXIV",
-        "CS",
-        "DC",
-        "GPUS",
-        "INTEL",
-        "ON",
-        "SYCL"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "A Framework for Reputation Aware Uninorm-driven Consensus Algorithms for Blockchain Networks",
-      "bullet_points": [
-        "Source: arXiv cs.DC"
-      ],
-      "source": "arXiv cs.DC",
-      "confidence": 65,
-      "url": "https://arxiv.org/abs/2607.20700",
-      "tickers": [
-        "ARXIV",
-        "AWARE",
-        "CS",
-        "DC"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "Multimmit: Extending Blocks for Faster Finality",
-      "bullet_points": [
-        "Source: arXiv cs.DC"
-      ],
-      "source": "arXiv cs.DC",
-      "confidence": 65,
-      "url": "https://arxiv.org/abs/2607.21021",
-      "tickers": [
-        "ARXIV",
-        "CS",
-        "DC"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 00:00 UTC",
-      "headline": "Solving Large Traveling Salesman Problems (TSPs) by a Recursive Clustering Algorithm and a Scalable FPGA-Based Implementation",
-      "bullet_points": [
-        "Source: arXiv cs.DC"
-      ],
-      "source": "arXiv cs.DC",
-      "confidence": 65,
-      "url": "https://arxiv.org/abs/2607.21182",
-      "tickers": [
-        "ARXIV",
-        "BASED",
-        "BY",
-        "CS",
-        "DC",
-        "FPGA",
-        "LARGE",
-        "TSPS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-23 21:32 UTC",
-      "headline": "Atlantic Council: Ukraine leads European efforts to counter Russia\u2019s growing ballistic missile threat",
-      "bullet_points": [
-        "Source: Atlantic Council"
-      ],
-      "source": "Atlantic Council",
-      "confidence": 65,
-      "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraine-leads-european-efforts-to-counter-russias-growing-ballistic-missile-threat/",
-      "tickers": [
-        "LEADS",
-        "TO"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-23 21:06 UTC",
-      "headline": "Atlantic Council: Kenya wants to monetize its data. But at what cost?",
-      "bullet_points": [
-        "Source: Atlantic Council"
-      ],
-      "source": "Atlantic Council",
-      "confidence": 65,
-      "url": "https://www.atlanticcouncil.org/blogs/econographics/kenya-wants-to-monetize-its-data-but-at-what-cost/",
-      "tickers": [
-        "AT",
-        "BUT",
-        "COST",
-        "DATA",
-        "ITS",
-        "KENYA",
-        "TO",
-        "WANTS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-03 17:07 UTC",
-      "headline": "Crisis Group: On Our Radar",
-      "bullet_points": [
-        "Source: Crisis Group"
-      ],
-      "source": "Crisis Group",
-      "confidence": 65,
-      "url": "https://www.crisisgroup.org/sco/global/our-radar",
-      "tickers": [
-        "GROUP",
-        "ON",
-        "OUR",
-        "RADAR"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-03 14:41 UTC",
-      "headline": "Crisis Group: Hormuz 1 July 2026 #1",
-      "bullet_points": [
-        "Source: Crisis Group"
-      ],
-      "source": "Crisis Group",
-      "confidence": 65,
-      "url": "https://www.crisisgroup.org/content/hormuz-1-july-2026-1",
-      "tickers": [
-        "GROUP",
-        "JULY"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-03 14:39 UTC",
-      "headline": "Crisis Group: Saudi 1 July 2026 #1",
-      "bullet_points": [
-        "Source: Crisis Group"
-      ],
-      "source": "Crisis Group",
-      "confidence": 65,
-      "url": "https://www.crisisgroup.org/content/saudi-1-july-2026-1",
-      "tickers": [
-        "GROUP",
-        "JULY",
-        "SAUDI"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-03 14:38 UTC",
-      "headline": "Crisis Group: Washington 1 July 2026 #1",
-      "bullet_points": [
-        "Source: Crisis Group"
-      ],
-      "source": "Crisis Group",
-      "confidence": 65,
-      "url": "https://www.crisisgroup.org/content/washington-1-july-2026-1",
-      "tickers": [
-        "GROUP",
-        "JULY"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-03 14:38 UTC",
-      "headline": "Crisis Group: Tehran 1 July 2026 #2",
-      "bullet_points": [
-        "Source: Crisis Group"
-      ],
-      "source": "Crisis Group",
-      "confidence": 65,
-      "url": "https://www.crisisgroup.org/content/tehran-1-july-2026-2",
-      "tickers": [
-        "GROUP",
-        "JULY"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-03 14:37 UTC",
-      "headline": "Crisis Group: Bahrain 1 July 2026 #1",
-      "bullet_points": [
-        "Source: Crisis Group"
-      ],
-      "source": "Crisis Group",
-      "confidence": 65,
-      "url": "https://www.crisisgroup.org/content/bahrain-1-july-2026-1",
-      "tickers": [
-        "GROUP",
-        "JULY"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-03 14:36 UTC",
-      "headline": "Crisis Group: Israel 3 July 2026 #1",
-      "bullet_points": [
-        "Source: Crisis Group"
-      ],
-      "source": "Crisis Group",
-      "confidence": 65,
-      "url": "https://www.crisisgroup.org/content/israel-3-july-2026-1",
-      "tickers": [
-        "GROUP",
-        "JULY"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-03 14:35 UTC",
-      "headline": "Crisis Group: Lebanon 3 July 2026 #1",
-      "bullet_points": [
-        "Source: Crisis Group"
-      ],
-      "source": "Crisis Group",
-      "confidence": 65,
-      "url": "https://www.crisisgroup.org/content/lebanon-3-july-2026-1",
-      "tickers": [
-        "GROUP",
-        "JULY"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 19:10 UTC",
-      "headline": "RFK Jr.'s hand-picked committee approves manufacture of peptides he uses",
-      "bullet_points": [
-        "Source: Ars Technica"
-      ],
-      "source": "Ars Technica",
-      "confidence": 64,
-      "url": "https://arstechnica.com/health/2026/07/rfk-jr-s-hand-picked-committee-approves-manufacture-of-peptides-he-uses/",
-      "tickers": [
-        "ARS",
-        "HAND",
-        "HE",
-        "JR",
-        "OF",
-        "RFK",
-        "USES"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 19:05 UTC",
-      "headline": "Postgres LISTEN/NOTIFY actually scales",
-      "bullet_points": [
-        "Source: Hacker News"
-      ],
-      "source": "Hacker News",
-      "confidence": 64,
-      "url": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
-      "tickers": [
-        "NEWS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-24 18:12 UTC",
-      "headline": "ICC chief prosecutor Karim Khan dismissed over sexual misconduct allegations, sources say",
-      "bullet_points": [
-        "Source: France24"
-      ],
-      "source": "France24",
-      "confidence": 64,
-      "url": "https://www.france24.com/en/europe/20260724-icc-chief-prosecutor-karim-khan-dismissed-over-sexual-misconduct-allegations-sources-say",
-      "tickers": [
-        "CHIEF",
-        "ICC",
-        "KARIM",
-        "KHAN",
-        "OVER",
-        "SAY"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 18:07 UTC",
-      "headline": "BGP ORIGIN attribute manipulation and its impact on the Internet",
-      "bullet_points": [
-        "Source: Hacker News"
-      ],
-      "source": "Hacker News",
-      "confidence": 64,
-      "url": "https://blog.cloudflare.com/bgp-origin-attribute/",
-      "tickers": [
-        "BGP",
-        "ITS",
-        "NEWS",
-        "ON"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 18:03 UTC",
-      "headline": "I got into YC (Startup School) by hacking it",
-      "bullet_points": [
-        "Source: Hacker News"
-      ],
-      "source": "Hacker News",
-      "confidence": 64,
-      "url": "https://obaid.wtf/jotbook/2026/07/18/how-i-got-into-yc-by-hacking-it.html",
-      "tickers": [
-        "BY",
-        "GOT",
-        "IT",
-        "NEWS",
-        "YC"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 18:02 UTC",
-      "headline": "Judge rebuffs Trump admin demand for phone records from NYT reporters",
-      "bullet_points": [
-        "Source: Ars Technica"
-      ],
-      "source": "Ars Technica",
-      "confidence": 64,
-      "url": "https://arstechnica.com/tech-policy/2026/07/judge-rebuffs-trump-admin-demand-for-phone-records-from-nyt-reporters/",
+      "url": "https://www.cnbc.com/2026/08/24/trump-iran-economy-sanctions-china-bessent.html",
       "tickers": [
         "ADMIN",
-        "ARS",
-        "JUDGE",
-        "NYT",
-        "PHONE",
-        "TRUMP"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-24 18:01 UTC",
-      "headline": "Huge crater after back-to-back Israeli strikes on Gaza refugee camp",
-      "bullet_points": [
-        "Source: Al Jazeera"
-      ],
-      "source": "Al Jazeera",
-      "confidence": 64,
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/24/huge-crater-after-back-to-back-israeli-strikes-on-gaza-refugee-camp?traffic_source=rss",
-      "tickers": [
-        "AFTER",
-        "AL",
-        "BACK",
-        "CAMP",
-        "GAZA",
-        "HUGE",
-        "ON",
-        "TO"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 20,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 17:59 UTC",
-      "headline": "Gsxui \u2013 Shadcn-style components for Go",
-      "bullet_points": [
-        "Source: Hacker News"
-      ],
-      "source": "Hacker News",
-      "confidence": 64,
-      "url": "https://ui.gsxhq.dev/",
-      "tickers": [
-        "GO",
-        "GSXUI",
-        "NEWS",
-        "STYLE"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 17:45 UTC",
-      "headline": "European Union grants US request to restrict satellite images of Iran War region",
-      "bullet_points": [
-        "Source: Ars Technica"
-      ],
-      "source": "Ars Technica",
-      "confidence": 64,
-      "url": "https://arstechnica.com/space/2026/07/european-union-grants-us-request-to-restrict-satellite-images-of-iran-war-region/",
-      "tickers": [
-        "ARS",
+        "ANTI",
+        "CHINA",
+        "CNBC",
+        "DARK",
+        "FLOW",
         "IRAN",
-        "OF",
-        "TO",
-        "UNION",
-        "US",
-        "WAR"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 17:31 UTC",
-      "headline": "Team uses AlphaFold AI to redesign gene-editing proteins to make them safer",
-      "bullet_points": [
-        "Source: Ars Technica"
-      ],
-      "source": "Ars Technica",
-      "confidence": 64,
-      "url": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/",
-      "tickers": [
-        "AI",
-        "ARS",
-        "GENE",
-        "MAKE",
-        "SAFER",
-        "TEAM",
-        "TO",
-        "USES"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 17:28 UTC",
-      "headline": "The small, real, original web",
-      "bullet_points": [
-        "Source: Hacker News"
-      ],
-      "source": "Hacker News",
-      "confidence": 64,
-      "url": "https://spacetimetech.wordpress.com/2026/07/19/the-small-real-original-web/",
-      "tickers": [
-        "NEWS",
-        "REAL",
-        "SMALL",
-        "WEB"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 17:03 UTC",
-      "headline": "The quest to keep organs alive outside the body",
-      "bullet_points": [
-        "Source: MIT Tech Review"
-      ],
-      "source": "MIT Tech Review",
-      "confidence": 64,
-      "url": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/",
-      "tickers": [
-        "ALIVE",
-        "BODY",
-        "KEEP",
-        "MIT",
-        "QUEST",
-        "TECH",
-        "TO"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 15:23 UTC",
-      "headline": "This is the world's most advanced robotic servicing satellite\u2014that we know about",
-      "bullet_points": [
-        "Source: Ars Technica"
-      ],
-      "source": "Ars Technica",
-      "confidence": 64,
-      "url": "https://arstechnica.com/space/2026/07/this-is-the-worlds-most-advanced-robotic-servicing-satellite-that-we-know-about/",
-      "tickers": [
-        "ARS",
-        "IS",
-        "KNOW",
-        "MOST",
-        "WE",
-        "WORLD"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-24 15:08 UTC",
-      "headline": "Russian strikes kill 10 in Kyiv region",
-      "bullet_points": [
-        "Source: France24"
-      ],
-      "source": "France24",
-      "confidence": 64,
-      "url": "https://www.france24.com/en/russian-strikes-kill-10-in-kyiv-region",
-      "tickers": [
-        "IN",
-        "KILL",
-        "KYIV"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 13:00 UTC",
-      "headline": "Vatican's Official Prayer App Leaks 700K+ Global Users' PII",
-      "bullet_points": [
-        "Source: Dark Reading"
-      ],
-      "source": "Dark Reading",
-      "confidence": 64,
-      "url": "<![CDATA[https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii]]>",
-      "tickers": [
-        "APP",
-        "DARK",
-        "LEAKS",
-        "PII",
-        "USERS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-24 12:48 UTC",
-      "headline": "Default Azure Automation Setting Enables Cross-Tenant Identity Takeover",
-      "bullet_points": [
-        "Source: Dark Reading"
-      ],
-      "source": "Dark Reading",
-      "confidence": 64,
-      "url": "<![CDATA[https://www.darkreading.com/cloud-security/default-azure-automation-setting-cross-tenant-identity-takeover]]>",
-      "tickers": [
-        "AZURE",
-        "CROSS",
-        "DARK"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-24 12:40 UTC",
-      "headline": "US hits dozens of countries with new wave of tariffs",
-      "bullet_points": [
-        "Source: BBC World"
-      ],
-      "source": "BBC World",
-      "confidence": 64,
-      "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&amp;at_campaign=rss",
-      "tickers": [
-        "BBC",
-        "HITS",
-        "NEW",
-        "OF",
-        "US",
-        "WAVE",
-        "WORLD"
+        "PLAN"
       ],
       "event_type": "Material Event",
       "market_impact": {
@@ -3147,558 +3797,105 @@
       }
     },
     {
-      "category": "trends",
-      "timestamp": "2026-07-24 12:10 UTC",
-      "headline": "The Download: an organ transplant breakthrough, and homegrown Chinese chips",
+      "category": "finance",
+      "timestamp": "2026-08-24 18:30 UTC",
+      "headline": "Hyperliquid Hits Record High as $1.2 Billion Token Unlock Looms",
       "bullet_points": [
-        "Source: MIT Tech Review"
+        "Source: Decrypt"
       ],
-      "source": "MIT Tech Review",
-      "confidence": 64,
-      "url": "https://www.technologyreview.com/2026/07/24/1140776/the-download-organ-transplant-breakthrough-chinese-chips/",
-      "tickers": [
-        "AN",
-        "CHIPS",
-        "MIT",
-        "ORGAN",
-        "TECH"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-23 21:23 UTC",
-      "headline": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
-      "bullet_points": [
-        "Source: Dark Reading"
-      ],
-      "source": "Dark Reading",
-      "confidence": 64,
-      "url": "<![CDATA[https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets]]>",
-      "tickers": [
-        "DARK",
-        "DAY",
-        "US",
-        "ZERO"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-23 16:58 UTC",
-      "headline": "Supercooled kidneys have been transplanted into pigs in a \u201clandmark achievement\u201d",
-      "bullet_points": [
-        "Source: MIT Tech Review"
-      ],
-      "source": "MIT Tech Review",
-      "confidence": 64,
-      "url": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
-      "tickers": [
-        "IN",
-        "MIT",
-        "PIGS",
-        "TECH"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-23 12:10 UTC",
-      "headline": "The Download: energy transmission and US threats against Chinese AI",
-      "bullet_points": [
-        "Source: MIT Tech Review"
-      ],
-      "source": "MIT Tech Review",
-      "confidence": 64,
-      "url": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/",
-      "tickers": [
-        "AI",
-        "MIT",
-        "TECH",
-        "US"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-23 12:00 UTC",
-      "headline": "How AI helps scientists design the next generation of medicines",
-      "bullet_points": [
-        "Source: MIT Tech Review"
-      ],
-      "source": "MIT Tech Review",
-      "confidence": 64,
-      "url": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
-      "tickers": [
-        "AI",
-        "HELPS",
-        "HOW",
-        "MIT",
-        "NEXT",
-        "OF",
-        "TECH"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-23 11:17 UTC",
-      "headline": "Agentic AI Challenges Progress in Confidential Computing",
-      "bullet_points": [
-        "Source: Dark Reading"
-      ],
-      "source": "Dark Reading",
-      "confidence": 64,
-      "url": "<![CDATA[https://www.darkreading.com/endpoint-security/agentic-ai-challenges-progress-in-confidential-computing]]>",
-      "tickers": [
-        "AI",
-        "DARK",
-        "IN"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-23 00:00 UTC",
-      "headline": "Launching Health in ChatGPT",
-      "bullet_points": [
-        "Source: OpenAI Blog"
-      ],
-      "source": "OpenAI Blog",
-      "confidence": 64,
-      "url": "https://openai.com/index/health-in-chatgpt",
-      "tickers": [
-        "BLOG",
-        "IN"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-22 13:00 UTC",
-      "headline": "Building AI infrastructure with the Effingham County community",
-      "bullet_points": [
-        "Source: OpenAI Blog"
-      ],
-      "source": "OpenAI Blog",
-      "confidence": 64,
-      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "tickers": [
-        "AI",
-        "BLOG"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-22 13:00 UTC",
-      "headline": "How news organizations are using AI to advance their vital missions",
-      "bullet_points": [
-        "Source: OpenAI Blog"
-      ],
-      "source": "OpenAI Blog",
-      "confidence": 64,
-      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
-      "tickers": [
-        "AI",
-        "ARE",
-        "BLOG",
-        "HOW",
-        "NEWS",
-        "TO",
-        "USING",
-        "VITAL"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-22 13:00 UTC",
-      "headline": "3 Google updates from Galaxy Unpacked 2026",
-      "bullet_points": [
-        "Source: Google AI Blog"
-      ],
-      "source": "Google AI Blog",
-      "confidence": 64,
-      "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-      "tickers": [
-        "AI",
-        "BLOG"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-22 12:00 UTC",
-      "headline": "Advancing the next era of national science",
-      "bullet_points": [
-        "Source: OpenAI Blog"
-      ],
-      "source": "OpenAI Blog",
-      "confidence": 64,
-      "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
-      "tickers": [
-        "BLOG",
-        "ERA",
-        "NEXT",
-        "OF"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-22 05:30 UTC",
-      "headline": "Introducing OpenAI Presence",
-      "bullet_points": [
-        "Source: OpenAI Blog"
-      ],
-      "source": "OpenAI Blog",
-      "confidence": 64,
-      "url": "https://openai.com/index/introducing-openai-presence",
-      "tickers": [
-        "BLOG"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-16 16:00 UTC",
-      "headline": "Connect more of your apps to Search",
-      "bullet_points": [
-        "Source: Google AI Blog"
-      ],
-      "source": "Google AI Blog",
-      "confidence": 64,
-      "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
-      "tickers": [
-        "AI",
-        "APPS",
-        "BLOG",
-        "OF",
-        "TO"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-16 16:00 UTC",
-      "headline": "Create, edit and star in videos with two Google Vids updates",
-      "bullet_points": [
-        "Source: Google AI Blog"
-      ],
-      "source": "Google AI Blog",
-      "confidence": 64,
-      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-      "tickers": [
-        "AI",
-        "BLOG",
-        "EDIT",
-        "IN",
-        "STAR",
-        "TWO",
-        "VIDS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-14 16:00 UTC",
-      "headline": "Celebrating 25 years of visual search innovation",
-      "bullet_points": [
-        "Source: Google AI Blog"
-      ],
-      "source": "Google AI Blog",
-      "confidence": 64,
-      "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
-      "tickers": [
-        "AI",
-        "BLOG",
-        "OF",
-        "YEARS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-09 00:00 UTC",
-      "headline": "Symlinks Are Still Scary (And Yes, You Can Commit Them to Git)",
-      "bullet_points": [
-        "Source: Snyk Blog"
-      ],
-      "source": "Snyk Blog",
-      "confidence": 64,
-      "url": "https://snyk.io/blog/symlinks-are-still-scary/",
-      "tickers": [
-        "ARE",
-        "BLOG",
-        "CAN",
-        "GIT",
-        "SCARY",
-        "SNYK",
-        "STILL",
-        "TO"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-07-07 08:54 UTC",
-      "headline": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
-      "bullet_points": [
-        "Source: Google AI Blog"
-      ],
-      "source": "Google AI Blog",
-      "confidence": 64,
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "tickers": [
-        "AI",
-        "API",
-        "BLOG",
-        "IN",
-        "MCP",
-        "TASKS"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-06-29 00:00 UTC",
-      "headline": "Snyk VulnBench JS 1.0: Can LLMs Find the Same Bugs Twice?",
-      "bullet_points": [
-        "Source: Snyk Blog"
-      ],
-      "source": "Snyk Blog",
-      "confidence": 64,
-      "url": "https://snyk.io/blog/snyk-vulnbench-js-1-0-llm-security-review-repeatability/",
-      "tickers": [
-        "BLOG",
-        "BUGS",
-        "CAN",
-        "FIND",
-        "JS",
-        "LLMS",
-        "SAME",
-        "SNYK"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-06-25 00:00 UTC",
-      "headline": "NVD in the AI Era: The Case for Multi-Source Vulnerability Intelligence",
-      "bullet_points": [
-        "Source: Snyk Blog"
-      ],
-      "source": "Snyk Blog",
-      "confidence": 64,
-      "url": "https://snyk.io/blog/nvd-multi-source-vulnerability-intelligence/",
-      "tickers": [
-        "AI",
-        "BLOG",
-        "CASE",
-        "ERA",
-        "IN",
-        "MULTI",
-        "NVD",
-        "SNYK"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "trends",
-      "timestamp": "2026-06-24 13:00 UTC",
-      "headline": "A Note to Our Customers and Partners",
-      "bullet_points": [
-        "Source: Snyk Blog"
-      ],
-      "source": "Snyk Blog",
-      "confidence": 64,
-      "url": "https://snyk.io/blog/a-note-to-our-customers-and-partners/",
-      "tickers": [
-        "BLOG",
-        "NOTE",
-        "OUR",
-        "SNYK",
-        "TO"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-24 18:51 UTC",
-      "headline": "Ten killed in Russian attack on drone exhibition near Kyiv",
-      "bullet_points": [
-        "Source: BBC World"
-      ],
-      "source": "BBC World",
-      "confidence": 63,
-      "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&amp;at_campaign=rss",
-      "tickers": [
-        "BBC",
-        "DRONE",
-        "IN",
-        "KYIV",
-        "NEAR",
-        "ON",
-        "TEN",
-        "WORLD"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-24 18:19 UTC",
-      "headline": "Four Palestinians and two Israelis killed in West Bank shooting",
-      "bullet_points": [
-        "Source: BBC World"
-      ],
-      "source": "BBC World",
-      "confidence": 63,
-      "url": "https://www.bbc.co.uk/news/articles/cx2rxmye4k3o?at_medium=RSS&amp;at_campaign=rss",
-      "tickers": [
-        "BANK",
-        "BBC",
-        "FOUR",
-        "IN",
-        "TWO",
-        "WEST",
-        "WORLD"
-      ],
-      "event_type": "Material Event",
-      "market_impact": {
-        "score": 10,
-        "tier": "low",
-        "reasons": []
-      }
-    },
-    {
-      "category": "geopower",
-      "timestamp": "2026-07-24 18:13 UTC",
-      "headline": "US and Iran trade more strikes in Gulf as fears of escalation mount",
-      "bullet_points": [
-        "Source: BBC World"
-      ],
-      "source": "BBC World",
-      "confidence": 63,
-      "url": "https://www.bbc.co.uk/news/articles/c05ql5llj4do?at_medium=RSS&amp;at_campaign=rss",
+      "source": "Decrypt",
+      "confidence": 65,
+      "url": "https://decrypt.co/376375/hypeliquid-price-record-high-token-unlock",
       "tickers": [
         "AS",
-        "BBC",
-        "FEARS",
-        "GULF",
-        "IN",
-        "IRAN",
-        "MOUNT",
-        "OF"
+        "HIGH",
+        "HITS",
+        "LOOMS",
+        "TOKEN"
       ],
       "event_type": "Material Event",
       "market_impact": {
         "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 17:50 UTC",
+      "headline": "Zcash Hits Eight-Year High as Futures Bets Nearly Double",
+      "bullet_points": [
+        "Source: Decrypt"
+      ],
+      "source": "Decrypt",
+      "confidence": 65,
+      "url": "https://decrypt.co/376372/zcash-eight-year-high-price-futures-bets",
+      "tickers": [
+        "AS",
+        "BETS",
+        "EIGHT",
+        "HIGH",
+        "HITS",
+        "YEAR",
+        "ZCASH"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 10,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 17:48 UTC",
+      "headline": "On-chain: Bitcoin price hits $80K as 24-hour crypto short liquidations pass $220M",
+      "bullet_points": [
+        "Crypto on-chain / whale flow signal"
+      ],
+      "source": "Cointelegraph",
+      "confidence": 65,
+      "url": "<![CDATA[https://cointelegraph.com/markets/bitcoin-price-hits-80k-as-24-hour-crypto-short-liquidations-pass-m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "tickers": [
+        "AS",
+        "CHAIN",
+        "FLOW",
+        "HITS",
+        "HOUR",
+        "ON",
+        "PASS",
+        "PRICE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
+        "tier": "low",
+        "reasons": []
+      }
+    },
+    {
+      "category": "finance",
+      "timestamp": "2026-08-24 17:30 UTC",
+      "headline": "On-chain: Crypto political group details list of U.S. congressional allies its backing this year",
+      "bullet_points": [
+        "Crypto on-chain / whale flow signal"
+      ],
+      "source": "CoinDesk",
+      "confidence": 65,
+      "url": "https://www.coindesk.com/policy/2026/08/24/crypto-political-group-details-list-of-u-s-congressional-allies-its-backing-this-year",
+      "tickers": [
+        "CHAIN",
+        "FLOW",
+        "GROUP",
+        "ITS",
+        "LIST",
+        "OF",
+        "ON",
+        "WHALE"
+      ],
+      "event_type": "Material Event",
+      "market_impact": {
+        "score": 20,
         "tier": "low",
         "reasons": []
       }
