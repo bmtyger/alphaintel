@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import datetime as dt
 import email.utils
+import html
 import logging
 import re
 import time
@@ -73,7 +74,10 @@ def _text(text, pattern):
     m = re.search(pattern, text, re.S)
     if not m:
         return ""
-    return next(g for g in m.groups() if g is not None).strip()
+    value = next(g for g in m.groups() if g is not None).strip()
+    if value.startswith("<![CDATA[") and value.endswith("]]>"):
+        value = value[9:-3].strip()
+    return html.unescape(value)
 
 
 def _parse_dt(raw):

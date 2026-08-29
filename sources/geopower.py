@@ -1,4 +1,6 @@
 import datetime as dt
+import html
+import logging
 import re
 import urllib.request
 from .base import BaseSource, SourceResult
@@ -84,6 +86,20 @@ class GeopowerSource(BaseSource):
         return SourceResult(items=items, source_name=self.name, category=self.category)
 
     @staticmethod
+    def _clean(value: str) -> str:
+        value = value.strip()
+        if value.startswith("<![CDATA[") and value.endswith("]]>"):
+            value = value[9:-3].strip()
+        return html.unescape(value)
+
+    @staticmethod
+    def _text(text, pattern):
+        m = re.search(pattern, text, re.S)
+        if not m:
+            return ""
+        return GeopowerSource._clean(next(g for g in m.groups() if g is not None))
+
+    @staticmethod
     def _desc(raw):
         m = re.search(
             r"<description[^>]*>(?:<!\[CDATA\[(.*?)\]\]>|(.*?))</description>",
@@ -92,14 +108,7 @@ class GeopowerSource(BaseSource):
         )
         if not m:
             return ""
-        return next(g for g in m.groups() if g is not None)
-
-    @staticmethod
-    def _text(text, pattern):
-        m = re.search(pattern, text, re.S)
-        if not m:
-            return ""
-        return next(g for g in m.groups() if g is not None).strip()
+        return GeopowerSource._clean(next(g for g in m.groups() if g is not None))
 
     @staticmethod
     def _parse_dt(raw):
